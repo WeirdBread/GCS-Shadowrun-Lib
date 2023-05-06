@@ -5688,11 +5688,11 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 350,
+							"value": 17985,
 							"max_uses": 1,
 							"uses": 1,
 							"calc": {
-								"extended_value": 350,
+								"extended_value": 17985,
 								"extended_weight": "0 lb"
 							}
 						},
@@ -5705,11 +5705,11 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 825,
+							"value": 19620,
 							"max_uses": 2,
 							"uses": 2,
 							"calc": {
-								"extended_value": 825,
+								"extended_value": 19620,
 								"extended_weight": "0 lb"
 							}
 						},
@@ -5722,11 +5722,11 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 1400,
+							"value": 21255,
 							"max_uses": 3,
 							"uses": 3,
 							"calc": {
-								"extended_value": 1400,
+								"extended_value": 21255,
 								"extended_weight": "0 lb"
 							}
 						},
@@ -5739,11 +5739,11 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 2125,
+							"value": 22890,
 							"max_uses": 4,
 							"uses": 4,
 							"calc": {
-								"extended_value": 2125,
+								"extended_value": 22890,
 								"extended_weight": "0 lb"
 							}
 						},
@@ -5756,11 +5756,11 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 3000,
+							"value": 24525,
 							"max_uses": 5,
 							"uses": 5,
 							"calc": {
-								"extended_value": 3000,
+								"extended_value": 24525,
 								"extended_weight": "0 lb"
 							}
 						},
@@ -5773,11 +5773,11 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 3950,
+							"value": 26160,
 							"max_uses": 6,
 							"uses": 6,
 							"calc": {
-								"extended_value": 3950,
+								"extended_value": 26160,
 								"extended_weight": "0 lb"
 							}
 						},
@@ -5790,11 +5790,11 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 5000,
+							"value": 27795,
 							"max_uses": 7,
 							"uses": 7,
 							"calc": {
-								"extended_value": 5000,
+								"extended_value": 27795,
 								"extended_weight": "0 lb"
 							}
 						},
@@ -5807,11 +5807,11 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 6500,
+							"value": 29430,
 							"max_uses": 8,
 							"uses": 8,
 							"calc": {
-								"extended_value": 6500,
+								"extended_value": 29430,
 								"extended_weight": "0 lb"
 							}
 						},
@@ -5824,11 +5824,11 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 7750,
+							"value": 31065,
 							"max_uses": 9,
 							"uses": 9,
 							"calc": {
-								"extended_value": 7750,
+								"extended_value": 31065,
 								"extended_weight": "0 lb"
 							}
 						},
@@ -5842,12 +5842,12 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 9500,
+							"value": 32700,
 							"weight": "1 lb",
 							"max_uses": 10,
 							"uses": 10,
 							"calc": {
-								"extended_value": 9500,
+								"extended_value": 32700,
 								"extended_weight": "1 lb"
 							}
 						},
@@ -5861,12 +5861,12 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 11250,
+							"value": 34335,
 							"weight": "1 lb",
 							"max_uses": 11,
 							"uses": 11,
 							"calc": {
-								"extended_value": 11250,
+								"extended_value": 34335,
 								"extended_weight": "1 lb"
 							}
 						},
@@ -5880,12 +5880,12 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 13250,
+							"value": 35970,
 							"weight": "1 lb",
 							"max_uses": 12,
 							"uses": 12,
 							"calc": {
-								"extended_value": 13250,
+								"extended_value": 35970,
 								"extended_weight": "1 lb"
 							}
 						},
@@ -5899,12 +5899,12 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 15250,
+							"value": 37605,
 							"weight": "1 lb",
 							"max_uses": 13,
 							"uses": 13,
 							"calc": {
-								"extended_value": 15250,
+								"extended_value": 37605,
 								"extended_weight": "1 lb"
 							}
 						},
@@ -5918,12 +5918,12 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 17750,
+							"value": 39240,
 							"weight": "1 lb",
 							"max_uses": 14,
 							"uses": 14,
 							"calc": {
-								"extended_value": 17750,
+								"extended_value": 39240,
 								"extended_weight": "1 lb"
 							}
 						},
@@ -5937,12 +5937,12 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 20250,
+							"value": 40875,
 							"weight": "1 lb",
 							"max_uses": 15,
 							"uses": 15,
 							"calc": {
-								"extended_value": 20250,
+								"extended_value": 40875,
 								"extended_weight": "1 lb"
 							}
 						},
@@ -5956,12 +5956,12 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 23000,
+							"value": 42510,
 							"weight": "1 lb",
 							"max_uses": 16,
 							"uses": 16,
 							"calc": {
-								"extended_value": 23000,
+								"extended_value": 42510,
 								"extended_weight": "1 lb"
 							}
 						},
@@ -5975,12 +5975,12 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 26250,
+							"value": 44145,
 							"weight": "1 lb",
 							"max_uses": 17,
 							"uses": 17,
 							"calc": {
-								"extended_value": 26250,
+								"extended_value": 44145,
 								"extended_weight": "1 lb"
 							}
 						},
@@ -5994,12 +5994,12 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 29500,
+							"value": 45780,
 							"weight": "1 lb",
 							"max_uses": 18,
 							"uses": 18,
 							"calc": {
-								"extended_value": 29500,
+								"extended_value": 45780,
 								"extended_weight": "1 lb"
 							}
 						},
@@ -6013,12 +6013,12 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 33000,
+							"value": 47415,
 							"weight": "1 lb",
 							"max_uses": 19,
 							"uses": 19,
 							"calc": {
-								"extended_value": 33000,
+								"extended_value": 47415,
 								"extended_weight": "1 lb"
 							}
 						},
@@ -6032,12 +6032,12 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 36750,
+							"value": 49050,
 							"weight": "1 lb",
 							"max_uses": 20,
 							"uses": 20,
 							"calc": {
-								"extended_value": 36750,
+								"extended_value": 49050,
 								"extended_weight": "1 lb"
 							}
 						},
@@ -6051,12 +6051,12 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 41000,
+							"value": 50685,
 							"weight": "1.5 lb",
 							"max_uses": 21,
 							"uses": 21,
 							"calc": {
-								"extended_value": 41000,
+								"extended_value": 50685,
 								"extended_weight": "1.5 lb"
 							}
 						},
@@ -6070,12 +6070,12 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 45250,
+							"value": 52320,
 							"weight": "1.5 lb",
 							"max_uses": 22,
 							"uses": 22,
 							"calc": {
-								"extended_value": 45250,
+								"extended_value": 52320,
 								"extended_weight": "1.5 lb"
 							}
 						},
@@ -6089,12 +6089,12 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 50000,
+							"value": 53955,
 							"weight": "1.5 lb",
 							"max_uses": 23,
 							"uses": 23,
 							"calc": {
-								"extended_value": 50000,
+								"extended_value": 53955,
 								"extended_weight": "1.5 lb"
 							}
 						},
@@ -6108,12 +6108,12 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 55000,
+							"value": 55590,
 							"weight": "1.5 lb",
 							"max_uses": 24,
 							"uses": 24,
 							"calc": {
-								"extended_value": 55000,
+								"extended_value": 55590,
 								"extended_weight": "1.5 lb"
 							}
 						},
@@ -6127,12 +6127,12 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 60000,
+							"value": 57225,
 							"weight": "1.5 lb",
 							"max_uses": 25,
 							"uses": 25,
 							"calc": {
-								"extended_value": 60000,
+								"extended_value": 57225,
 								"extended_weight": "1.5 lb"
 							}
 						},
@@ -6146,12 +6146,12 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 65000,
+							"value": 58860,
 							"weight": "1.5 lb",
 							"max_uses": 26,
 							"uses": 26,
 							"calc": {
-								"extended_value": 65000,
+								"extended_value": 58860,
 								"extended_weight": "1.5 lb"
 							}
 						},
@@ -6165,12 +6165,12 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 72500,
+							"value": 60495,
 							"weight": "1.5 lb",
 							"max_uses": 27,
 							"uses": 27,
 							"calc": {
-								"extended_value": 72500,
+								"extended_value": 60495,
 								"extended_weight": "1.5 lb"
 							}
 						},
@@ -6184,12 +6184,12 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 77500,
+							"value": 62130,
 							"weight": "1.5 lb",
 							"max_uses": 28,
 							"uses": 28,
 							"calc": {
-								"extended_value": 77500,
+								"extended_value": 62130,
 								"extended_weight": "1.5 lb"
 							}
 						},
@@ -6203,12 +6203,12 @@
 								"Powerstone"
 							],
 							"quantity": 1,
-							"value": 85000,
+							"value": 63765,
 							"weight": "1.5 lb",
 							"max_uses": 29,
 							"uses": 29,
 							"calc": {
-								"extended_value": 85000,
+								"extended_value": 63765,
 								"extended_weight": "1.5 lb"
 							}
 						}
@@ -6216,392 +6216,17 @@
 					"description": "Камни силы",
 					"quantity": 1,
 					"calc": {
-						"extended_value": 817900,
+						"extended_value": 1185375,
 						"extended_weight": "24.5 lb"
-					}
-				},
-				{
-					"id": "40fbc2e0-6dcd-40f5-a281-afd00cc75b5b",
-					"type": "equipment_container",
-					"children": [
-						{
-							"id": "69fa8843-463e-43f4-92fb-398e2f50010d",
-							"type": "equipment",
-							"description": "1 pt Manastone",
-							"reference": "M20",
-							"tags": [
-								"Powerstone"
-							],
-							"quantity": 1,
-							"value": 275,
-							"max_uses": 1,
-							"uses": 1,
-							"calc": {
-								"extended_value": 275,
-								"extended_weight": "0 lb"
-							}
-						},
-						{
-							"id": "e2ed2788-f5a8-49d8-bb34-3b6c4199f5c9",
-							"type": "equipment",
-							"description": "2 pt Manastone",
-							"reference": "M20",
-							"tags": [
-								"Powerstone"
-							],
-							"quantity": 1,
-							"value": 650,
-							"max_uses": 2,
-							"uses": 2,
-							"calc": {
-								"extended_value": 650,
-								"extended_weight": "0 lb"
-							}
-						},
-						{
-							"id": "89013b66-041c-4b51-81ff-67a45caf3e41",
-							"type": "equipment",
-							"description": "3 pt Manastone",
-							"reference": "M20",
-							"tags": [
-								"Powerstone"
-							],
-							"quantity": 1,
-							"value": 1125,
-							"max_uses": 3,
-							"uses": 3,
-							"calc": {
-								"extended_value": 1125,
-								"extended_weight": "0 lb"
-							}
-						},
-						{
-							"id": "ccb67915-48f9-490b-9d2b-03acfbb9dc05",
-							"type": "equipment",
-							"description": "4 pt Manastone",
-							"reference": "M20",
-							"tags": [
-								"Powerstone"
-							],
-							"quantity": 1,
-							"value": 1700,
-							"max_uses": 4,
-							"uses": 4,
-							"calc": {
-								"extended_value": 1700,
-								"extended_weight": "0 lb"
-							}
-						},
-						{
-							"id": "e2e54248-34d9-4be1-943b-70909ecc6749",
-							"type": "equipment",
-							"description": "5 pt Manastone",
-							"reference": "M20",
-							"tags": [
-								"Powerstone"
-							],
-							"quantity": 1,
-							"value": 2375,
-							"max_uses": 5,
-							"uses": 5,
-							"calc": {
-								"extended_value": 2375,
-								"extended_weight": "0 lb"
-							}
-						},
-						{
-							"id": "8ef4f56a-39e4-4566-b92e-87e5ff56a83f",
-							"type": "equipment",
-							"description": "6 pt Manastone",
-							"reference": "M20",
-							"tags": [
-								"Powerstone"
-							],
-							"quantity": 1,
-							"value": 3150,
-							"max_uses": 6,
-							"uses": 6,
-							"calc": {
-								"extended_value": 3150,
-								"extended_weight": "0 lb"
-							}
-						},
-						{
-							"id": "5be1e73a-52ae-4a81-a084-28c304a3c2a6",
-							"type": "equipment",
-							"description": "7 pt Manastone",
-							"reference": "M20",
-							"tags": [
-								"Powerstone"
-							],
-							"quantity": 1,
-							"value": 4025,
-							"max_uses": 7,
-							"uses": 7,
-							"calc": {
-								"extended_value": 4025,
-								"extended_weight": "0 lb"
-							}
-						},
-						{
-							"id": "221b2c6d-c339-434a-8e4d-22cf3f5656f3",
-							"type": "equipment",
-							"description": "8 pt Manastone",
-							"reference": "M20",
-							"tags": [
-								"Powerstone"
-							],
-							"quantity": 1,
-							"value": 5000,
-							"max_uses": 8,
-							"uses": 8,
-							"calc": {
-								"extended_value": 5000,
-								"extended_weight": "0 lb"
-							}
-						},
-						{
-							"id": "fd811ae8-65df-4c67-afc6-7e6ba06c21e3",
-							"type": "equipment",
-							"description": "9 pt Manastone",
-							"reference": "M20",
-							"tags": [
-								"Powerstone"
-							],
-							"quantity": 1,
-							"value": 6075,
-							"max_uses": 9,
-							"uses": 9,
-							"calc": {
-								"extended_value": 6075,
-								"extended_weight": "0 lb"
-							}
-						},
-						{
-							"id": "8b94ac9e-afc9-4121-9add-1a8b568ad297",
-							"type": "equipment",
-							"description": "10 pt Manastone",
-							"reference": "M20",
-							"legality_class": "3",
-							"tags": [
-								"Powerstone"
-							],
-							"quantity": 1,
-							"value": 7250,
-							"weight": "1 lb",
-							"max_uses": 10,
-							"uses": 10,
-							"calc": {
-								"extended_value": 7250,
-								"extended_weight": "1 lb"
-							}
-						},
-						{
-							"id": "ad594859-6e80-4054-9c5c-362245f823c3",
-							"type": "equipment",
-							"description": "11 pt Manastone",
-							"reference": "M20",
-							"legality_class": "3",
-							"tags": [
-								"Powerstone"
-							],
-							"quantity": 1,
-							"value": 8525,
-							"weight": "1 lb",
-							"max_uses": 11,
-							"uses": 11,
-							"calc": {
-								"extended_value": 8525,
-								"extended_weight": "1 lb"
-							}
-						},
-						{
-							"id": "ea2497e1-1f8a-4bc4-97fd-dcb85be1e2b9",
-							"type": "equipment",
-							"description": "12 pt Manastone",
-							"reference": "M20",
-							"legality_class": "3",
-							"tags": [
-								"Powerstone"
-							],
-							"quantity": 1,
-							"value": 9900,
-							"weight": "1 lb",
-							"max_uses": 12,
-							"uses": 12,
-							"calc": {
-								"extended_value": 9900,
-								"extended_weight": "1 lb"
-							}
-						},
-						{
-							"id": "07f241e0-4984-4a39-a0aa-f32374bad2e3",
-							"type": "equipment",
-							"description": "13 pt Manastone",
-							"reference": "M20",
-							"legality_class": "3",
-							"tags": [
-								"Powerstone"
-							],
-							"quantity": 1,
-							"value": 11375,
-							"weight": "1 lb",
-							"max_uses": 13,
-							"uses": 13,
-							"calc": {
-								"extended_value": 11375,
-								"extended_weight": "1 lb"
-							}
-						},
-						{
-							"id": "f149328f-6475-431f-b436-b1cdfc1d6e00",
-							"type": "equipment",
-							"description": "14 pt Manastone",
-							"reference": "M20",
-							"legality_class": "3",
-							"tags": [
-								"Powerstone"
-							],
-							"quantity": 1,
-							"value": 12950,
-							"weight": "1 lb",
-							"max_uses": 14,
-							"uses": 14,
-							"calc": {
-								"extended_value": 12950,
-								"extended_weight": "1 lb"
-							}
-						},
-						{
-							"id": "cca9b8b3-8a42-4ee2-a1a0-032889caa090",
-							"type": "equipment",
-							"description": "15 pt Manastone",
-							"reference": "M20",
-							"legality_class": "3",
-							"tags": [
-								"Powerstone"
-							],
-							"quantity": 1,
-							"value": 14625,
-							"weight": "1 lb",
-							"max_uses": 15,
-							"uses": 15,
-							"calc": {
-								"extended_value": 14625,
-								"extended_weight": "1 lb"
-							}
-						},
-						{
-							"id": "be8770ef-ae51-4268-af72-f5bcb1871a79",
-							"type": "equipment",
-							"description": "16 pt Manastone",
-							"reference": "M20",
-							"legality_class": "3",
-							"tags": [
-								"Powerstone"
-							],
-							"quantity": 1,
-							"value": 16400,
-							"weight": "1 lb",
-							"max_uses": 16,
-							"uses": 16,
-							"calc": {
-								"extended_value": 16400,
-								"extended_weight": "1 lb"
-							}
-						},
-						{
-							"id": "1d73f3ba-3fea-4f37-93ea-e8700ca54f1a",
-							"type": "equipment",
-							"description": "17 pt Manastone",
-							"reference": "M20",
-							"legality_class": "3",
-							"tags": [
-								"Powerstone"
-							],
-							"quantity": 1,
-							"value": 18275,
-							"weight": "1 lb",
-							"max_uses": 17,
-							"uses": 17,
-							"calc": {
-								"extended_value": 18275,
-								"extended_weight": "1 lb"
-							}
-						},
-						{
-							"id": "b70f4644-f2da-4020-92b6-36055a4bb68d",
-							"type": "equipment",
-							"description": "18 pt Manastone",
-							"reference": "M20",
-							"legality_class": "3",
-							"tags": [
-								"Powerstone"
-							],
-							"quantity": 1,
-							"value": 20250,
-							"weight": "1 lb",
-							"max_uses": 18,
-							"uses": 18,
-							"calc": {
-								"extended_value": 20250,
-								"extended_weight": "1 lb"
-							}
-						},
-						{
-							"id": "c437709b-50f2-4fca-8a65-f6879704f0cb",
-							"type": "equipment",
-							"description": "19 pt Manastone",
-							"reference": "M20",
-							"legality_class": "3",
-							"tags": [
-								"Powerstone"
-							],
-							"quantity": 1,
-							"value": 22325,
-							"weight": "1 lb",
-							"max_uses": 19,
-							"uses": 19,
-							"calc": {
-								"extended_value": 22325,
-								"extended_weight": "1 lb"
-							}
-						},
-						{
-							"id": "43ff35c4-7105-44ec-a8b1-ae242f5079e8",
-							"type": "equipment",
-							"description": "20 pt Manastone",
-							"reference": "M20",
-							"legality_class": "2",
-							"tags": [
-								"Powerstone"
-							],
-							"quantity": 1,
-							"value": 24500,
-							"weight": "1 lb",
-							"max_uses": 20,
-							"uses": 20,
-							"calc": {
-								"extended_value": 24500,
-								"extended_weight": "1 lb"
-							}
-						}
-					],
-					"description": "Камни маны",
-					"notes": "Одноразовые",
-					"quantity": 1,
-					"calc": {
-						"extended_value": 190750,
-						"extended_weight": "11 lb"
 					}
 				}
 			],
 			"description": "Магия",
-			"notes": "1 энергия стоит 150$, если всего энергии больше 100. Иначе 1 энергия стоит 5$",
+			"notes": "1 EP стоит 1635$ (для зачарований)",
 			"quantity": 1,
 			"calc": {
-				"extended_value": 1522650,
-				"extended_weight": "49.7 lb"
+				"extended_value": 1699375,
+				"extended_weight": "38.7 lb"
 			}
 		}
 	]
