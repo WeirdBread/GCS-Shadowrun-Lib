@@ -1,0 +1,6608 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "a9e22ff4-9bd8-4dfc-8a8c-5e05fa644e85",
+			"type": "equipment_container",
+			"children": [
+				{
+					"id": "f5cc099b-dedc-4e9b-b569-e293a8340256",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "ab9ac947-35ea-4083-8f49-d1cec5e2a87d",
+							"type": "equipment_container",
+							"children": [
+								{
+									"id": "a059a077-8303-4123-acfd-27b12f0fbb1e",
+									"type": "equipment",
+									"description": "Изменить (Alter) 1.0",
+									"reference": "UT25",
+									"notes": "Базовая комплексность 4. Базовое время выполнения: 5 секунд [S:\"Computer Programming\"-3|S:\"Computer Hacking\"-3].\nМеняет программу или сущность для выполнения другой задачи",
+									"tech_level": "9",
+									"tags": [
+										"Software"
+									],
+									"quantity": 1,
+									"value": 900,
+									"calc": {
+										"extended_value": 900,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "f409f9ad-e5b6-468d-a518-05ae5576ac86",
+									"type": "equipment",
+									"description": "Анализировать (Analyze) 1.0",
+									"reference": "UT25",
+									"notes": "Базовая комплексность 3. Базовое время выполнения: 10 секунд ИЛИ постоянное. [S:\"Computer Programming\"-3|S:\"Expert Skill (Computer Security)\"-2].\nСобирает информацию о целевых сущностях или программах. Должна выиграть состязание с программами Изменить, Обмануть или Скрыть, если таковые были использованы.",
+									"tech_level": "9",
+									"tags": [
+										"Software"
+									],
+									"quantity": 1,
+									"value": 300,
+									"calc": {
+										"extended_value": 300,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "55ba648d-c306-4666-a517-0fcc63a6881a",
+									"type": "equipment",
+									"description": "Взломать (Breach) 1.0",
+									"reference": "UT25",
+									"notes": "Базовая комплексность 3. Базовое время выполнения: 5 секунд. [S:\"Computer Hacking\"-2].\nАтакует ЛЕД. Победа на льдом даёт доступ к целевой сущности, но явно оставляет следы взлома.",
+									"tech_level": "9",
+									"legality_class": "3",
+									"tags": [
+										"Software"
+									],
+									"quantity": 1,
+									"value": 300,
+									"calc": {
+										"extended_value": 300,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "70858180-81ee-45c1-b2c2-c932a6776e11",
+									"type": "equipment",
+									"description": "Контролировать (Control) 1.0",
+									"reference": "UT25",
+									"notes": "Базовая комплексность 4. Базовое время выполнения: 1 секунда. [S:\"Computer Hacking\"-2|S:\"Computer Operation\"-3].\nВыполнить команду, предусмотренную сущностью или выполнить удалённое подключение/контроль",
+									"tech_level": "9",
+									"tags": [
+										"Software"
+									],
+									"quantity": 1,
+									"value": 900,
+									"calc": {
+										"extended_value": 900,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "56ae0d5f-7436-4ab3-af20-b7cfbee11b4f",
+									"type": "equipment",
+									"description": "Навредить (Damage) 1.0",
+									"reference": "UT25",
+									"notes": "Базовая комплексность 5. Базовое время выполнения: 5 секунд [S:\"Computer Hacking\"-3|S:\"Expert Skill (Computer Security)\"-3].\nНанести физически вред железу и декеру, если тот подключен, и вызвать перезагрузку системы. Декер проходит проверку HT. Крит успех позволяет избежать вреда. Успех наносит декеру 1d урона (хотсим) или позволяет избежать вреда (колдсим). Провал наносит 2d урона (хотсим) и станит декера (хотсим и колдсим). Крит провал станит и наносит 3d урона (хотсим) или 1d урона (колдсим). Сопротивление оглушенного декера на последующее воздейтсвие Навредить получает штраф -5.",
+									"tech_level": "9",
+									"legality_class": "3",
+									"tags": [
+										"Software"
+									],
+									"quantity": 1,
+									"value": 3000,
+									"calc": {
+										"extended_value": 3000,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "5616aa99-df6d-44e0-a2f9-26e1bf2e7c53",
+									"type": "equipment",
+									"description": "ЛЕД (ICE) 1.0",
+									"reference": "UT25",
+									"notes": "Базовая комплексность 3. Выполняется постоянно. [S:'Computer Hacking-2'|S:\"Expert Skill (Computer Security)\"].\nЗащищает систему или сущность от несанкционированного доступа. ",
+									"tech_level": "9",
+									"tags": [
+										"Software"
+									],
+									"quantity": 1,
+									"value": 300,
+									"calc": {
+										"extended_value": 300,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "0b626d29-d80f-4a98-971c-6cbe24d6ce7b",
+									"type": "equipment",
+									"description": "Глушить (Jam) 1.0",
+									"reference": "UT25",
+									"notes": "Базовая комплексность 2. Выполняется постоянно. [S:\"Computer Hacking\"-2].\nМешать выполнению программ Анализировать, Слушать или Искать, скармливая им шум. Это вызывает исключения для вышеобозначенных программ, и действие Глушить будет очевидно для сисадмина или программ-триггеров.",
+									"tech_level": "9",
+									"legality_class": "3",
+									"tags": [
+										"Software"
+									],
+									"quantity": 1,
+									"value": 90,
+									"calc": {
+										"extended_value": 90,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "e4ee4c8c-174f-4d8d-8efa-8cc3a212a058",
+									"type": "equipment",
+									"description": "Слушать (Listen) 1.0",
+									"reference": "UT25",
+									"notes": "Базовая комплексность 2. Выполняется постоянно. [S:\"Computer Hacking\"-2|S:\"Expert Skill (Computer Security)\"].\nОжидает инпут в системе (например, попытка логина или прослушка) и действует на основе инпута - обычно триггерит другую программу. Должен выиграть состязание с Скрыть, если Скрыть используется для сокрытия инпута.",
+									"tech_level": "9",
+									"tags": [
+										"Software"
+									],
+									"quantity": 1,
+									"value": 90,
+									"calc": {
+										"extended_value": 90,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "c9e305a0-a25d-49f3-b536-5037ad342bfb",
+									"type": "equipment",
+									"description": "Искать (Search) 1.0",
+									"reference": "UT25",
+									"notes": "Базовая комплексность 3. Базовое время выполнения: 5 секунд ИЛИ постоянное. [S:\"Computer Operation\"-2 |S:\"Expert Skill (Computer Security)\"-1].\nИщет сущность или программу в системе. Должен выиграть состязание с Скрыть или Обмануть, если они были использованы на искомой сущности. Может быть запущен для постоянно скана системы (например, антивирус) и триггера других программ.",
+									"tech_level": "9",
+									"tags": [
+										"Software"
+									],
+									"quantity": 1,
+									"value": 300,
+									"calc": {
+										"extended_value": 300,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "eb1570f0-9620-444b-a3d8-923c3cdf5a6c",
+									"type": "equipment",
+									"description": "Обмануть (Spoof) 1.0",
+									"reference": "UT25",
+									"notes": "Базовая комплексность 4. Базовое время выполнения: 1 минута ИЛИ постоянное. [S:\"Computer Hacking\"-3].\nСкармливает ложную информацию Анализировать, Слушать или Искать. Позволяет маскироваться под авторизированного пользователя или подсовывать фальшивую информацию. ",
+									"tech_level": "9",
+									"legality_class": "3",
+									"tags": [
+										"Software"
+									],
+									"quantity": 1,
+									"value": 900,
+									"calc": {
+										"extended_value": 900,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "ebad75dc-6cfe-49b4-b36d-487177c17b0f",
+									"type": "equipment",
+									"description": "Скрыть (Stealth) 1.0",
+									"reference": "UT25",
+									"notes": "Базовая комплексность 4. Выполняется постоянно. [S:\"Computer Hacking\"-3|S:\"Expert Skill (Computer Security)\"-3].\nПолностью или частично скрывает сущность или программы от Анализировать, Слушать и Искать.",
+									"tech_level": "9",
+									"legality_class": "3",
+									"tags": [
+										"Software"
+									],
+									"quantity": 1,
+									"value": 900,
+									"calc": {
+										"extended_value": 900,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "ee5b26b5-02e5-4395-a5ad-ab245834734b",
+									"type": "equipment",
+									"description": "Триггер (Trigger) 1.0",
+									"reference": "UT25",
+									"notes": "Базовая комплексность 3. Выполняется постоянно, активируется моментально. Время настройки: 5 минут.  [S:\"Computer Operation\" |S:\"Expert Skill (Computer Security)\"]\nАктивирует другие программы с заданными настройками по триггеру. Количество программ, которые триггер может запустить равно комплексности триггера",
+									"tech_level": "9",
+									"tags": [
+										"Software"
+									],
+									"quantity": 1,
+									"value": 300,
+									"calc": {
+										"extended_value": 300,
+										"extended_weight": "0 lb"
+									}
+								}
+							],
+							"description": "Хакинг",
+							"notes": "Цена х3 от цены обычных программ (уже посчитано ниже).\nМожет быть приобретена программа повышенной сложности. В таком случае пользователь должен выбрать, в чём новая программа лучше: быстродействие или эффективность. Эффекты можно комбинировать и менять при новом запуске программы.\nБыстродейтсвие: За каждую разницу между фактической и базовой комплексностью время выполнения делится на пять (округ вниз)\nЭффективность: За каждую разницу между фактической и базовой комплексностью пользователь получает бонус к навыку равный разнице. ",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 8280,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "af32cba2-8947-4fcb-8e0c-3a59a9fd1bf3",
+							"type": "equipment_container",
+							"children": [
+								{
+									"id": "581df4c0-c2d7-4ba9-b4d1-e295878cc62f",
+									"type": "equipment",
+									"description": "Блекаут",
+									"notes": "Базовая комплексность 6. Базовое время выполнения: 5 секунд. Кулдаун: 30 минут. [S:\"Computer Hacking\"-4]. Отключает все устройства от городской сети питания в радиусе 1 километра на количество успехов + 1 минут. Привлекает внимание БОГов",
+									"legality_class": "1",
+									"quantity": 1,
+									"value": 9000,
+									"calc": {
+										"extended_value": 9000,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "b4c6e6c6-765a-4dc1-9ae5-9fe4520e01eb",
+									"type": "equipment",
+									"description": "Слепая зона",
+									"notes": "Базовая комплексность 6. Базовое время выполнения: 5 секунд. Время работы: 5 минут. Кулдаун: 10 минут. [S:\"Computer Hacking\"-4]. Объект человеческого размера, находящийся рядом с декой с запущенной программой, размывается и становится невидимым для всех оптических приборов в радиусе 100м.",
+									"legality_class": "1",
+									"quantity": 1,
+									"value": 9000,
+									"calc": {
+										"extended_value": 9000,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "0c4c792a-0e2a-4ff6-83bd-37177a413d16",
+									"type": "equipment",
+									"description": "Выборочный глюк",
+									"notes": "Базовая комплексность 6. Базовое время выполнения: 2 секунды. Кулдаун: 1 минута  [S:\"Computer Hacking\"-2]. Люди с хотя бы одним имплантом в радиусе 10м от взломанного (или подконтрольного) устройства должны выполнить проверу HT - количество успехов на взломе. При провале человек оглушён и должен каждый ход делать поторно проверку. Есть возможность настройки исключений целей в радиусе поражения. Частое использование привлекает внимание БОГов",
+									"legality_class": "2",
+									"quantity": 1,
+									"value": 9000,
+									"calc": {
+										"extended_value": 9000,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "15e33814-0081-4728-a833-1edad3487f85",
+									"type": "equipment",
+									"description": "Трафик крашер",
+									"notes": "Базовая комплексность 5. Базовое время выполнения: 1 секунда. [S:\"Computer Hacking\"-1]. Переключает состояние светофоров, выдвижных блокираторов, шлагбаумов, ворот и прочей дорожной инфраструктуры. Необходимый объект подсвечивается в AR для работы. Частое использование привлекает внимание БОГов",
+									"legality_class": "2",
+									"quantity": 1,
+									"value": 3000,
+									"calc": {
+										"extended_value": 3000,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "a763f978-fa0e-404e-95ea-e88a6bba2d3d",
+									"type": "equipment",
+									"description": "Массовый глюк",
+									"notes": "Базовая комплексность 5. Базовое время выполнения: 2 секунды. Кулдаун: 1 минута  [S:\"Computer Hacking\"-2]. Люди с хотя бы одним имплантом в радиусе 10м от взломанного (или подконтрольного) устройства должны выполнить проверу HT - количество успехов на взломе. При провале человек оглушён и должен каждый ход делать поторно проверку. Частое использование привлекает внимание БОГов",
+									"legality_class": "2",
+									"quantity": 1,
+									"value": 3000,
+									"calc": {
+										"extended_value": 3000,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "a0247f60-1da8-466b-8959-346b16fe4de2",
+									"type": "equipment",
+									"description": "СИН шаффлер",
+									"notes": "Базовая комплексность 5. Базовое время выполнения: 5 секунд. Кулдаун: 1 час. [S:\"Computer Hacking\"-4]. Меняет местами в случайном порядке ГРЕхи людей в радиусе 30м на 10 минут. Привлекает внимание БОГов",
+									"legality_class": "1",
+									"quantity": 1,
+									"value": 3000,
+									"calc": {
+										"extended_value": 3000,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "1c289563-aa7c-44f7-8278-a8fc8795a25f",
+									"type": "equipment",
+									"description": "Айпокер",
+									"notes": "Базовая комплексность 4. Базовое время выполнения: 1 секунда. Кулдаун: 1 секунда. [S:\"Computer Hacking\"-1]. Помеченная в AR цель с киберглазами будет атакована через уязвимость в ПО глаз, через которую можно отключить изображение на 5 секунд в случае если HT импланта провалит соревнование с хакером.",
+									"legality_class": "2",
+									"quantity": 1,
+									"value": 1000,
+									"calc": {
+										"extended_value": 1000,
+										"extended_weight": "0 lb"
+									}
+								}
+							],
+							"description": "КвикХакинг",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 37000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "dd70ada6-bf0c-44fd-84c4-0e4a09f6f822",
+							"type": "equipment_container",
+							"children": [
+								{
+									"id": "88528d91-772c-483f-ab7a-21974749cbf6",
+									"type": "equipment",
+									"description": "Программа свой-чужой",
+									"reference": "UT188",
+									"notes": "Complexity 4",
+									"tech_level": "9",
+									"legality_class": "3",
+									"tags": [
+										"Defenses",
+										"Software"
+									],
+									"quantity": 1,
+									"value": 1000,
+									"calc": {
+										"extended_value": 1000,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "a44c7de1-1b89-4d42-80ad-14f9d0a905a1",
+									"type": "equipment",
+									"description": "Программа помощи в прицеливании 1.0",
+									"reference": "UT149",
+									"notes": "+1 skill. Complexity 3",
+									"tech_level": "9",
+									"legality_class": "3",
+									"tags": [
+										"Firearm Accessories",
+										"Software",
+										"Weaponry"
+									],
+									"quantity": 1,
+									"value": 500,
+									"calc": {
+										"extended_value": 500,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "37812662-ea2a-4614-af99-36b5e225f018",
+									"type": "equipment",
+									"description": "Программа помощи в прицеливании 2.0",
+									"reference": "UT149",
+									"notes": "+2 skill. Complexity 5.",
+									"tech_level": "9",
+									"legality_class": "2",
+									"tags": [
+										"Firearm Accessories",
+										"Software",
+										"Weaponry"
+									],
+									"quantity": 1,
+									"value": 5000,
+									"calc": {
+										"extended_value": 5000,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "f3775084-42a2-47a8-9d17-6ecc60930e89",
+									"type": "equipment",
+									"description": "Силуэт, программа для идентификации целей",
+									"reference": "UT149",
+									"notes": "Complexity 5.",
+									"tech_level": "9",
+									"legality_class": "2",
+									"tags": [
+										"Firearm Accessories",
+										"Software",
+										"Weaponry"
+									],
+									"quantity": 1,
+									"value": 2000,
+									"calc": {
+										"extended_value": 2000,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "ec632028-2a4f-4c6b-af6a-028de0ea5b97",
+									"type": "equipment",
+									"description": "TacNet 1.0",
+									"reference": "UT149",
+									"notes": "+1 к тактике. Complexity 5.",
+									"tech_level": "9",
+									"legality_class": "3",
+									"tags": [
+										"Firearm Accessories",
+										"Software",
+										"Weaponry"
+									],
+									"quantity": 1,
+									"value": 10000,
+									"calc": {
+										"extended_value": 10000,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "50329c44-f52f-470f-9df1-a17a83596d7c",
+									"type": "equipment",
+									"description": "TacNet 2.0",
+									"reference": "UT149",
+									"notes": "+2 к тактике. Complexity 6.",
+									"tech_level": "9",
+									"legality_class": "2",
+									"tags": [
+										"Firearm Accessories",
+										"Software",
+										"Weaponry"
+									],
+									"quantity": 1,
+									"value": 30000,
+									"calc": {
+										"extended_value": 30000,
+										"extended_weight": "0 lb"
+									}
+								}
+							],
+							"description": "Военные",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 48500,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "af0d5521-93f9-4ea0-a532-350103b5711f",
+							"type": "equipment_container",
+							"children": [
+								{
+									"id": "37550035-98fe-4ebb-a337-4f18ab6d5648",
+									"type": "equipment",
+									"description": "Программа переводчик на уровне акцента",
+									"reference": "UT48",
+									"notes": "Complexity 4. From @From language@ to @To language@.",
+									"tech_level": "9",
+									"tags": [
+										"Communication and Interface",
+										"Software"
+									],
+									"quantity": 1,
+									"value": 300,
+									"calc": {
+										"extended_value": 300,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "3d2d4f28-353c-47ab-8caa-fb24384eec3a",
+									"type": "equipment",
+									"description": "Программа переводчик на уровне носителя",
+									"reference": "UT48",
+									"notes": "Complexity 5. From @From language@ to @To language@.",
+									"tech_level": "9",
+									"tags": [
+										"Communication and Interface",
+										"Software"
+									],
+									"quantity": 1,
+									"value": 1000,
+									"calc": {
+										"extended_value": 1000,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "609cd22d-ff00-4552-878a-1cf89e2c9421",
+									"type": "equipment",
+									"description": "Дешифратор",
+									"reference": "UT47",
+									"notes": "Complexity 2.",
+									"tech_level": "9",
+									"legality_class": "3",
+									"tags": [
+										"Communication and Interface",
+										"Software"
+									],
+									"quantity": 1,
+									"value": 30,
+									"calc": {
+										"extended_value": 30,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "04842814-125e-4fed-bf5d-f17b513f91ee",
+									"type": "equipment",
+									"description": "Шумодав",
+									"reference": "UT149",
+									"notes": "Complexity 5. +5 к борьбе против глушилок",
+									"tech_level": "9",
+									"tags": [
+										"Firearm Accessories",
+										"Software",
+										"Weaponry"
+									],
+									"quantity": 1,
+									"value": 2000,
+									"calc": {
+										"extended_value": 2000,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "12dfbd92-ffd3-4d91-a14b-efaf9da7e8d9",
+									"type": "equipment",
+									"description": "IDE 1.0",
+									"notes": "Complexity 5. + 1 to Programming",
+									"quantity": 1,
+									"value": 1000,
+									"calc": {
+										"extended_value": 1000,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "01f6c7a8-c9a4-4e46-8791-7567ca167c50",
+									"type": "equipment",
+									"description": "IDE 2.0",
+									"notes": "Complexity 7. + 2 to Programming",
+									"quantity": 1,
+									"value": 10000,
+									"calc": {
+										"extended_value": 10000,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "b84c7dcd-fcc0-4767-8425-1071731ead7b",
+									"type": "equipment",
+									"description": "Автософт 1.0",
+									"notes": "Complexity 4. Автопилот: навык 10",
+									"quantity": 1,
+									"value": 1000,
+									"calc": {
+										"extended_value": 1000,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "144bdd25-635b-4439-8386-38ff0fcad417",
+									"type": "equipment",
+									"description": "Автософт 2.0",
+									"notes": "Complexity 5. Автопилот: навык 11",
+									"quantity": 1,
+									"value": 3000,
+									"calc": {
+										"extended_value": 3000,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "5b684d1f-bda9-4469-8041-d729a8ef1e4d",
+									"type": "equipment",
+									"description": "Автософт 3.0",
+									"notes": "Complexity 6. Автопилот: навык 13",
+									"quantity": 1,
+									"value": 10000,
+									"calc": {
+										"extended_value": 10000,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "84f9a1f8-4fe0-477b-95c2-b3665593ca60",
+									"type": "equipment",
+									"description": "Автософт 4.0",
+									"notes": "Complexity 7. Автопилот: навык 15",
+									"quantity": 1,
+									"value": 30000,
+									"calc": {
+										"extended_value": 30000,
+										"extended_weight": "0 lb"
+									}
+								}
+							],
+							"description": "Другие",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 58330,
+								"extended_weight": "0 lb"
+							}
+						}
+					],
+					"description": "Программы",
+					"notes": "Complexity | Price\n1 | 10\n2 | 30\n3 | 100\n4 | 300\n5 | 1000\n6 | 3000\n7 | 10000\n8 | 30000",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 152110,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "d3b058e3-bc48-47d2-b893-28186a3e1e6e",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "019b37f9-4f15-4091-b3e6-77fedf850f05",
+							"type": "equipment",
+							"description": "Коммлинк микро",
+							"reference": "UT22",
+							"notes": "Complexity 3. 1TB. With Datapad",
+							"tech_level": "9",
+							"tags": [
+								"Computers"
+							],
+							"quantity": 1,
+							"value": 25,
+							"weight": "0.1 lb",
+							"calc": {
+								"extended_value": 25,
+								"extended_weight": "0.1 lb"
+							}
+						},
+						{
+							"id": "357ad64f-d10a-411b-b023-9827716c3971",
+							"type": "equipment",
+							"description": "Коммлинк микро+",
+							"reference": "UT22",
+							"notes": "Complexity 4. 1TB. With Datapad",
+							"tech_level": "9",
+							"tags": [
+								"Computers"
+							],
+							"quantity": 1,
+							"value": 500,
+							"weight": "0.1 lb",
+							"calc": {
+								"extended_value": 500,
+								"extended_weight": "0.1 lb"
+							}
+						},
+						{
+							"id": "f385affe-4e72-477c-9b52-b7f428c2a985",
+							"type": "equipment",
+							"description": "Коммлинк микро++",
+							"reference": "UT22",
+							"notes": "Complexity 5. 1TB. With Datapad",
+							"tech_level": "9",
+							"tags": [
+								"Computers"
+							],
+							"quantity": 1,
+							"value": 12500,
+							"weight": "0.1 lb",
+							"calc": {
+								"extended_value": 12500,
+								"extended_weight": "0.1 lb"
+							}
+						},
+						{
+							"id": "241e1809-6c2d-4811-b15b-cdd4f6c6c5d3",
+							"type": "equipment",
+							"description": "Коммлинк мини",
+							"reference": "UT22",
+							"notes": "Complexity 4. 10TB. With Datapad",
+							"tech_level": "9",
+							"tags": [
+								"Computers"
+							],
+							"quantity": 1,
+							"value": 50,
+							"weight": "0.5 lb",
+							"calc": {
+								"extended_value": 50,
+								"extended_weight": "0.5 lb"
+							}
+						},
+						{
+							"id": "6a45def7-73a3-46e4-8679-c6c4005b4f86",
+							"type": "equipment",
+							"description": "Коммлинк мини++",
+							"reference": "UT22",
+							"notes": "Complexity 6. 10TB. With Datapad",
+							"tech_level": "9",
+							"tags": [
+								"Computers"
+							],
+							"quantity": 1,
+							"value": 25000,
+							"weight": "0.5 lb",
+							"calc": {
+								"extended_value": 25000,
+								"extended_weight": "0.5 lb"
+							}
+						},
+						{
+							"id": "33a7c268-00cc-4077-ad44-b8be2f9f9823",
+							"type": "equipment",
+							"description": "Коммлинк мини+",
+							"reference": "UT22",
+							"notes": "Complexity 5. 10TB. With Datapad",
+							"tech_level": "9",
+							"tags": [
+								"Computers"
+							],
+							"quantity": 1,
+							"value": 1000,
+							"weight": "0.5 lb",
+							"calc": {
+								"extended_value": 1000,
+								"extended_weight": "0.5 lb"
+							}
+						},
+						{
+							"id": "6a3598fd-5552-431f-9d35-6a9604ed3cee",
+							"type": "equipment",
+							"description": "Коммлинк компакт",
+							"reference": "UT22",
+							"notes": "Complexity 6. 100TB. ",
+							"tech_level": "9",
+							"tags": [
+								"Computers"
+							],
+							"quantity": 1,
+							"value": 20000,
+							"weight": "2.5 lb",
+							"calc": {
+								"extended_value": 20000,
+								"extended_weight": "2.5 lb"
+							}
+						},
+						{
+							"id": "2d43be4a-e33b-499a-bca7-c9f11430bcf4",
+							"type": "equipment",
+							"description": "Коммлинк мобильный+",
+							"reference": "UT22",
+							"notes": "Complexity 6. 100TB. ",
+							"tech_level": "9",
+							"tags": [
+								"Computers"
+							],
+							"quantity": 1,
+							"value": 10000,
+							"weight": "5 lb",
+							"calc": {
+								"extended_value": 10000,
+								"extended_weight": "5 lb"
+							}
+						},
+						{
+							"id": "949f9749-5feb-45c9-9ed6-86df2fb55515",
+							"type": "equipment",
+							"description": "Коммлинк мобильный",
+							"reference": "UT22",
+							"notes": "Complexity 5. 100TB. ",
+							"tech_level": "9",
+							"tags": [
+								"Computers"
+							],
+							"quantity": 1,
+							"value": 500,
+							"weight": "5 lb",
+							"calc": {
+								"extended_value": 500,
+								"extended_weight": "5 lb"
+							}
+						},
+						{
+							"id": "34eb72ad-9a4f-4e24-a7db-91390ce43412",
+							"type": "equipment_container",
+							"children": [
+								{
+									"id": "bb0dd612-a3bd-4c39-b389-b151444e3ba2",
+									"type": "equipment",
+									"description": "Сим модуль",
+									"quantity": 1,
+									"value": 100,
+									"calc": {
+										"extended_value": 100,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "d4a87fc8-01e6-46bb-98f0-8964f1868d42",
+									"type": "equipment",
+									"description": "Хот-сим модуль",
+									"legality_class": "2",
+									"quantity": 1,
+									"value": 400,
+									"calc": {
+										"extended_value": 400,
+										"extended_weight": "0 lb"
+									}
+								}
+							],
+							"description": "Модули",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 500,
+								"extended_weight": "0 lb"
+							}
+						}
+					],
+					"description": "Коммлинки",
+					"notes": "Коммлинк не способен запускать атакующие хакерские программы",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 70075,
+						"extended_weight": "14.3 lb"
+					}
+				},
+				{
+					"id": "ed3e5e7b-39db-4b0a-8e53-a3439f8df471",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "af71f699-8aed-49db-ad46-7834fc465cac",
+							"type": "equipment_container",
+							"children": [
+								{
+									"id": "dbb4d734-f0cd-453b-af51-9671350ceae8",
+									"type": "equipment",
+									"description": "Эрика МЦД-1",
+									"reference": "UT22",
+									"notes": "Complexity 5. 100TB. ",
+									"tech_level": "9",
+									"legality_class": "3",
+									"tags": [
+										"Computers"
+									],
+									"quantity": 1,
+									"value": 1000,
+									"weight": "5 lb",
+									"calc": {
+										"extended_value": 1000,
+										"extended_weight": "5 lb"
+									}
+								},
+								{
+									"id": "d4ff731a-371c-4726-826b-400543100e53",
+									"type": "equipment",
+									"description": "Гермес Колесница",
+									"reference": "UT22",
+									"notes": "Complexity 6. 100TB. ",
+									"tech_level": "9",
+									"legality_class": "3",
+									"tags": [
+										"Computers"
+									],
+									"quantity": 1,
+									"value": 20000,
+									"weight": "5 lb",
+									"calc": {
+										"extended_value": 20000,
+										"extended_weight": "5 lb"
+									}
+								},
+								{
+									"id": "20631c6e-3d96-4b28-8f55-157c5b141773",
+									"type": "equipment",
+									"description": "Сони СИЯЙ-720",
+									"reference": "UT22",
+									"notes": "Complexity 6. 100TB. High-Capacity: Runs 50% more programs",
+									"tech_level": "9",
+									"legality_class": "3",
+									"tags": [
+										"Computers"
+									],
+									"quantity": 1,
+									"value": 30000,
+									"weight": "5 lb",
+									"calc": {
+										"extended_value": 30000,
+										"extended_weight": "5 lb"
+									}
+								},
+								{
+									"id": "2184de1a-8b66-41bb-90f5-669712a2ddbd",
+									"type": "equipment",
+									"description": "Фаерлайт Экскалибур",
+									"reference": "UT22",
+									"notes": "Complexity 7. 100TB. ",
+									"tech_level": "9",
+									"legality_class": "2",
+									"tags": [
+										"Computers"
+									],
+									"quantity": 1,
+									"value": 500000,
+									"weight": "5 lb",
+									"calc": {
+										"extended_value": 500000,
+										"extended_weight": "5 lb"
+									}
+								}
+							],
+							"description": "Полноразмерные",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 551000,
+								"extended_weight": "20 lb"
+							}
+						},
+						{
+							"id": "f71f53a4-02e2-4c19-98cd-e6c106528152",
+							"type": "equipment_container",
+							"children": [
+								{
+									"id": "09283d7d-b623-4e2b-832d-0ce24d694679",
+									"type": "equipment",
+									"description": "Новатех Навигатор",
+									"reference": "UT22",
+									"notes": "Complexity 6. 100TB. High-Capacity: Runs 50% more programs",
+									"tech_level": "9",
+									"legality_class": "3",
+									"tags": [
+										"Computers"
+									],
+									"quantity": 1,
+									"value": 60000,
+									"weight": "2.5 lb",
+									"calc": {
+										"extended_value": 60000,
+										"extended_weight": "2.5 lb"
+									}
+								}
+							],
+							"description": "Компакт",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 60000,
+								"extended_weight": "2.5 lb"
+							}
+						},
+						{
+							"id": "526c5bf9-bc15-4d3e-9c29-6a4fdc9d012f",
+							"type": "equipment_container",
+							"children": [
+								{
+									"id": "d7981cd1-d6e1-4a48-bb93-1e96ab607aea",
+									"type": "equipment",
+									"description": "Ренраку Цуруги",
+									"reference": "UT22",
+									"notes": "Complexity 5. 10TB. With Datapad. High-Capacity: Runs 50% more programs",
+									"tech_level": "9",
+									"legality_class": "3",
+									"tags": [
+										"Computers"
+									],
+									"quantity": 1,
+									"value": 3000,
+									"weight": "0.25 lb",
+									"calc": {
+										"extended_value": 3000,
+										"extended_weight": "0.25 lb"
+									}
+								},
+								{
+									"id": "d087487e-3cf7-4d3a-a3dc-3ba9a651c07a",
+									"type": "equipment",
+									"description": "Микродек Саммит",
+									"reference": "UT22",
+									"notes": "Complexity 6. 10TB. With Datapad",
+									"tech_level": "9",
+									"legality_class": "3",
+									"tags": [
+										"Computers"
+									],
+									"quantity": 1,
+									"value": 50000,
+									"weight": "0.25 lb",
+									"calc": {
+										"extended_value": 50000,
+										"extended_weight": "0.25 lb"
+									}
+								}
+							],
+							"description": "Мини",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 53000,
+								"extended_weight": "0.5 lb"
+							}
+						},
+						{
+							"id": "bf07f956-1257-46b2-ba55-1f04a08fa553",
+							"type": "equipment_container",
+							"children": [
+								{
+									"id": "6935f8b7-a6ab-4b40-93a2-7fe909275112",
+									"type": "equipment",
+									"description": "Микротроника Ацтек 200",
+									"reference": "UT22",
+									"notes": "Complexity 5. 1TB. With Datapad",
+									"tech_level": "9",
+									"legality_class": "3",
+									"tags": [
+										"Computers"
+									],
+									"quantity": 1,
+									"value": 25000,
+									"weight": "0.1 lb",
+									"calc": {
+										"extended_value": 25000,
+										"extended_weight": "0.1 lb"
+									}
+								},
+								{
+									"id": "5c6e3439-7cf4-496e-ba8e-d467be43617f",
+									"type": "equipment",
+									"description": "Сиавасэ Кибер-5",
+									"reference": "UT22",
+									"notes": "Complexity 5. 1TB. With Datapad. High-Capacity: Runs 50% more programs",
+									"tech_level": "9",
+									"legality_class": "3",
+									"tags": [
+										"Computers"
+									],
+									"quantity": 1,
+									"value": 38000,
+									"weight": "0.1 lb",
+									"calc": {
+										"extended_value": 38000,
+										"extended_weight": "0.1 lb"
+									}
+								}
+							],
+							"description": "Микро",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 63000,
+								"extended_weight": "0.2 lb"
+							}
+						}
+					],
+					"description": "Деки",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 727000,
+						"extended_weight": "23.2 lb"
+					}
+				},
+				{
+					"id": "f56ce190-9769-4652-b514-61ee35ee485a",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "84ca2a46-ca21-4430-8119-9571409f8102",
+							"type": "equipment_container",
+							"children": [
+								{
+									"id": "90f5932a-6976-473c-8b5d-7caa8653151b",
+									"type": "equipment",
+									"description": "Скратч-Билт Джинк",
+									"reference": "UT22",
+									"notes": "Complexity 5. 100TB. ",
+									"tech_level": "9",
+									"legality_class": "3",
+									"tags": [
+										"Computers"
+									],
+									"quantity": 1,
+									"value": 1000,
+									"weight": "5 lb",
+									"calc": {
+										"extended_value": 1000,
+										"extended_weight": "5 lb"
+									}
+								},
+								{
+									"id": "d1169308-98eb-44c9-bf78-ceccdb6f3f47",
+									"type": "equipment",
+									"description": "Изи Моторс ДронМастер",
+									"reference": "UT22",
+									"notes": "Complexity 6. 100TB. ",
+									"tech_level": "9",
+									"legality_class": "3",
+									"tags": [
+										"Computers"
+									],
+									"quantity": 1,
+									"value": 20000,
+									"weight": "5 lb",
+									"calc": {
+										"extended_value": 20000,
+										"extended_weight": "5 lb"
+									}
+								},
+								{
+									"id": "6799a815-c7ae-4a3e-ac79-c958017c79aa",
+									"type": "equipment",
+									"description": "КомпуФорс ТаксМастер",
+									"reference": "UT22",
+									"notes": "Complexity 6. 100TB. High-Capacity: Runs 50% more programs",
+									"tech_level": "9",
+									"legality_class": "3",
+									"tags": [
+										"Computers"
+									],
+									"quantity": 1,
+									"value": 30000,
+									"weight": "5 lb",
+									"calc": {
+										"extended_value": 30000,
+										"extended_weight": "5 lb"
+									}
+								},
+								{
+									"id": "5a6ba641-fd6a-4b0e-a408-05cd97a9be43",
+									"type": "equipment",
+									"description": "Триокс УберМенх",
+									"reference": "UT22",
+									"notes": "Complexity 7. 100TB. ",
+									"tech_level": "9",
+									"legality_class": "2",
+									"tags": [
+										"Computers"
+									],
+									"quantity": 1,
+									"value": 500000,
+									"weight": "5 lb",
+									"calc": {
+										"extended_value": 500000,
+										"extended_weight": "5 lb"
+									}
+								}
+							],
+							"description": "Полноразмерные",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 551000,
+								"extended_weight": "20 lb"
+							}
+						},
+						{
+							"id": "93eaa2d0-69e4-4734-9833-eeba3ac8c6ae",
+							"type": "equipment_container",
+							"children": [
+								{
+									"id": "895dcb8b-dfa2-40c2-96df-53e4296398a5",
+									"type": "equipment",
+									"description": "Мейрск Спайдер",
+									"reference": "UT22",
+									"notes": "Complexity 6. 100TB. High-Capacity: Runs 50% more programs",
+									"tech_level": "9",
+									"legality_class": "3",
+									"tags": [
+										"Computers"
+									],
+									"quantity": 1,
+									"value": 60000,
+									"weight": "2.5 lb",
+									"calc": {
+										"extended_value": 60000,
+										"extended_weight": "2.5 lb"
+									}
+								}
+							],
+							"description": "Компакт",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 60000,
+								"extended_weight": "2.5 lb"
+							}
+						},
+						{
+							"id": "62a779fc-53a8-465b-bd7b-9a2c5fc763e8",
+							"type": "equipment_container",
+							"children": [
+								{
+									"id": "0c4a80db-0ad4-4da3-af04-f3cdd23f8843",
+									"type": "equipment",
+									"description": "Радио Снак Ремоте Контроллер",
+									"reference": "UT22",
+									"notes": "Complexity 5. 10TB. With Datapad. High-Capacity: Runs 50% more programs",
+									"tech_level": "9",
+									"legality_class": "3",
+									"tags": [
+										"Computers"
+									],
+									"quantity": 1,
+									"value": 3000,
+									"weight": "0.25 lb",
+									"calc": {
+										"extended_value": 3000,
+										"extended_weight": "0.25 lb"
+									}
+								},
+								{
+									"id": "78cba8f1-f4ae-46e5-9593-b0da0a280ba7",
+									"type": "equipment",
+									"description": "Протей Посейдон",
+									"reference": "UT22",
+									"notes": "Complexity 6. 10TB. With Datapad",
+									"tech_level": "9",
+									"legality_class": "3",
+									"tags": [
+										"Computers"
+									],
+									"quantity": 1,
+									"value": 50000,
+									"weight": "0.25 lb",
+									"calc": {
+										"extended_value": 50000,
+										"extended_weight": "0.25 lb"
+									}
+								}
+							],
+							"description": "Мини",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 53000,
+								"extended_weight": "0.5 lb"
+							}
+						},
+						{
+							"id": "4581cf7a-5b58-4457-b7e5-333e9f69bbb2",
+							"type": "equipment_container",
+							"children": [
+								{
+									"id": "a72587d8-f685-4ba9-b827-12edc8bf26eb",
+									"type": "equipment",
+									"description": "Мастер Индастриал Электронокс",
+									"reference": "UT22",
+									"notes": "Complexity 5. 1TB. With Datapad",
+									"tech_level": "9",
+									"legality_class": "3",
+									"tags": [
+										"Computers"
+									],
+									"quantity": 1,
+									"value": 25000,
+									"weight": "0.1 lb",
+									"calc": {
+										"extended_value": 25000,
+										"extended_weight": "0.1 lb"
+									}
+								},
+								{
+									"id": "b9755bb6-ec19-4759-9799-b6d460831743",
+									"type": "equipment",
+									"description": "Вулкан Лейджлорд",
+									"reference": "UT22",
+									"notes": "Complexity 5. 1TB. With Datapad. High-Capacity: Runs 50% more programs",
+									"tech_level": "9",
+									"legality_class": "3",
+									"tags": [
+										"Computers"
+									],
+									"quantity": 1,
+									"value": 38000,
+									"weight": "0.1 lb",
+									"calc": {
+										"extended_value": 38000,
+										"extended_weight": "0.1 lb"
+									}
+								}
+							],
+							"description": "Микро",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 63000,
+								"extended_weight": "0.2 lb"
+							}
+						}
+					],
+					"description": "Риги",
+					"notes": "Не способен запускаь атакующие хакерские программы. Может быть использован для контроля транспортных средств",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 727000,
+						"extended_weight": "23.2 lb"
+					}
+				},
+				{
+					"id": "d5bd2b43-5eb7-45ad-a0b0-4931c0efd9fc",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "d40329db-6e93-449b-9b48-d8870b5b462a",
+							"type": "equipment",
+							"description": "Микрофрейм домашний",
+							"reference": "UT22",
+							"notes": "Complexity 6. 1,000TB. External power.",
+							"tech_level": "9",
+							"tags": [
+								"Computers"
+							],
+							"quantity": 1,
+							"value": 5000,
+							"weight": "40 lb",
+							"calc": {
+								"extended_value": 5000,
+								"extended_weight": "40 lb"
+							}
+						},
+						{
+							"id": "22f78e32-66ef-463b-8983-549944b326de",
+							"type": "equipment",
+							"description": "Микрофрейм корпоративный",
+							"reference": "UT22",
+							"notes": "Complexity 7. 1,000TB. External power.",
+							"tech_level": "9",
+							"tags": [
+								"Computers"
+							],
+							"quantity": 1,
+							"value": 40000,
+							"weight": "40 lb",
+							"calc": {
+								"extended_value": 40000,
+								"extended_weight": "40 lb"
+							}
+						},
+						{
+							"id": "832f2061-e60c-4989-8ba9-748158255a36",
+							"type": "equipment",
+							"description": "Микрофрейм последнего поколения",
+							"reference": "UT22",
+							"notes": "Complexity 8. 1,000TB. External power.",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Computers"
+							],
+							"quantity": 1,
+							"value": 2500000,
+							"weight": "40 lb",
+							"calc": {
+								"extended_value": 2500000,
+								"extended_weight": "40 lb"
+							}
+						},
+						{
+							"id": "fd78136c-34b3-40ce-a97c-4bdff960a8d7",
+							"type": "equipment",
+							"description": "Микрофрейм домашний +",
+							"reference": "UT22",
+							"notes": "Complexity 6. 1,000TB. External power. High-Capacity: Runs 50% more programs",
+							"tech_level": "9",
+							"tags": [
+								"Computers"
+							],
+							"quantity": 1,
+							"value": 10000,
+							"weight": "40 lb",
+							"calc": {
+								"extended_value": 10000,
+								"extended_weight": "40 lb"
+							}
+						},
+						{
+							"id": "f26ef55e-070a-4e20-86e2-19e715730584",
+							"type": "equipment",
+							"description": "Микрофрейм корпоративный +",
+							"reference": "UT22",
+							"notes": "Complexity 7. 1,000TB. External power.",
+							"tech_level": "9",
+							"tags": [
+								"Computers"
+							],
+							"quantity": 1,
+							"value": 80000,
+							"weight": "40 lb",
+							"calc": {
+								"extended_value": 80000,
+								"extended_weight": "40 lb"
+							}
+						}
+					],
+					"description": "Стационарные компьютеры",
+					"notes": "Не способен запускать атакующие хакерские программы",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 2635000,
+						"extended_weight": "200 lb"
+					}
+				}
+			],
+			"description": "Компьютеры и программы",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4311185,
+				"extended_weight": "260.7 lb"
+			}
+		},
+		{
+			"id": "fea8b9cb-de65-4e18-a4bb-66b2baf46da9",
+			"type": "equipment_container",
+			"children": [
+				{
+					"id": "1794940a-1186-48dc-b090-0959be906062",
+					"type": "equipment",
+					"description": "Пистолет-отмычка",
+					"reference": "HT213",
+					"notes": "Взлом занимает 5 секунд. +4 при взломе обычных замков. -5 при взломе хороших замков.",
+					"tech_level": "7",
+					"legality_class": "3",
+					"tags": [
+						"Deception and Intrusion"
+					],
+					"quantity": 1,
+					"value": 50,
+					"weight": "1 lb",
+					"calc": {
+						"extended_value": 50,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "f6028d1b-ef60-4463-87fc-14a0696204a9",
+					"type": "equipment",
+					"description": "Отмычки",
+					"reference": "HT213",
+					"tech_level": "5",
+					"legality_class": "3",
+					"tags": [
+						"Deception and Intrusion"
+					],
+					"quantity": 1,
+					"value": 50,
+					"calc": {
+						"extended_value": 50,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "e9118c0b-50eb-4503-9be2-6af5695fa853",
+					"type": "equipment",
+					"description": "Стяжка",
+					"reference": "HT217",
+					"notes": "Escape -3. DR 3. HP 2.",
+					"tech_level": "9",
+					"tags": [
+						"Enforcement and Coercion"
+					],
+					"quantity": 1,
+					"value": 0.5,
+					"weight": "0.025 lb",
+					"calc": {
+						"extended_value": 0.5,
+						"extended_weight": "0.025 lb"
+					}
+				},
+				{
+					"id": "a092879a-279c-489a-ace4-df919e7f26ab",
+					"type": "equipment",
+					"description": "Химсвет",
+					"reference": "HT52",
+					"notes": "Lasts 12 hours.",
+					"tech_level": "7",
+					"tags": [
+						"General Equipment"
+					],
+					"quantity": 1,
+					"value": 2,
+					"weight": "0.1 lb",
+					"calc": {
+						"extended_value": 2,
+						"extended_weight": "0.1 lb"
+					}
+				},
+				{
+					"id": "10fbb14b-c30f-4dc7-847c-3aa8b4cfd371",
+					"type": "equipment",
+					"description": "Зажигалка",
+					"reference": "HT57",
+					"notes": "Windproof. Waterproof.",
+					"tech_level": "8",
+					"tags": [
+						"General Equipment"
+					],
+					"quantity": 1,
+					"value": 30,
+					"calc": {
+						"extended_value": 30,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "24dc178b-2fd2-47e3-90ee-2ab4d45eedb4",
+					"type": "equipment",
+					"description": "Аптечка первой помощи",
+					"reference": "UT198",
+					"notes": "Первая помощь +1, +2 при остановки кровотечения",
+					"tech_level": "9",
+					"tags": [
+						"Medical"
+					],
+					"quantity": 1,
+					"value": 50,
+					"weight": "2 lb",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "First Aid"
+							},
+							"amount": 1
+						}
+					],
+					"calc": {
+						"extended_value": 50,
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "8932844b-206e-4e24-8bcb-4a5a387890ca",
+					"type": "equipment",
+					"description": "Аптечка экстренной помощи",
+					"reference": "UT198",
+					"notes": "Хирургия -5, первая помощь +2.",
+					"tech_level": "9",
+					"tags": [
+						"Medical"
+					],
+					"quantity": 1,
+					"value": 200,
+					"weight": "10 lb",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "First Aid"
+							},
+							"amount": 2
+						}
+					],
+					"calc": {
+						"extended_value": 200,
+						"extended_weight": "10 lb"
+					}
+				},
+				{
+					"id": "191aadbc-55ff-43a9-b1e4-505570c4c120",
+					"type": "equipment",
+					"description": "Рацион для выживания",
+					"reference": "UT73",
+					"tech_level": "9",
+					"tags": [
+						"Housing and Food"
+					],
+					"quantity": 1,
+					"value": 5,
+					"weight": "0.5 lb",
+					"calc": {
+						"extended_value": 5,
+						"extended_weight": "0.5 lb"
+					}
+				},
+				{
+					"id": "381c7f69-efb7-4e37-833a-73e575cb10d8",
+					"type": "equipment",
+					"description": "Мини-фонарик",
+					"reference": "UT74",
+					"notes": "15-метровый луч. B/24hr.",
+					"tech_level": "9",
+					"tags": [
+						"Housing and Food"
+					],
+					"quantity": 1,
+					"value": 10,
+					"weight": "0.25 lb",
+					"calc": {
+						"extended_value": 10,
+						"extended_weight": "0.25 lb"
+					}
+				},
+				{
+					"id": "43d1b382-b13f-4be5-aab6-f6c4fcfa783e",
+					"type": "equipment",
+					"description": "Электро-оптический бинокль ",
+					"reference": "UT60",
+					"notes": "Night Vision 9. 64x magnification. 2B/100hr.",
+					"tech_level": "9",
+					"tags": [
+						"Sensors and Scientific Equipment"
+					],
+					"quantity": 1,
+					"value": 1000,
+					"weight": "0.6 lb",
+					"calc": {
+						"extended_value": 1000,
+						"extended_weight": "0.6 lb"
+					}
+				},
+				{
+					"id": "51409d78-fe03-4aca-95f6-33e5883f3cef",
+					"type": "equipment",
+					"description": "Электронные наручники",
+					"reference": "UT107",
+					"notes": "СЛ 20. СП 10. A/1wk.",
+					"tech_level": "9",
+					"tags": [
+						"Enforcement and Coercion"
+					],
+					"quantity": 1,
+					"value": 40,
+					"weight": "0.25 lb",
+					"calc": {
+						"extended_value": 40,
+						"extended_weight": "0.25 lb"
+					}
+				},
+				{
+					"id": "79f4fa7e-0ead-4b42-83d7-21c429db33d7",
+					"type": "equipment",
+					"description": "1/8\" верёвка",
+					"reference": "UT81",
+					"notes": "Цена и вес за метр. Держит 400lbs.",
+					"tech_level": "9",
+					"tags": [
+						"Tools and Construction Materials"
+					],
+					"quantity": 1,
+					"value": 0.2,
+					"weight": "0.01 lb",
+					"calc": {
+						"extended_value": 0.2,
+						"extended_weight": "0.01 lb"
+					}
+				},
+				{
+					"id": "349d2196-6fce-4ecc-b440-4f55d3f39abf",
+					"type": "equipment",
+					"description": "Тяжелый лазерный резак",
+					"reference": "UT80",
+					"notes": "D/15min.",
+					"tech_level": "9",
+					"tags": [
+						"Melee Weapon",
+						"Tools and Construction Materials"
+					],
+					"quantity": 1,
+					"value": 800,
+					"weight": "12 lb",
+					"weapons": [
+						{
+							"id": "d73e7acb-c7f7-44d5-89a4-29c9c42e4e3c",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "burn",
+								"base": "4d",
+								"armor_divisor": 2
+							},
+							"strength": "7†",
+							"reach": "C,1",
+							"parry": "no",
+							"block": "no",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Beam Weapons",
+									"specialization": "Projector"
+								}
+							],
+							"calc": {
+								"parry": "no",
+								"block": "no",
+								"damage": "4d(2) burn"
+							}
+						}
+					],
+					"calc": {
+						"extended_value": 800,
+						"extended_weight": "12 lb"
+					}
+				},
+				{
+					"id": "be48dd31-b4e3-4f41-87bf-c3a1c8a92239",
+					"type": "equipment",
+					"description": "Мини лазерный резак",
+					"reference": "UT80",
+					"notes": "B/3min",
+					"tech_level": "9",
+					"tags": [
+						"Melee Weapon",
+						"Tools and Construction Materials"
+					],
+					"quantity": 1,
+					"value": 50,
+					"weight": "0.25 lb",
+					"weapons": [
+						{
+							"id": "7a55d9a7-1d84-4343-bf01-ec31de46933c",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "burn",
+								"base": "1d",
+								"armor_divisor": 2
+							},
+							"strength": "1",
+							"reach": "C",
+							"parry": "no",
+							"block": "no",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Beam Weapons",
+									"specialization": "Projector"
+								}
+							],
+							"calc": {
+								"parry": "no",
+								"block": "no",
+								"damage": "1d(2) burn"
+							}
+						}
+					],
+					"calc": {
+						"extended_value": 50,
+						"extended_weight": "0.25 lb"
+					}
+				},
+				{
+					"id": "608723ad-00a9-425c-a3cd-4e7a9ab56fa9",
+					"type": "equipment",
+					"description": "Набор электроинструментов",
+					"reference": "UT81",
+					"notes": "3C/3hr.",
+					"tech_level": "9",
+					"tags": [
+						"Tools and Construction Materials"
+					],
+					"quantity": 1,
+					"value": 1000,
+					"weight": "10 lb",
+					"calc": {
+						"extended_value": 1000,
+						"extended_weight": "10 lb"
+					}
+				},
+				{
+					"id": "b04460b5-beb1-4fd8-9710-e41a493cd257",
+					"type": "equipment",
+					"description": "Machinist (@Specialization@) Mini-Toolkit",
+					"reference": "UT82",
+					"notes": "-2 (quality). 5B/10hr.",
+					"tech_level": "9",
+					"tags": [
+						"Expedition Gear"
+					],
+					"quantity": 1,
+					"value": 200,
+					"weight": "4 lb",
+					"calc": {
+						"extended_value": 200,
+						"extended_weight": "4 lb"
+					}
+				},
+				{
+					"id": "b4123bbc-3d9e-477b-8790-4192c45baa5d",
+					"type": "equipment",
+					"description": "Machinist (@Specialization@) Toolkit",
+					"reference": "UT82",
+					"notes": "10B/10hr.",
+					"tech_level": "9",
+					"tags": [
+						"Expedition Gear"
+					],
+					"quantity": 1,
+					"value": 600,
+					"weight": "20 lb",
+					"calc": {
+						"extended_value": 600,
+						"extended_weight": "20 lb"
+					}
+				},
+				{
+					"id": "6069ee1c-8106-4a07-a417-770a9eda2e02",
+					"type": "equipment",
+					"description": "Electronics Repair Mini-Toolkit",
+					"reference": "UT82",
+					"notes": "-2 (quality). 5A/10hr.",
+					"tech_level": "9",
+					"tags": [
+						"Expedition Gear"
+					],
+					"quantity": 1,
+					"value": 400,
+					"weight": "2 lb",
+					"calc": {
+						"extended_value": 400,
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "d62aa769-f797-4fd3-af32-b91fbf8cee20",
+					"type": "equipment",
+					"description": "Electronics Repair Toolkit",
+					"reference": "UT82",
+					"notes": "10A/10hr.",
+					"tech_level": "9",
+					"tags": [
+						"Expedition Gear"
+					],
+					"quantity": 1,
+					"value": 1200,
+					"weight": "10 lb",
+					"calc": {
+						"extended_value": 1200,
+						"extended_weight": "10 lb"
+					}
+				}
+			],
+			"description": "Разное",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 5687.7,
+				"extended_weight": "72.985 lb"
+			}
+		},
+		{
+			"id": "6d94f0c4-9e02-4caa-9673-de6f6d0f0b1d",
+			"type": "equipment_container",
+			"open": true,
+			"children": [
+				{
+					"id": "93a42bcb-8757-4a50-a99a-6c6ea13637a6",
+					"type": "equipment_container",
+					"open": true,
+					"children": [
+						{
+							"id": "aa4024b2-868d-4fb7-af47-f742018a2f34",
+							"type": "equipment",
+							"description": "Бронированная куртка",
+							"reference": "UT172",
+							"notes": "DR+5 vs. piercing and cutting. Flexible. Распознаваемая броня",
+							"tech_level": "9",
+							"tags": [
+								"Defenses"
+							],
+							"quantity": 1,
+							"value": 1000,
+							"weight": "2 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "arm",
+									"amount": 2
+								},
+								{
+									"type": "dr_bonus",
+									"location": "torso",
+									"amount": 2
+								},
+								{
+									"type": "dr_bonus",
+									"location": "vitals",
+									"amount": 2
+								},
+								{
+									"type": "dr_bonus",
+									"location": "torso",
+									"specialization": "pi cut",
+									"amount": 5
+								},
+								{
+									"type": "dr_bonus",
+									"location": "arm",
+									"specialization": "pi cut",
+									"amount": 5
+								},
+								{
+									"type": "dr_bonus",
+									"location": "vitals",
+									"specialization": "pi cut",
+									"amount": 5
+								}
+							],
+							"calc": {
+								"extended_value": 1000,
+								"extended_weight": "2 lb"
+							}
+						},
+						{
+							"id": "b16c0cca-8663-46e7-ae5b-dd7fb855cbba",
+							"type": "equipment",
+							"description": "Бронированные штаны",
+							"reference": "UT172",
+							"notes": "DR+5 vs. piercing and cutting. Flexible. Распознаваемая броня",
+							"tech_level": "9",
+							"tags": [
+								"Defenses"
+							],
+							"quantity": 1,
+							"value": 1000,
+							"weight": "1.8 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "groin",
+									"amount": 2
+								},
+								{
+									"type": "dr_bonus",
+									"location": "leg",
+									"amount": 2
+								},
+								{
+									"type": "dr_bonus",
+									"location": "groin",
+									"specialization": "pi cut",
+									"amount": 5
+								},
+								{
+									"type": "dr_bonus",
+									"location": "leg",
+									"specialization": "pi cut",
+									"amount": 5
+								}
+							],
+							"calc": {
+								"extended_value": 1000,
+								"extended_weight": "1.8 lb"
+							}
+						},
+						{
+							"id": "ab828233-1a19-42f2-ab2c-f23132440c14",
+							"type": "equipment",
+							"description": "Сверхпрочные перчатки",
+							"reference": "UT172",
+							"notes": "DR+1 vs. piercing and cutting. Flexible. Неочевидная броня",
+							"tech_level": "9",
+							"tags": [
+								"Defenses"
+							],
+							"quantity": 1,
+							"value": 100,
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "hand",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"location": "hand",
+									"specialization": "pi cut",
+									"amount": 1
+								}
+							],
+							"calc": {
+								"extended_value": 100,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eea7cfaa-8a23-4059-a2b7-913583cdf02e",
+							"type": "equipment",
+							"description": "Баллистические очки",
+							"reference": "UT176",
+							"notes": "Неочевидная броня. Может быть соединён с тремальными очками или ПНВ очками",
+							"tech_level": "9",
+							"tags": [
+								"Armor",
+								"Defenses"
+							],
+							"quantity": 1,
+							"value": 300,
+							"weight": "0.1 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "eye",
+									"amount": 10
+								}
+							],
+							"calc": {
+								"extended_value": 300,
+								"extended_weight": "0.1 lb"
+							}
+						},
+						{
+							"id": "2fb52abb-2223-4df7-9024-a3055cee36d4",
+							"type": "equipment",
+							"description": "Бронежилет",
+							"reference": "UT172",
+							"notes": "DR+8 vs. piercing and cutting. Flexible. Очевидная броня. Скрытое ношение. Может быть укомплектована бронепластиной, в таком случае скрытое ношение практически невозможно",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Defenses"
+							],
+							"quantity": 1,
+							"value": 1000,
+							"weight": "2 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "torso",
+									"amount": 4
+								},
+								{
+									"type": "dr_bonus",
+									"location": "vitals",
+									"amount": 4
+								},
+								{
+									"type": "dr_bonus",
+									"location": "torso",
+									"specialization": "pi cut",
+									"amount": 8
+								},
+								{
+									"type": "dr_bonus",
+									"location": "vitals",
+									"specialization": "pi cut",
+									"amount": 8
+								}
+							],
+							"calc": {
+								"extended_value": 1000,
+								"extended_weight": "2 lb"
+							}
+						},
+						{
+							"id": "51eeff04-5be0-4b44-adb1-6d2403db936c",
+							"type": "equipment",
+							"description": "Штурмовые ботинки",
+							"reference": "UT173",
+							"notes": "DR+4 vs. piercing and cutting. Распознаваемая броня",
+							"tech_level": "9",
+							"tags": [
+								"Armor",
+								"Defenses"
+							],
+							"quantity": 1,
+							"value": 300,
+							"weight": "2 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "foot",
+									"amount": 4
+								},
+								{
+									"type": "dr_bonus",
+									"location": "foot",
+									"specialization": "pi cut",
+									"amount": 4
+								}
+							],
+							"calc": {
+								"extended_value": 300,
+								"extended_weight": "2 lb"
+							}
+						},
+						{
+							"id": "21ce8ec6-0fba-43d1-a1d4-8f7e7edc4344",
+							"type": "equipment",
+							"description": "Защитный пиджак",
+							"reference": "UT172",
+							"notes": "DR+3 vs. piercing and cutting. Flexible. Неочевидная броня",
+							"tech_level": "9",
+							"tags": [
+								"Defenses"
+							],
+							"quantity": 1,
+							"value": 1000,
+							"weight": "1.5 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "arm",
+									"amount": 2
+								},
+								{
+									"type": "dr_bonus",
+									"location": "torso",
+									"amount": 2
+								},
+								{
+									"type": "dr_bonus",
+									"location": "vitals",
+									"amount": 2
+								},
+								{
+									"type": "dr_bonus",
+									"location": "torso",
+									"specialization": "pi cut",
+									"amount": 3
+								},
+								{
+									"type": "dr_bonus",
+									"location": "arm",
+									"specialization": "pi cut",
+									"amount": 3
+								},
+								{
+									"type": "dr_bonus",
+									"location": "vitals",
+									"specialization": "pi cut",
+									"amount": 3
+								}
+							],
+							"calc": {
+								"extended_value": 1000,
+								"extended_weight": "1.5 lb"
+							}
+						},
+						{
+							"id": "cdac3e64-67ab-4686-88ec-230e501a5b83",
+							"type": "equipment",
+							"description": "Защитные штаны",
+							"reference": "UT172",
+							"notes": "DR+3 vs. piercing and cutting. Flexible. Неочевидная броня",
+							"tech_level": "9",
+							"tags": [
+								"Defenses"
+							],
+							"quantity": 1,
+							"value": 1000,
+							"weight": "1.2 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "groin",
+									"amount": 2
+								},
+								{
+									"type": "dr_bonus",
+									"location": "leg",
+									"amount": 2
+								},
+								{
+									"type": "dr_bonus",
+									"location": "groin",
+									"specialization": "pi cut",
+									"amount": 3
+								},
+								{
+									"type": "dr_bonus",
+									"location": "leg",
+									"specialization": "pi cut",
+									"amount": 3
+								}
+							],
+							"calc": {
+								"extended_value": 1000,
+								"extended_weight": "1.2 lb"
+							}
+						}
+					],
+					"description": "Лёгкая броня",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 5700,
+						"extended_weight": "10.6 lb"
+					}
+				},
+				{
+					"id": "f9cf0d51-84f1-4517-a836-9843802ccfb0",
+					"type": "equipment_container",
+					"open": true,
+					"children": [
+						{
+							"id": "9192d52c-323e-4809-bf4a-e80414dac754",
+							"type": "equipment",
+							"description": "Лёгкий шлем пехоты",
+							"reference": "UT176",
+							"tech_level": "9",
+							"legality_class": "2",
+							"tags": [
+								"Armor",
+								"Defenses"
+							],
+							"quantity": 1,
+							"value": 4000,
+							"weight": "3 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "skull",
+									"amount": 18
+								}
+							],
+							"calc": {
+								"extended_value": 4000,
+								"extended_weight": "3 lb"
+							}
+						},
+						{
+							"id": "3f61305a-e00c-4488-8da1-13c3e061b5b0",
+							"type": "equipment",
+							"description": "Забрало для лёгкого шлема пехоты",
+							"reference": "UT176",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Armor",
+								"Defenses"
+							],
+							"quantity": 1,
+							"value": 2000,
+							"weight": "3 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "eye",
+									"amount": 15
+								},
+								{
+									"type": "dr_bonus",
+									"location": "face",
+									"amount": 15
+								}
+							],
+							"calc": {
+								"extended_value": 2000,
+								"extended_weight": "3 lb"
+							}
+						},
+						{
+							"id": "d8c0da78-2514-447b-873d-a2fa26873a21",
+							"type": "equipment",
+							"description": "Лёгкая \"раковина\"",
+							"reference": "UT176",
+							"tech_level": "9",
+							"legality_class": "2",
+							"tags": [
+								"Armor",
+								"Defenses"
+							],
+							"quantity": 1,
+							"value": 7000,
+							"weight": "12 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "torso",
+									"amount": 30
+								},
+								{
+									"type": "dr_bonus",
+									"location": "vitals",
+									"amount": 30
+								},
+								{
+									"type": "dr_bonus",
+									"location": "groin",
+									"amount": 30
+								}
+							],
+							"calc": {
+								"extended_value": 7000,
+								"extended_weight": "12 lb"
+							}
+						},
+						{
+							"id": "4cb44fb9-8d61-443c-9de2-cac9b77ca18c",
+							"type": "equipment",
+							"description": "Тяжёлая \"раковина\"",
+							"reference": "UT176",
+							"tech_level": "9",
+							"legality_class": "2",
+							"tags": [
+								"Armor",
+								"Defenses"
+							],
+							"quantity": 1,
+							"value": 10000,
+							"weight": "18 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "torso",
+									"amount": 45
+								},
+								{
+									"type": "dr_bonus",
+									"location": "vitals",
+									"amount": 45
+								},
+								{
+									"type": "dr_bonus",
+									"location": "groin",
+									"amount": 45
+								}
+							],
+							"calc": {
+								"extended_value": 10000,
+								"extended_weight": "18 lb"
+							}
+						},
+						{
+							"id": "937dbf80-bfcc-4824-ad50-a1318675248c",
+							"type": "equipment",
+							"description": "Тактический бронежилет",
+							"reference": "UT173",
+							"notes": "DR+10 vs. piercing and cutting. Flexible.",
+							"tech_level": "9",
+							"legality_class": "2",
+							"tags": [
+								"Defenses"
+							],
+							"quantity": 1,
+							"value": 3000,
+							"weight": "9 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "torso",
+									"amount": 5
+								},
+								{
+									"type": "dr_bonus",
+									"location": "vitals",
+									"amount": 5
+								},
+								{
+									"type": "dr_bonus",
+									"location": "groin",
+									"amount": 5
+								},
+								{
+									"type": "dr_bonus",
+									"location": "torso",
+									"specialization": "pi cut",
+									"amount": 10
+								},
+								{
+									"type": "dr_bonus",
+									"location": "vitals",
+									"specialization": "pi cut",
+									"amount": 10
+								},
+								{
+									"type": "dr_bonus",
+									"location": "groin",
+									"specialization": "pi cut",
+									"amount": 10
+								}
+							],
+							"calc": {
+								"extended_value": 3000,
+								"extended_weight": "9 lb"
+							}
+						},
+						{
+							"id": "959e5219-84d2-49b7-974d-b6bbbf628873",
+							"type": "equipment",
+							"description": "Тактические наручи",
+							"reference": "UT172",
+							"notes": "DR+8 vs. piercing and cutting. Flexible.",
+							"tech_level": "9",
+							"legality_class": "2",
+							"tags": [
+								"Defenses"
+							],
+							"quantity": 1,
+							"value": 1500,
+							"weight": "1.5 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "arm",
+									"amount": 4
+								},
+								{
+									"type": "dr_bonus",
+									"location": "arm",
+									"specialization": "pi cut",
+									"amount": 8
+								}
+							],
+							"calc": {
+								"extended_value": 1500,
+								"extended_weight": "1.5 lb"
+							}
+						},
+						{
+							"id": "eda69b60-6220-413f-8c08-81ca55e5d48b",
+							"type": "equipment",
+							"description": "Тактические поноши",
+							"reference": "UT172",
+							"notes": "DR+8 vs. piercing and cutting. Flexible.",
+							"tech_level": "9",
+							"legality_class": "2",
+							"tags": [
+								"Defenses"
+							],
+							"quantity": 1,
+							"value": 2000,
+							"weight": "3 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "leg",
+									"amount": 4
+								},
+								{
+									"type": "dr_bonus",
+									"location": "leg",
+									"amount": 8
+								}
+							],
+							"calc": {
+								"extended_value": 2000,
+								"extended_weight": "3 lb"
+							}
+						},
+						{
+							"id": "5799a92a-1319-4c16-ad2e-4d4560178cc3",
+							"type": "equipment",
+							"description": "Тактические Перчатки",
+							"reference": "UT172",
+							"notes": "DR+3 vs. piercing and cutting. Flexible.",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Defenses"
+							],
+							"quantity": 1,
+							"value": 30,
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "hand",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"location": "hand",
+									"amount": 3
+								}
+							],
+							"calc": {
+								"extended_value": 30,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "488dbf7d-6568-4c91-af4b-d61008bbb75a",
+							"type": "equipment",
+							"description": "Броневая пластина",
+							"reference": "UT173",
+							"notes": "34 DR. Четверть-аблативная (урон снижает броню в коэффициенте 5 к 1). Защищает только спереди или сзади и только от Pi и Imp повреждений. Полубок или бок не защищает.",
+							"tech_level": "9",
+							"legality_class": "2",
+							"tags": [
+								"Armor",
+								"Defenses"
+							],
+							"quantity": 1,
+							"value": 2000,
+							"weight": "9 lb",
+							"calc": {
+								"extended_value": 2000,
+								"extended_weight": "9 lb"
+							}
+						},
+						{
+							"id": "2da946db-238e-40c6-bc23-9e6eddac67cf",
+							"type": "equipment",
+							"description": "Бронированные ботинки",
+							"reference": "UT173",
+							"notes": "DR+4 vs. piercing and cutting.",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Armor",
+								"Defenses"
+							],
+							"quantity": 1,
+							"value": 1000,
+							"weight": "3 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "foot",
+									"amount": 4
+								},
+								{
+									"type": "dr_bonus",
+									"location": "foot",
+									"specialization": "pi cut",
+									"amount": 4
+								}
+							],
+							"calc": {
+								"extended_value": 1000,
+								"extended_weight": "3 lb"
+							}
+						},
+						{
+							"id": "dd79e6cc-ba8e-4cd1-813d-09f43a16cf2f",
+							"type": "equipment",
+							"description": "Большой штурмовой щит",
+							"notes": "DR/HP = 25/40. DB = 3",
+							"tech_level": "9",
+							"legality_class": "2",
+							"quantity": 1,
+							"value": 5000,
+							"weight": "15 lb",
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "dodge",
+									"amount": 3
+								},
+								{
+									"type": "attribute_bonus",
+									"attribute": "parry",
+									"amount": 3
+								},
+								{
+									"type": "attribute_bonus",
+									"attribute": "block",
+									"amount": 3
+								}
+							],
+							"calc": {
+								"extended_value": 5000,
+								"extended_weight": "15 lb"
+							}
+						}
+					],
+					"description": "Тяжёлая броня",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 37530,
+						"extended_weight": "76.5 lb"
+					}
+				},
+				{
+					"id": "eed65484-02d4-4ffe-b498-8e0d0c70ef4b",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "145abd4d-c834-43ea-9d21-aa069f271197",
+							"type": "equipment",
+							"description": "Лёгкий экзоскелет",
+							"reference": "UT182",
+							"notes": "DR10 vs. swinging melee attacks, falls, and collisions only. Does not cover extremities. D/12hr. +5 Lift ST +3 Strike ST",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Armor",
+								"Defenses"
+							],
+							"quantity": 1,
+							"value": 25000,
+							"weight": "50 lb",
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"limitation": "lifting_only",
+									"attribute": "st",
+									"amount": 5
+								},
+								{
+									"type": "attribute_bonus",
+									"limitation": "striking_only",
+									"attribute": "st",
+									"amount": 3
+								}
+							],
+							"calc": {
+								"extended_value": 25000,
+								"extended_weight": "50 lb"
+							}
+						},
+						{
+							"id": "85266bc3-f2fa-4c26-9c92-f5e7d8232f81",
+							"type": "equipment",
+							"description": "Тяжёлый экзоскелет",
+							"reference": "UT182",
+							"notes": "Ham-Fisted. DR20 vs. swinging melee attacks, falls, and collisions only. E/24hr. +6 Lift ST +4 Strike ST +1 SM",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Armor",
+								"Defenses"
+							],
+							"quantity": 1,
+							"value": 50000,
+							"weight": "200 lb",
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"limitation": "lifting_only",
+									"attribute": "st",
+									"amount": 6
+								},
+								{
+									"type": "attribute_bonus",
+									"limitation": "striking_only",
+									"attribute": "st",
+									"amount": 4
+								}
+							],
+							"calc": {
+								"extended_value": 50000,
+								"extended_weight": "200 lb"
+							}
+						},
+						{
+							"id": "3efdea56-5345-43ee-b67b-0ba22a44ec45",
+							"type": "equipment",
+							"description": "Моторизированная боевая броня",
+							"reference": "UT186",
+							"notes": "Super Jump 1. E/18hr. +5 ST +1 SM",
+							"tech_level": "9",
+							"legality_class": "2",
+							"tags": [
+								"Armor",
+								"Defenses"
+							],
+							"quantity": 1,
+							"value": 80000,
+							"weight": "150 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "neck",
+									"amount": 50
+								},
+								{
+									"type": "dr_bonus",
+									"location": "torso",
+									"amount": 50
+								},
+								{
+									"type": "dr_bonus",
+									"location": "vitals",
+									"amount": 50
+								},
+								{
+									"type": "dr_bonus",
+									"location": "groin",
+									"amount": 50
+								},
+								{
+									"type": "dr_bonus",
+									"location": "arm",
+									"amount": 50
+								},
+								{
+									"type": "dr_bonus",
+									"location": "hand",
+									"amount": 50
+								},
+								{
+									"type": "dr_bonus",
+									"location": "leg",
+									"amount": 50
+								},
+								{
+									"type": "dr_bonus",
+									"location": "foot",
+									"amount": 50
+								},
+								{
+									"type": "dr_bonus",
+									"location": "torso",
+									"amount": 20
+								},
+								{
+									"type": "dr_bonus",
+									"location": "vitals",
+									"amount": 20
+								},
+								{
+									"type": "attribute_bonus",
+									"limitation": "lifting_only",
+									"attribute": "st",
+									"amount": 5
+								},
+								{
+									"type": "attribute_bonus",
+									"limitation": "striking_only",
+									"attribute": "st",
+									"amount": 5
+								},
+								{
+									"type": "attribute_bonus",
+									"attribute": "sm",
+									"amount": 1
+								}
+							],
+							"calc": {
+								"extended_value": 80000,
+								"extended_weight": "150 lb"
+							}
+						},
+						{
+							"id": "599c1947-4951-4ec9-9aa2-47d77446c396",
+							"type": "equipment",
+							"description": "Моторизированная боевая броня: Шлем",
+							"reference": "UT186",
+							"notes": "C/18hr.",
+							"tech_level": "9",
+							"legality_class": "2",
+							"tags": [
+								"Armor",
+								"Defenses"
+							],
+							"quantity": 1,
+							"value": 10000,
+							"weight": "15 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "skull",
+									"amount": 70
+								},
+								{
+									"type": "dr_bonus",
+									"location": "eye",
+									"amount": 50
+								},
+								{
+									"type": "dr_bonus",
+									"location": "face",
+									"amount": 50
+								}
+							],
+							"calc": {
+								"extended_value": 10000,
+								"extended_weight": "15 lb"
+							}
+						},
+						{
+							"id": "5a788ffb-5888-44c8-bc6f-1180a8df23ce",
+							"type": "equipment",
+							"description": "Боевая меха",
+							"reference": "UT186",
+							"notes": "Bad Grip 2. E/24hr. +10 ST +2 SM. Можно проапгрейдить до подводной мехи за 40,000$",
+							"tech_level": "9",
+							"legality_class": "1",
+							"tags": [
+								"Armor",
+								"Defenses"
+							],
+							"quantity": 1,
+							"value": 300000,
+							"weight": "800 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "eye",
+									"amount": 120
+								},
+								{
+									"type": "dr_bonus",
+									"location": "skull",
+									"amount": 120
+								},
+								{
+									"type": "dr_bonus",
+									"location": "face",
+									"amount": 120
+								},
+								{
+									"type": "dr_bonus",
+									"location": "neck",
+									"amount": 120
+								},
+								{
+									"type": "dr_bonus",
+									"location": "torso",
+									"amount": 120
+								},
+								{
+									"type": "dr_bonus",
+									"location": "vitals",
+									"amount": 120
+								},
+								{
+									"type": "dr_bonus",
+									"location": "groin",
+									"amount": 120
+								},
+								{
+									"type": "dr_bonus",
+									"location": "arm",
+									"amount": 120
+								},
+								{
+									"type": "dr_bonus",
+									"location": "hand",
+									"amount": 120
+								},
+								{
+									"type": "dr_bonus",
+									"location": "leg",
+									"amount": 120
+								},
+								{
+									"type": "dr_bonus",
+									"location": "foot",
+									"amount": 120
+								},
+								{
+									"type": "dr_bonus",
+									"location": "torso",
+									"amount": 80
+								},
+								{
+									"type": "dr_bonus",
+									"location": "vitals",
+									"amount": 80
+								},
+								{
+									"type": "attribute_bonus",
+									"limitation": "lifting_only",
+									"attribute": "st",
+									"amount": 10
+								},
+								{
+									"type": "attribute_bonus",
+									"limitation": "striking_only",
+									"attribute": "st",
+									"amount": 10
+								},
+								{
+									"type": "attribute_bonus",
+									"attribute": "basic_move",
+									"amount": 1
+								},
+								{
+									"type": "attribute_bonus",
+									"attribute": "sm",
+									"amount": 2
+								},
+								{
+									"type": "dr_bonus",
+									"location": "skull",
+									"amount": 80
+								}
+							],
+							"calc": {
+								"extended_value": 300000,
+								"extended_weight": "800 lb"
+							}
+						}
+					],
+					"description": "Экзоскелеты",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 465000,
+						"extended_weight": "1215 lb"
+					}
+				},
+				{
+					"id": "5840906a-1452-46f7-8625-41ed3254f494",
+					"type": "equipment_container",
+					"open": true,
+					"children": [
+						{
+							"id": "20b611e8-10ae-43ca-bb4b-84d9594d6281",
+							"type": "equipment_container",
+							"description": "Разгрузка",
+							"reference": "HT54",
+							"notes": "Holds 20-30lbs.",
+							"tech_level": "8",
+							"tags": [
+								"General Equipment"
+							],
+							"quantity": 1,
+							"value": 60,
+							"weight": "1 lb",
+							"calc": {
+								"extended_value": 60,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "374c9776-3191-4e99-8db1-aaba45493edb",
+							"type": "equipment_container",
+							"description": "Маленький рюкзак",
+							"reference": "HT54",
+							"notes": "Удерживает 50ф.",
+							"tech_level": "5",
+							"tags": [
+								"General Equipment"
+							],
+							"quantity": 1,
+							"value": 120,
+							"weight": "1.5 lb",
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "contained_weight_prereq",
+										"has": false,
+										"qualifier": {
+											"compare": "at_least",
+											"qualifier": "50 lb"
+										}
+									}
+								]
+							},
+							"calc": {
+								"extended_value": 120,
+								"extended_weight": "1.5 lb"
+							}
+						},
+						{
+							"id": "5d1a2132-1f5d-4e2f-9d69-327cddf7ee24",
+							"type": "equipment",
+							"description": "Одежда (Статус 0)",
+							"tech_level": "9",
+							"quantity": 1,
+							"value": 120,
+							"weight": "1 lb",
+							"calc": {
+								"extended_value": 120,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "bc679f4a-dbe9-4929-9836-b7f07c6c23f4",
+							"type": "equipment",
+							"description": "Одежда лёгкая (Статус 0)",
+							"reference": "HT63",
+							"tech_level": "9",
+							"tags": [
+								"Clothing"
+							],
+							"quantity": 1,
+							"value": 60,
+							"weight": "0.5 lb",
+							"calc": {
+								"extended_value": 60,
+								"extended_weight": "0.5 lb"
+							}
+						},
+						{
+							"id": "2c274582-16a5-4152-b29e-9050228c64c4",
+							"type": "equipment",
+							"description": "Футбольный шлем",
+							"reference": "HT70",
+							"notes": "DR+5 vs. cr.",
+							"tech_level": "9",
+							"tags": [
+								"Defenses"
+							],
+							"quantity": 1,
+							"value": 500,
+							"weight": "2 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "skull",
+									"amount": 3
+								},
+								{
+									"type": "dr_bonus",
+									"location": "face",
+									"amount": 3
+								},
+								{
+									"type": "dr_bonus",
+									"location": "face",
+									"specialization": "cr",
+									"amount": 5
+								},
+								{
+									"type": "dr_bonus",
+									"location": "skull",
+									"specialization": "cr",
+									"amount": 5
+								}
+							],
+							"calc": {
+								"extended_value": 500,
+								"extended_weight": "2 lb"
+							}
+						},
+						{
+							"id": "b42869f5-65d0-41f6-ba76-199969cccf22",
+							"type": "equipment",
+							"description": "Строительная каска",
+							"reference": "HT70",
+							"notes": "DR+5 vs. cr.",
+							"tech_level": "9",
+							"tags": [
+								"Defenses"
+							],
+							"quantity": 1,
+							"value": 250,
+							"weight": "1 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "skull",
+									"amount": 3
+								},
+								{
+									"type": "dr_bonus",
+									"location": "skull",
+									"specialization": "cr",
+									"amount": 5
+								}
+							],
+							"calc": {
+								"extended_value": 250,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "32ca8809-a643-4e49-aba3-89bc4426d827",
+							"type": "equipment",
+							"description": "Синткожаная куртка ",
+							"reference": "B283",
+							"tech_level": "9",
+							"legality_class": "-",
+							"tags": [
+								"Body Armor"
+							],
+							"quantity": 1,
+							"value": 400,
+							"weight": "2 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "torso",
+									"amount": 2
+								},
+								{
+									"type": "dr_bonus",
+									"location": "vitals",
+									"amount": 2
+								},
+								{
+									"type": "dr_bonus",
+									"location": "arm",
+									"amount": 2
+								}
+							],
+							"calc": {
+								"extended_value": 400,
+								"extended_weight": "2 lb"
+							}
+						},
+						{
+							"id": "88f69c56-6edd-4669-abd8-a3bde372028b",
+							"type": "equipment",
+							"description": "Мотоциклетный шлем с забралом",
+							"reference": "HT70",
+							"tech_level": "9",
+							"tags": [
+								"Defenses"
+							],
+							"quantity": 1,
+							"value": 1000,
+							"weight": "2 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "skull",
+									"amount": 8
+								},
+								{
+									"type": "dr_bonus",
+									"location": "face",
+									"amount": 6
+								},
+								{
+									"type": "dr_bonus",
+									"location": "eye",
+									"amount": 6
+								}
+							],
+							"calc": {
+								"extended_value": 1000,
+								"extended_weight": "2 lb"
+							}
+						}
+					],
+					"description": "Обиходные вещи",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 2510,
+						"extended_weight": "11 lb"
+					}
+				},
+				{
+					"id": "c0802992-9d0d-43b3-85c5-4b66cea8e720",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "2d2bab04-ed35-453a-92e1-1ff2a06a005b",
+							"type": "equipment",
+							"description": "Костюм-хамелеон",
+							"reference": "UT99",
+							"notes": "It gives +2 to Stealth skill against ordinary and infrared vision, +1 against hyperspectral or ultraviolet vision. This bonus is halved (round down) if moving",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Deception and Intrusion"
+							],
+							"quantity": 1,
+							"value": 2000,
+							"weight": "5 lb",
+							"calc": {
+								"extended_value": 2000,
+								"extended_weight": "5 lb"
+							}
+						}
+					],
+					"description": "Спец одежда",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 2000,
+						"extended_weight": "5 lb"
+					}
+				},
+				{
+					"id": "3a6594ae-1b64-4af8-85c3-143664a0d9bb",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "03916c96-a009-4208-8cea-dec1ab6a7602",
+							"type": "equipment",
+							"description": "Электрохроматика",
+							"notes": "Может изменять цвет при подаче напряжения, это позволяет изменять цвет одежды или показывать картинки или текст.",
+							"quantity": 1,
+							"value": 500,
+							"calc": {
+								"extended_value": 500,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "7fae5c8e-2989-41b6-9a87-c867a80af320",
+							"type": "equipment",
+							"description": "Химподкладка",
+							"notes": "Водооталкивающие, непроницаемые материалы, защищающие кожу от внешней среды",
+							"quantity": 1,
+							"value": 500,
+							"calc": {
+								"extended_value": 500,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "95ee9fa6-4d6d-4fc3-9ec1-0fa43163db37",
+							"type": "equipment",
+							"description": "Химзащита",
+							"notes": "Применимо только к полному комплекту брони. Обеспечивает полную герметичность и запас кислорода на час активных действий.",
+							"legality_class": "3",
+							"quantity": 1,
+							"value": 6000,
+							"weight": "14 lb",
+							"calc": {
+								"extended_value": 6000,
+								"extended_weight": "14 lb"
+							}
+						},
+						{
+							"id": "a6649394-3b88-42bd-9a91-929a6ce7b496",
+							"type": "equipment",
+							"description": "Огнеупорность",
+							"notes": "Материал не может загореться, а также обеспечивает дополнительные 4 DR от прямого контакта с огнём",
+							"quantity": 1,
+							"value": 500,
+							"weight": "1 lb",
+							"calc": {
+								"extended_value": 500,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "294357ff-2c58-438d-aeaa-8e2b64b0de90",
+							"type": "equipment",
+							"description": "Диэлектрик",
+							"notes": "Материал не пропускает электричество. Может защитить от 20 урона, вызванного электричеством, и эффектов с ним связанных. Не защищает от ЭМИ",
+							"quantity": 1,
+							"value": 1500,
+							"weight": "1 lb",
+							"calc": {
+								"extended_value": 1500,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "9bbc9bb8-2870-4d8f-a2a8-a313236771c4",
+							"type": "equipment",
+							"description": "Рассеиватель ИК-излучения",
+							"notes": "-4 к обнаружению владельца с помощью ИК-сенсоров и тепловизоров",
+							"legality_class": "3",
+							"quantity": 1,
+							"value": 2000,
+							"weight": "4 lb",
+							"calc": {
+								"extended_value": 2000,
+								"extended_weight": "4 lb"
+							}
+						},
+						{
+							"id": "eb79b4bd-c0b8-4f72-a55c-07646c7ed9c2",
+							"type": "equipment",
+							"description": "Климатконтроль",
+							"notes": "Поддерживает комфортную температуру",
+							"quantity": 1,
+							"value": 300,
+							"weight": "1 lb",
+							"calc": {
+								"extended_value": 300,
+								"extended_weight": "1 lb"
+							}
+						}
+					],
+					"description": "Аксессуары к одежде и броне",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 11300,
+						"extended_weight": "21 lb"
+					}
+				}
+			],
+			"description": "Броня и одежда",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 524040,
+				"extended_weight": "1339.1 lb"
+			}
+		},
+		{
+			"id": "61745f4f-e21c-4c0e-8e61-9552f7050507",
+			"type": "equipment_container",
+			"children": [
+				{
+					"id": "8c30e2e0-5c63-4e65-8b1d-eb7c74841d0e",
+					"type": "equipment",
+					"description": "Чип с кредитами",
+					"quantity": 1,
+					"value": 1,
+					"calc": {
+						"extended_value": 1,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "20c7f21f-ef17-4a56-8fcb-e5bf5a04d6e5",
+					"type": "equipment",
+					"description": "Плоская камера",
+					"reference": "UT51",
+					"notes": "A/10hr.",
+					"tech_level": "9",
+					"tags": [
+						"Media and Education"
+					],
+					"quantity": 1,
+					"value": 50,
+					"weight": "0.1 lb",
+					"calc": {
+						"extended_value": 50,
+						"extended_weight": "0.1 lb"
+					}
+				},
+				{
+					"id": "91ee1f46-a30b-4fc8-9771-edd4a71d22d4",
+					"type": "equipment",
+					"description": "Хранилище данных",
+					"reference": "UT51",
+					"notes": "Вес и цена за 100TB.",
+					"tech_level": "9",
+					"tags": [
+						"Media and education"
+					],
+					"quantity": 1,
+					"value": 100,
+					"weight": "1 lb",
+					"calc": {
+						"extended_value": 100,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "4045c2dd-81ac-4236-acad-c0c1fd473339",
+					"type": "equipment",
+					"description": "Электронные отмычки",
+					"reference": "UT95",
+					"notes": "A/2hr.",
+					"tech_level": "9",
+					"legality_class": "2",
+					"tags": [
+						"Deception and Intrusion"
+					],
+					"quantity": 1,
+					"value": 1500,
+					"weight": "0.2 lb",
+					"calc": {
+						"extended_value": 1500,
+						"extended_weight": "0.2 lb"
+					}
+				},
+				{
+					"id": "aaabd78f-7456-49ea-8f28-50a54f954724",
+					"type": "equipment",
+					"description": "Очки ночного видения (\"Ночные солнцезащитные\")",
+					"reference": "UT60",
+					"notes": "Адаптация к темноте 8. 2x magnification. A/10hr.",
+					"tech_level": "9",
+					"tags": [
+						"Sensors and Scientific Equipment"
+					],
+					"quantity": 1,
+					"value": 700,
+					"weight": "0.1 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"location": "eye",
+							"amount": 2
+						}
+					],
+					"calc": {
+						"extended_value": 700,
+						"extended_weight": "0.1 lb"
+					}
+				},
+				{
+					"id": "e2eea89a-5086-472d-a473-0f01bf8ad5df",
+					"type": "equipment",
+					"description": "Инфракрасные очки",
+					"reference": "UT61",
+					"notes": "A/10hr.",
+					"tech_level": "9",
+					"tags": [
+						"Sensors and Scientific Equipment"
+					],
+					"quantity": 1,
+					"value": 800,
+					"weight": "0.1 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"location": "eye",
+							"amount": 2
+						}
+					],
+					"calc": {
+						"extended_value": 800,
+						"extended_weight": "0.1 lb"
+					}
+				},
+				{
+					"id": "9e33f73d-dd24-4b60-8ff6-8b4cc379c226",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "76abc168-7e14-4490-8358-44a655a25383",
+							"type": "equipment",
+							"description": "Актисофт",
+							"notes": "Хранит в себе DX навыки. Цена за 1 уровень чипа (2 очка навыка/преимущества). Уровень 3 - КЛ 3. Уровень 4 - КЛ 2",
+							"quantity": 1,
+							"value": 8000,
+							"calc": {
+								"extended_value": 8000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "aaef5701-17d1-4a53-b95e-a42f55583d2f",
+							"type": "equipment",
+							"description": "Знаниесофт",
+							"notes": "Хранит в себе IQ навыки или ментальные преимущества. Цена за 1 уровень чипа (2 очка навыка/преимущества). Уровень 4 - КЛ 3",
+							"quantity": 1,
+							"value": 5000,
+							"calc": {
+								"extended_value": 5000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "6a0c4a20-1980-4022-afe9-fc658248851d",
+							"type": "equipment",
+							"description": "Лингвософт",
+							"notes": "Хранит в себе знание @Название языка@ языка. Цена за 1 уровень чипа (2 очка преимущества).",
+							"quantity": 1,
+							"value": 2000,
+							"calc": {
+								"extended_value": 2000,
+								"extended_weight": "0 lb"
+							}
+						}
+					],
+					"description": "Скиллчипы",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 15000,
+						"extended_weight": "0 lb"
+					}
+				}
+			],
+			"description": "Электроника",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 18151,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "56a41315-a218-4169-8443-1bba91a4bbdc",
+			"type": "equipment_container",
+			"children": [
+				{
+					"id": "159550c4-f319-49df-a9a3-31e099788123",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "cb242fc1-1dce-482e-8b00-cef5a48040e7",
+							"type": "equipment",
+							"description": "Фальшивый ГРЕх 1",
+							"notes": "Всё случайное, возраст, национальность и пол могут не совпадать; нет\nдополнительных данных. Модификатор проверяющему: +10 или +4 при беглом взгляде",
+							"legality_class": "2",
+							"quantity": 1,
+							"value": 2500,
+							"calc": {
+								"extended_value": 2500,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "2723d649-9bb4-488a-914f-86671d6fe9ef",
+							"type": "equipment",
+							"description": "Фальшивый ГРЕх 2",
+							"notes": "Грубая работа; пол совпадает, возраст и национальность «примерно те»; нет дополнительных данных. Модификатор проверяющему: +5 или +0 при беглом взгляде",
+							"legality_class": "2",
+							"quantity": 1,
+							"value": 5000,
+							"calc": {
+								"extended_value": 5000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "351d34ac-0057-4962-9b4a-e4b92b481c31",
+							"type": "equipment",
+							"description": "Фальшивый ГРЕх 3",
+							"notes": "Неплохо; пол, возраст и национальность совпадают; дополнительные данные есть, но их фальшь очевидна. Модификатор проверяющему: +2 или -5 при беглом взгляде",
+							"legality_class": "2",
+							"quantity": 1,
+							"value": 7500,
+							"calc": {
+								"extended_value": 7500,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "22243da0-5a22-40d8-9700-90bfb85329b1",
+							"type": "equipment",
+							"description": "Фальшивый ГРЕх 4",
+							"notes": "Довольно правдоподобен; пол, возраст и национальность совпадают; дополнительные данные пригодны\nтолько для небрежной проверки. Модификатор проверяющему: +0 или -10 для беглом взгляде",
+							"legality_class": "2",
+							"quantity": 1,
+							"value": 10000,
+							"calc": {
+								"extended_value": 10000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "809d0671-4ffe-437f-b87d-e604f4c0cce6",
+							"type": "equipment",
+							"description": "Фальшивый ГРЕх 5",
+							"notes": "Надёжен; вся статистика правильна; правильные биометрические данные другого человека (с образцами); дополнительные данные содержат историю. Модификатор проверяющему: -5 или автопровал при беглом взгляде",
+							"legality_class": "2",
+							"quantity": 1,
+							"value": 15000,
+							"calc": {
+								"extended_value": 15000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "fe2716f1-3f1f-4536-8916-3b4c8cb75ac1",
+							"type": "equipment",
+							"description": "Фальшивый ГРЕх 6",
+							"notes": "Альтернативная жизнь; вся статистика правильна; правильные биометрические данные с образцами; полная и правдоподобная история. Модификатор проверяющему: автопровал или -5 при глубокой проверке",
+							"legality_class": "2",
+							"quantity": 1,
+							"value": 30000,
+							"calc": {
+								"extended_value": 30000,
+								"extended_weight": "0 lb"
+							}
+						}
+					],
+					"description": "Глобальная Регистрация (ГРЕх)",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 70000,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "2cdda92b-d230-4530-ae36-81dd52329f8c",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "4aad3dac-ee6b-4066-a1d6-d20464fd9525",
+							"type": "equipment",
+							"description": "Фальшивая лицензия на огнестрельное оружие",
+							"notes": "Позволяет покупать, использовать и продавать неавтоматическое огнестрельное оружие и боеприпасы",
+							"legality_class": "2",
+							"quantity": 1,
+							"value": 200,
+							"calc": {
+								"extended_value": 200,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "d9d0d7f2-3512-43ab-8bf9-ab18e9146596",
+							"type": "equipment",
+							"description": "Фальшивая лицензия на автоматическое огнестрельное оружие",
+							"notes": "Позволяет покупать, использовать и продавать автоматическое огнестрельное оружие. Требует наличия базовой лицензии на оружие",
+							"legality_class": "2",
+							"quantity": 1,
+							"value": 200,
+							"calc": {
+								"extended_value": 200,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "f65b3746-064a-40ea-9395-75d837ccdf75",
+							"type": "equipment",
+							"description": "Фальшивая лицензия на скрытое ношение",
+							"notes": "Позволяет скрытно носить огнестрельное оружие",
+							"legality_class": "2",
+							"quantity": 1,
+							"value": 200,
+							"calc": {
+								"extended_value": 200,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "d89610bc-718e-4e9e-8e30-8873fc01d806",
+							"type": "equipment",
+							"description": "Фальшивая лицензия на управление @Вид транспорта@",
+							"notes": "Позволяет управлять @Вид транспорта@",
+							"legality_class": "2",
+							"quantity": 1,
+							"value": 200,
+							"calc": {
+								"extended_value": 200,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "e0a00300-439b-4888-9c2b-880eee9f7368",
+							"type": "equipment",
+							"description": "Фальшивая лицензия на магию",
+							"notes": "Регистрация Пробуждённого метачеловека. Позволяет применять магию.",
+							"legality_class": "2",
+							"quantity": 1,
+							"value": 200,
+							"calc": {
+								"extended_value": 200,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "cb55884d-1773-44dd-994f-b87554b4da42",
+							"type": "equipment",
+							"description": "Фальшивая лицензия на Боевое заклинание @Название заклинания@",
+							"notes": "Позволяет применять одно конкретное боевое заклинание",
+							"legality_class": "2",
+							"quantity": 1,
+							"value": 200,
+							"calc": {
+								"extended_value": 200,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "8cbd5e3c-25f6-40dc-8ea9-ec18c2189a5e",
+							"type": "equipment",
+							"description": "Фальшивая лицензия Техномансера",
+							"notes": "Регистрация метачеловека как Техномансера. Позволяет использовать Резонансные способности",
+							"legality_class": "2",
+							"quantity": 1,
+							"value": 200,
+							"calc": {
+								"extended_value": 200,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "6e0e31a7-3220-42d5-a838-56772265a7d1",
+							"type": "equipment",
+							"description": "Фальшивая профессиональная лицензия: @Вид профессии@",
+							"notes": "Право на осуществление профессиональной деятельности",
+							"legality_class": "2",
+							"quantity": 1,
+							"value": 200,
+							"calc": {
+								"extended_value": 200,
+								"extended_weight": "0 lb"
+							}
+						}
+					],
+					"description": "Лицензии",
+					"notes": "Цена за 1 рейтинг. При проверке лицензии сверяется присоединённый ГРЕх. Проверяется наименьшее между ГРЕхом и лицензией. Спалится одно - спалится и второе",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 1600,
+						"extended_weight": "0 lb"
+					}
+				}
+			],
+			"description": "Документы",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 71600,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "c6de823b-ca43-462d-b43c-3390fc94c900",
+			"type": "equipment_container",
+			"children": [
+				{
+					"id": "fb91f598-2db1-4f8b-9f87-258e88f0c51a",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "5fadf22e-dbf1-4d01-b2d1-643380af549c",
+							"type": "equipment",
+							"description": "Базовый",
+							"quantity": 1,
+							"value": 5000,
+							"calc": {
+								"extended_value": 5000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "5a4bce1f-eb9e-4f69-8dc5-2d1c29c4ea64",
+							"type": "equipment",
+							"description": "Золотой",
+							"notes": "1 бесплатный вызов реанимационной службы с 50% скидкой РБ. Скидка 10% на услуги клиники.",
+							"quantity": 1,
+							"value": 25000,
+							"calc": {
+								"extended_value": 25000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "cddb4a03-275c-49d6-8d82-b5aa5290090c",
+							"type": "equipment",
+							"description": "Платиновый",
+							"notes": "3 бесплатных вызова реанимационной службы с бесплатным РБ впридачу. Скидка 50% на услуги клиники.",
+							"quantity": 1,
+							"value": 50000,
+							"calc": {
+								"extended_value": 50000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "834e1468-1f51-46a9-9dba-781d5ed8dfb8",
+							"type": "equipment",
+							"description": "Супер-Платиновый",
+							"notes": "5 бесплатных вызовов реанимационной службы с бесплатным РБ впридачу, при этом компенсация за вред РБ не выплачивается клиентом. 50% скидка на услуги клиники. ",
+							"quantity": 1,
+							"value": 100000,
+							"calc": {
+								"extended_value": 100000,
+								"extended_weight": "0 lb"
+							}
+						}
+					],
+					"description": "ДокФургон",
+					"notes": "Цена в год. \nПозволяет вызвать вооружённую реанимационную службу (возможен автоматический вызов по показаниями биомонитора)\nТрубется сдать образцы тканей и имплантировать/носить биомонитор.\nСтоимость вызова реанимационной службы: 5,000. \nСтоимость вызова Рисковой Бригады (РБ): 5,000. \nКлиент выплачивает стоимость повреждённого снаряжения и стоимость реабилитации раненых сотрудников ДокФургона, если таковые случились во время спасения клиента.\nШтраф за смерть сотрудника ДокФургона: 20,000.",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 180000,
+						"extended_weight": "0 lb"
+					}
+				}
+			],
+			"description": "Подписки",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 180000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "230dcc05-6492-40ed-bf24-2a8e9cff10a9",
+			"type": "equipment_container",
+			"children": [
+				{
+					"id": "9213b5e6-00bf-4d90-95bf-a6f494c5d979",
+					"type": "equipment",
+					"description": "Анальгин, доза",
+					"notes": "Снимает боль и даёт High Pain Threshold на (25-HT)/4 часа. Даёт сонливость (Каждые 2 часа Воля чтобы не уснуть, при успехе -2 к DX) и Numb на время действия",
+					"tech_level": "9",
+					"legality_class": "3",
+					"quantity": 1,
+					"value": 30,
+					"calc": {
+						"extended_value": 30,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "62709289-60b9-47e1-ace4-6699e66dcbf4",
+					"type": "equipment",
+					"description": "Морфин, доза",
+					"notes": "Сопротивление HT-4. Снимает боль и даёт High Pain Threshold и Unfazeable на количество провалов х часов. Даёт Laziness и эйфорию",
+					"tech_level": "5",
+					"legality_class": "3",
+					"quantity": 1,
+					"value": 20,
+					"calc": {
+						"extended_value": 20,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "2624b47b-a21a-43f7-8cee-1a366758c987",
+					"type": "equipment",
+					"description": "Хлороформ",
+					"notes": "Сопротивление HT-3 за минуту дыхания. Потеря сознания",
+					"tech_level": "5",
+					"legality_class": "3",
+					"quantity": 1,
+					"value": 20,
+					"calc": {
+						"extended_value": 20,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "8a4460e4-760d-41de-b3c4-27c9fa32275e",
+					"type": "equipment",
+					"description": "Гиперкоагулин, доза",
+					"notes": "Останавливает кровотечение. Опасно применение больше 1 дозы за день",
+					"tech_level": "9",
+					"legality_class": "3",
+					"quantity": 1,
+					"value": 50,
+					"calc": {
+						"extended_value": 50,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "734c82a2-7ba8-4a3d-82a8-8ffc465965ab",
+					"type": "equipment",
+					"description": "Флунитразепам, доза",
+					"notes": "Даёт сонлиовость (-2 DX). Проверка HT, при успехе сон на (10-HT/2) часов, при провале на 2 часа больше и не может быть разбужен. Проверка HT-5, при провале забывает детали событий перед приёмом",
+					"tech_level": "7",
+					"legality_class": "2",
+					"quantity": 1,
+					"value": 10,
+					"calc": {
+						"extended_value": 10,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "5b85a301-e2a2-49e9-a965-3fb06566945f",
+					"type": "equipment",
+					"description": "Модафинил, доза",
+					"notes": "Даёт Doesn't Sleep на 24 часа. ",
+					"tech_level": "8",
+					"quantity": 1,
+					"value": 20,
+					"calc": {
+						"extended_value": 20,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "919ce96a-e1fd-47b3-b026-1ac7b71bcb9f",
+					"type": "equipment",
+					"description": "Капсула оживления",
+					"notes": "При вдыхание приводит человека в сознание и/или выводит из оглушения при проверке HT+5",
+					"tech_level": "9",
+					"quantity": 1,
+					"value": 10,
+					"calc": {
+						"extended_value": 10,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "053306e3-5af9-48c1-9dcf-a3c6eb8ff0f6",
+					"type": "equipment",
+					"description": "Суперстим, доза",
+					"notes": "Восстанавливает 1d FP. По прошествию (кол-во успехов на проверке HT, мин. 1) часа эти FP, плюс ещё 2 дополнительно, исчезают",
+					"tech_level": "9",
+					"quantity": 1,
+					"value": 30,
+					"calc": {
+						"extended_value": 30,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "c2fb1336-f0ae-4070-b34e-885dcec73871",
+					"type": "equipment",
+					"description": "Стимулятор HT, доза",
+					"notes": "+1 к HT на время (25-HT)/4. По прошествию времени, -2 HT на  (25-HT)/2",
+					"tech_level": "9",
+					"quantity": 1,
+					"value": 100,
+					"calc": {
+						"extended_value": 100,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "404087d5-9ff1-4bda-a9fa-523bc9b3378f",
+					"type": "equipment",
+					"description": "Стимулятор ST, доза",
+					"notes": "+1 к ST на время (25-HT)/4. По прошествию времени, -2 ST на  (25-HT)/2",
+					"tech_level": "9",
+					"quantity": 1,
+					"value": 100,
+					"calc": {
+						"extended_value": 100,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "760c9b09-7dc3-43a1-a809-53594361c27e",
+					"type": "equipment",
+					"description": "Стимулятор DX, доза",
+					"notes": "+1 к DX на время (25-HT)/4. По прошествию времени, -2 DX на  (25-HT)/2",
+					"tech_level": "9",
+					"quantity": 1,
+					"value": 100,
+					"calc": {
+						"extended_value": 100,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "d1e025d7-9ce4-408f-a1a8-33803149bc25",
+					"type": "equipment",
+					"description": "Стимулятор Скорости, доза",
+					"notes": "+1 к Basic Move на время (25-HT)/4. По прошествию времени, -2 Basic Move на  (25-HT)/2",
+					"tech_level": "9",
+					"quantity": 1,
+					"value": 100,
+					"calc": {
+						"extended_value": 100,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "f7e3a307-e7f4-42ae-99bd-7b030f98fee6",
+					"type": "equipment",
+					"description": "Торпин, доза",
+					"notes": "Вводит субъект в состояние, похожее на смерть. Сопротивление HT, если принято невольно. Субъект требует в 32 раза меньше еды/воды и в 2 раза меньше кислорода. Проверка Диагностики против HT+5, чтобы узнать, что субъект не мёртв. Одна доза - один день, можно принять несколько доз",
+					"tech_level": "9",
+					"legality_class": "2",
+					"quantity": 1,
+					"value": 200,
+					"calc": {
+						"extended_value": 200,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "420ea349-b8af-466f-8fe4-9a0107b95f0c",
+					"type": "equipment",
+					"description": "Эверин, доза",
+					"notes": "+2 к Per на 24 часа",
+					"tech_level": "9",
+					"quantity": 1,
+					"value": 100,
+					"calc": {
+						"extended_value": 100,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "7eaa7db5-3047-492d-b413-b26d7232c0e7",
+					"type": "equipment",
+					"description": "Анти-сэд, доза",
+					"notes": "+6 HT сопротивления против психоактивных веществ",
+					"tech_level": "9",
+					"legality_class": "2",
+					"quantity": 1,
+					"value": 100,
+					"calc": {
+						"extended_value": 100,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "6091aabb-9a63-464c-a2d5-58aa51eada06",
+					"type": "equipment",
+					"description": "Афрозин, доза",
+					"notes": "Усиливает удовольствие от сексуальной стимуляции на час",
+					"tech_level": "9",
+					"quantity": 1,
+					"value": 20,
+					"calc": {
+						"extended_value": 20,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "095d6e53-a3e6-4ef5-bcab-b6a21bc0e710",
+					"type": "equipment",
+					"description": "Мускус, доза",
+					"notes": "Маскирует запах на 12 часов. -3 к поиску по запаху",
+					"tech_level": "9",
+					"quantity": 1,
+					"value": 20,
+					"calc": {
+						"extended_value": 20,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "f377181c-4a35-4276-9ad0-07ac68c26271",
+					"type": "equipment",
+					"description": "Феромоны, доза",
+					"notes": "Сопротивление HT. Те кто чувствуют запах, получают Развратность (12), пока источник запаха не пропадёт",
+					"tech_level": "9",
+					"legality_class": "3",
+					"quantity": 1,
+					"value": 120,
+					"calc": {
+						"extended_value": 120,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "c99f0997-8a4b-4888-81f8-33c997456cd5",
+					"type": "equipment",
+					"description": "Противоядие широкого спектра, доза",
+					"notes": "Проверка HT+2 для сопротивления любым ядам и токсинам",
+					"tech_level": "9",
+					"legality_class": "3",
+					"quantity": 1,
+					"value": 50,
+					"calc": {
+						"extended_value": 50,
+						"extended_weight": "0 lb"
+					}
+				}
+			],
+			"description": "Фармацевтика",
+			"notes": "Может быть в виде таблеток; раствора для внутривенного приёма; мази; капель; ингаляционной смеси. ",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "192a1944-56fe-45dc-99d9-cf33982f8304",
+			"type": "equipment_container",
+			"children": [
+				{
+					"id": "b64c2c7b-607b-4e5b-8cca-954fb59f7833",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "1bfd3aee-c648-4438-889c-7fd788cdc910",
+							"type": "equipment",
+							"description": "Риг-Интерфейс",
+							"notes": "Позволяет использовать модуль контроля для впрыгивания в машину и непосредственного её контроля через виртуальную реальность. Обычный риг-интерфейс позволяет подключатся к контролируемой машине по прямому оптоволоконному кабелю или беспроводному каналу.",
+							"quantity": 1,
+							"value": 1000,
+							"calc": {
+								"extended_value": 1000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "3f69aa71-b4e9-42b7-b02e-0cb224b2c357",
+							"type": "equipment",
+							"description": "Стандартное оружейное крепление",
+							"notes": "Стандартное оружейное крепление может вместить штурмовую винтовку (Bulk от -4 до -5) и несёт 250 патронов. Смонтированное вооружение управляется удалённо.\nИспользует 1 ёмкость модификаций",
+							"legality_class": "2",
+							"quantity": 1,
+							"value": 2500,
+							"calc": {
+								"extended_value": 2500,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "ca5502a8-6cbe-4a39-9cc4-20bc19580ac3",
+							"type": "equipment",
+							"description": "Тяжелое оружейное крепление",
+							"notes": "Тяжёлое оружейное крепление может нести 2 оружия причём любых и несёт 500 патронов в ленте или ракеты. Смонтированное вооружение управляется удалённо.\nИспользует 2 ёмкости модификаций",
+							"legality_class": "2",
+							"quantity": 1,
+							"value": 5000,
+							"calc": {
+								"extended_value": 5000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "034581f3-6e75-4e27-a9fa-4b93ef28f695",
+							"type": "equipment",
+							"description": "Ручное управление вооружением",
+							"notes": "Позволяет использовать вооружением машины без подключения к ней.\nИспользует 1 ёмкость модификаций",
+							"legality_class": "2",
+							"quantity": 1,
+							"value": 500,
+							"calc": {
+								"extended_value": 500,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "aa35c078-1594-4f3b-9806-5c832934fc1d",
+							"type": "equipment",
+							"description": "Рука-манипулятор",
+							"notes": "Цена за 1 рейтинг. Максимальный рейтинг = 3. Позволяет манипулировать с объёктами\nЗанимает 1 ёмкость за рейтинг.\nРейтинг 1 = 4 ST, Рейтинг 2 = 10 ST, Рейтинг 3 = 16 ST",
+							"quantity": 1,
+							"value": 3000,
+							"calc": {
+								"extended_value": 3000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "7bc68281-1a05-4dc8-aeaa-d5c5ade2cb70",
+							"type": "equipment",
+							"description": "Выдвижное крепление",
+							"notes": "Позволяет спрятать оружие внутри корпуса . \nКомбинируется с оружейным креплением. Занимает 1 ёмкость. Цена * максимальный Bulk вмещаемого оружия",
+							"quantity": 1,
+							"value": 100,
+							"calc": {
+								"extended_value": 100,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "74a7d592-7cc9-438f-a569-cd34dd622858",
+							"type": "equipment",
+							"description": "Бойница",
+							"notes": "Позволяет вести огонь изнутри машины, не открывая двери/окна. Цена за одну бойницу",
+							"quantity": 1,
+							"value": 200,
+							"calc": {
+								"extended_value": 200,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "73497f48-a084-45fa-a0a0-d71b7388ca7f",
+							"type": "equipment",
+							"description": "HUD на лобовом стекле",
+							"quantity": 1,
+							"value": 500,
+							"calc": {
+								"extended_value": 500,
+								"extended_weight": "0 lb"
+							}
+						}
+					],
+					"description": "Улучшения для транспорта",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 12800,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "4c8054d3-3201-43b1-b21e-4d456c9063df",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "95c7998d-bcb6-4846-bf47-49b10a0a0815",
+							"type": "equipment_container",
+							"description": "Интертеймент Системс Циклоп",
+							"notes": "У него колесо под седоком, впереди/сзади. Водитель сидит на одном колесе, а баланс сей конструкции поддерживается системой гироскопов. Может вместить 1 модификацию. \nST/HP 15; Hnd/SR +2/1; HT 10f; Move 5/25*; LWt. 0.1; Load 0; SM -2; Occ 1; DR 2; Range 40; Locations EW. Complexity 4.",
+							"tech_level": "9",
+							"quantity": 1,
+							"value": 6000,
+							"weight": "60 lb",
+							"calc": {
+								"extended_value": 6000,
+								"extended_weight": "60 lb"
+							}
+						},
+						{
+							"id": "cdcd6a24-9100-4f04-a85b-ad7728494848",
+							"type": "equipment_container",
+							"description": "Додж Скут / Хёндай Хоппер / Интертеймент Системс Папус",
+							"notes": "Скорость этого электрического скутера собьёт ваш смех. Он компактен, экономичен и супердоступен, но если коллеги-бегущие вас заметят сидящим на нём — от подколок не отмоетесь.\nST/HP 20; Hnd/SR +1/2; HT 10; Move 3/25*; LWt. 0.2; Load 0.1; SM -1; Occ 1; DR 3; Range 40; Locations E2W. Complexity 4",
+							"tech_level": "9",
+							"quantity": 1,
+							"value": 3000,
+							"weight": "100 lb",
+							"calc": {
+								"extended_value": 3000,
+								"extended_weight": "100 lb"
+							}
+						},
+						{
+							"id": "988dd246-81a9-44c4-9699-6780ff6d9d1a",
+							"type": "equipment_container",
+							"description": "Хорайзон-Дабл Революция",
+							"notes": "Это закрытый уницикл, водитель которого сидит внутри колеса. Визуал дороги передается исключительно в ДР, ведь физический обзор блокируется гигантской смарт-шиной. \nST/HP 20; Hnd/SR +3/1; HT 10f; Move 7/50*; LWt. 0.2; Load 1; SM -2; Occ 1; DR 4; Range 100; Locations EW. Complexity 5.",
+							"tech_level": "9",
+							"quantity": 1,
+							"value": 15000,
+							"calc": {
+								"extended_value": 15000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "efd5633e-ed1c-4324-9143-f56c9ff89bd0",
+							"type": "equipment_container",
+							"description": "Харли-Дэвидсон Скорпион / БМВ Блиц / Газ-Ники Титан",
+							"notes": "Классический, мощный, жёстко хромированный король дорог, бронированный и пугающий. Очень популярен в го-бандах определённого типа, а также среди орков и троллей не заботящихся развенчиванием клише. Этот байк достаточно крепок для использования в боевом байкинге.\nST/HP 33; Hnd/SR +1/2; HT 11f; Move 8/65*; LWt. 0.5; Load 0.2; SM 0; Occ 1+1; DR 5; Range 200; Locations E2W. Complexity 5",
+							"tech_level": "9",
+							"quantity": 1,
+							"value": 12000,
+							"calc": {
+								"extended_value": 12000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "8dc44e16-a991-4a2d-a5e0-e84c6fa00d76",
+							"type": "equipment_container",
+							"description": "Сузуки Мираж / Ямаха Рапира / Тандерклауд Контраил",
+							"notes": "Японский гоночный мотоцикл, быстрый, вёрткий и популярный среди го-банд другого типа, хотя следует заметить, что Скорпионы и Миражи одинаково популярны у Резаков, но Древние предпочитают Миражи и его родичей. Мираж также используется в боевом байкинге\nST/HP 30; Hnd/SR +2/2; HT 10f; Move 10/100*; LWt. 0.4; Load 0.2; SM 0; Occ 1+1; DR 4; Range 150; Locations E2W. Complexity 5",
+							"tech_level": "9",
+							"quantity": 1,
+							"value": 15000,
+							"calc": {
+								"extended_value": 15000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "e05b63d1-15cb-42e8-b249-9ecc89ff31f9",
+							"type": "equipment_container",
+							"description": "Ямаха Кабурая",
+							"notes": "Последний гоночный байк Ямаха Кабурая, такой же гладкий и громкий, как стрела, в честь которой назван. Ультралегкий мотор этого демонического байка тяжелее всего остального мотоцикла. Низкий профиль и одиночная передняя вилка делают мотоцикл одним из самых легко узнаваемых на улицах.\nST/HP 30; Hnd/SR +2/2; HT 10f; Move 11/120*; LWt. 0.3; Load 0.2; SM 0; Occ 1+1; DR 3; Range 150; Locations E2W. Complexity 5",
+							"tech_level": "9",
+							"quantity": 1,
+							"value": 22000,
+							"calc": {
+								"extended_value": 22000,
+								"extended_weight": "0 lb"
+							}
+						}
+					],
+					"description": "Мотоциклы",
+					"notes": "Может быть установлено не больше 1 ёмкости модификаций",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 73000,
+						"extended_weight": "160 lb"
+					}
+				},
+				{
+					"id": "f8c581f9-a1af-4a7b-894e-2f60566e9d5f",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "107af31b-4ef0-4eae-91e0-728c340279cc",
+							"type": "equipment_container",
+							"description": "Крайслер-Ниссан Джекраббит / Пежо 112 / Опель Луна",
+							"notes": "Дешёвая вездесущая электрическая малолитражка десятилетиями производившаяся в Северной Америке. А после этого в странах третьего мира выпускались десятки подражаний. Также на дорогах встречается множество старых моделей.\nST/HP 35; Hnd/SR 0/3; HT 10; Move 2/40*; LWt. 0.8; Load 0.25; SM +2; Occ 1+1; DR 4; Range 100; Locations O4W. Complexity 5",
+							"tech_level": "9",
+							"quantity": 1,
+							"value": 10000,
+							"calc": {
+								"extended_value": 10000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "3cd79871-5af0-407e-a013-a12317fe4a7c",
+							"type": "equipment_container",
+							"description": "Хонда Спирит / Усин Бризер / Тойота Газель",
+							"notes": "Изящный трёхколёсный двухместныйавтомобиль оснащён электрическим двигателем и популярен среди ездящих на работу жителей сверхплотных застроек.\nST/HP 35; Hnd/SR -1/3; HT 10; Move 3/50*; LWt. 0.6; Load 0.1; SM +2; Occ 1+1; DR 4; Range 100; Locations O4W. Complexity 5.",
+							"tech_level": "9",
+							"quantity": 1,
+							"value": 12000,
+							"calc": {
+								"extended_value": 12000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "7e259cb9-b0c4-4fd8-988b-784ce98bdba5",
+							"type": "equipment_container",
+							"description": "Хёндай Шин-Юнг / БМВ 400ГТ / ГМЦ Комодор",
+							"notes": "Дешёвый четырёхдверный спортивный седан: быстрый и мощный автомобиль для молодёжи, на котором можно показать сверстникам свою крутость, оставшись в социально приемлемых рамках. Дешёвый в базовом варианте, Шин-Юнг можно сильно модернизировать и сделать хорошей тачкой для уличных гонок. Итого, дешёвый, быстрый и управляемый, чего ещё нужно? Так что машина популярна у членов Триад Якудзы, богатых уличных банд и мажоров на районе.\nST/HP 50; Hnd/SR 0/4; HT 10f; Move 4/75*; LWt. 1.5; Load 0.4; SM +3; Occ 1+3; DR 5; Range 500; Locations G4W. Complexity 5",
+							"tech_level": "9",
+							"quantity": 1,
+							"value": 28500,
+							"calc": {
+								"extended_value": 28500,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "ed156d1c-58cd-4160-8558-0d275dc90e5e",
+							"type": "equipment_container",
+							"description": "Еврокар Вествинд 3000 / Порше Агилар / Ферари Диаболус",
+							"notes": "Изящный, классический, низкосидящий и быстрый автомобиль идеально совмещает бизнес и удовольствие. Для большинства бродящих в тени отбросов общества эта тачка олицетворяет мечту о роскоши и мощи. Сексуальные обводы и мощный двигатель пригодятся и спортсменам.\nST/HP 70; Hnd/SR 0/4; HT 11f; Move 7/100*; LWt. 2.5; Load 0.6; SM +3; Occ 1+4; DR 10; Range 500; Locations G4W. Complexity 8",
+							"tech_level": "9",
+							"quantity": 1,
+							"value": 110000,
+							"calc": {
+								"extended_value": 110000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "2a394a29-0a76-4e91-8df1-37bc11569550",
+							"type": "equipment_container",
+							"description": "Форд Америкар / Меркюри Комет / Хонда Ситизен",
+							"notes": "Доступность, вместительный багажник и неплохая безопасность делают этот четырёхдверный седан лучшим семейным автомобилей в Северной Америке вот уже несколько лет. Правда ныне он проигрывает Меркюри Комет. Америкар надёжен и экономичен, но не слишком быстр и уж точно не сексуален. Если вам нужно перевести четырёх металюдей из точки А в точку Б, самый простой и анонимный способ это сделать — воспользоваться Америкаром. Стиля и китча в этом не будет, но иногда они и убивают.\nST/HP 55; Hnd/SR 0/4; HT 10f; Move 2/60*; LWt. 1.8; Load 0.6; SM +3; Occ 1+4; DR 4; Range 500; Locations G4W. Complexity 5",
+							"tech_level": "9",
+							"quantity": 1,
+							"value": 20000,
+							"calc": {
+								"extended_value": 20000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "0c32ac42-bb19-45a0-aea7-44432a8da813",
+							"type": "equipment_container",
+							"description": "С-К Бентли Конкордат / ГМЦ Кадилак Ноктюрн / БМВ Икс89",
+							"notes": "Роскошный седан: стильный, статусный и внушающий. Символ статуса: мощный, удобный, безопасный и чертовски дорогой. С-К Бентли Конкордат используют симзвёзды и репперы орксплортейшна. Если вы увидите за рулём такой тачки бегущего, знайте, он творил по настоящему впечатляющие дела, или умелый угонщик.\nST/HP 65; Hnd/SR 0/4; HT 11f; Move 3/75*; LWt. 3; Load 0.6; SM +3; Occ 1+4; DR 16; Range 500; Locations G4W. Complexity 7",
+							"tech_level": "9",
+							"quantity": 1,
+							"value": 65000,
+							"calc": {
+								"extended_value": 65000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "845a3751-a22f-4c22-b812-9efadc3e094a",
+							"type": "equipment_container",
+							"description": "Мицубиси Найтскай / Ролс Ройс Фаэтон",
+							"notes": "Этот декадентский, безопасный и высокотехнологичный шедевр не для вас. Он для руководителей корпораций, медиа-звёзд и Джонсонов, а вы будете сидеть в его мягких креслах только если позовут.\nST/HP 80; Hnd/SR -1/5; HT 12f; Move 3/75*; LWt. 5; Load 1; SM +3; Occ 1+7; DR 30; Range 650; Locations G6W. Complexity 8",
+							"tech_level": "9",
+							"quantity": 1,
+							"value": 320000,
+							"calc": {
+								"extended_value": 320000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "e7f04f6d-3500-4f0e-9886-65911d25a00e",
+							"type": "equipment_container",
+							"description": "Сааб Гладий 998 TI",
+							"notes": "Один из лучших суперкаров, доступных на рынке. Обтекаемый дизайн и выдвижной спойлер буквально кричат \"Я еду чертовски быстро\". Но это если вы успеете рассмотреть пролетающий мимо Гладий.\nST/HP 50; Hnd/SR +1/4; HT 11f; Move 10/110*; LWt. 2; Load 0.3; SM +3; Occ 1+1; DR 5; Range 400; Locations G4W. Complexity 7",
+							"tech_level": "9",
+							"quantity": 1,
+							"value": 150000,
+							"calc": {
+								"extended_value": 150000,
+								"extended_weight": "0 lb"
+							}
+						}
+					],
+					"description": "Автомобили",
+					"notes": "Может быть установлено не больше 2 ёмкости модификаций",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 715500,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "f7fb39e9-161a-444c-979f-d8f5229ce91f",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "fc593eff-a19d-4ed1-ad40-b5c4f50588a4",
+							"type": "equipment_container",
+							"description": "Тойота Гофер / Газ П-179 / Усин Пенг Ю 4x4",
+							"notes": "Классический пикап для бездорожья, славится хорошей управляемостью и лояльной клиентской базой. Простая конструкция кажется устаревшей, но для стран третьего мира и сельской местности, вроде ГКА, самое то. Не слишком удобен для асов вождения, но мощный двигатель и обширный багажник могут очень пригодиться.\nST/HP 70; Hnd/SR -1/4; HT 11f; Move 2/50*; LWt. 3; Load 1; SM +3; Occ 1+1; DR 5; Range 400; Locations G4W. Complexity 5",
+							"tech_level": "9",
+							"quantity": 1,
+							"value": 25000,
+							"calc": {
+								"extended_value": 25000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "acfad286-8d6a-4e1b-86e0-037f0146de9a",
+							"type": "equipment_container",
+							"description": "ДМС Бульдог Степ Ван / Рено-Фиат Евровэн / Ацтехнолоджи Губернатор",
+							"notes": "Заслуженный ветеран заводов ДМС, вместительный (и бронированный!) помощник самых разных покупателей, от транспортных и охранных компаний до тяжеловооружённых бегущих. В него поместится немало людей, хлама или что там вы собираетесь перевозить, кроме того двигатель и шасси могут выдержать тяжёлые повреждения и продолжать работать.\nST/HP 70; Hnd/SR -1/4; HT 10f; Move 2/50*; LWt. 4; Load 2; SM +4; Occ 1+6; DR 12; Range 650; Locations G4W. Complexity 5",
+							"tech_level": "9",
+							"quantity": 1,
+							"value": 35000,
+							"calc": {
+								"extended_value": 35000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "aa000827-f5c9-45e7-af4a-0afd54585ff8",
+							"type": "equipment_container",
+							"description": "Ровер Модель 2072 / Арес Хамви / Тойота Костер",
+							"notes": "Наилучший представитель класса, настоящий Бентли. Сможет и запугать размером и провезти через пустыню. Или, что иногда не менее рискованно, через элитные городские кварталы. Эта дорогая тачка набирает популярность благодаря комбинация статусности и безопасности.\nST/HP 70; Hnd/SR -1/4; HT 11f; Move 4/60*; LWt. 3; Load 1.2; SM +4; Occ 1+5; DR 12; Range 650; Locations G4W. Complexity 7",
+							"tech_level": "9",
+							"quantity": 1,
+							"value": 68000,
+							"calc": {
+								"extended_value": 68000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "4bc4816c-d45b-471c-895d-fba8c7b11379",
+							"type": "equipment_container",
+							"description": "Арес Родмастер / Эспирит Индастрис Сороритка / Ренраку Камекичи",
+							"notes": "Чёртов броневик, и если тебе удастся его приобрести законно, чаммер, то ты просто везунчик. Его использование разрешено для перевозки грузов по опасным территориям. Родмастер отличается крайне скоростью и управляемостью танка, а также полнейшим отсутствием изящества, но для многих команд возможность плевать на лёгкое оружие, а то и гранаты, искупает имеющиеся недостатки\nST/HP 70; Hnd/SR -1/4; HT 12f; Move 2/50*; LWt. 5; Load 2; SM +4; Occ 1+7; DR 20; Range 550; Locations G4W. Complexity 6",
+							"tech_level": "9",
+							"quantity": 1,
+							"value": 52000,
+							"calc": {
+								"extended_value": 52000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "9cd66945-34c9-4451-ae78-def9bbd1e735",
+							"type": "equipment_container",
+							"description": "Форд Першерон",
+							"notes": "Большой грузовик для большой работы. Першерон предназначен для перевозки практически всего, что можно правильно погрузить. Он создан для тяжелой работы, и именно поэтому риггеры любят его. \nST/HP 90; Hnd/SR -1/4; HT 11f; Move 1/30*; LWt. 8.5; Load 3; SM +4; Occ 1+4; DR 5; Range 400; Locations G6W. Complexity 4",
+							"tech_level": "9",
+							"quantity": 1,
+							"value": 42000,
+							"calc": {
+								"extended_value": 42000,
+								"extended_weight": "0 lb"
+							}
+						}
+					],
+					"description": "Фургоны и пикапы",
+					"notes": "Может быть установлено не больше 3 ёмкости модификаций",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 222000,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "8a83f8b2-28e5-4f79-a2d8-3a2b32ca97f3",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "a337601a-9870-40bf-9c11-7bc379cbc1f3",
+							"type": "equipment",
+							"description": "Устройство вертикальной мобильности",
+							"notes": "Состоит из двух частей. Первая представляет из себя рюкзак с двумя баллонами со сверхсжатым газом, короткое открытие клапана которых способно подкинуть в воздух человека. Вторая часть - это двадцатиметровый сверхтонкий и прочный тросс, хранящийся в катушке на поясе и пистолет-гарпун. Пистолет отстреливает гарпун с высокоплотным наконечником, способным пробивать твёрдые препятствия и закрепляться на них. Далее устройство удерживает тросс на одной длине, держа его в натяге. По команде оно может сложить гарпун и отпустить хватку (гарпун затянется обратно в пистолет с помощью электропривода), или расслабить тросс до нужной длины. Попадание в торс со спины считается попаданием по устройству. Перезарядка баллонов стоит 100$\nST/HP 15, Hnd/CR +1/1, HT 10f, Move 2/15, Range 1, SM -2, DR 6, Stall 0",
+							"legality_class": "3",
+							"quantity": 1,
+							"value": 15000,
+							"weight": "20 lb",
+							"weapons": [
+								{
+									"id": "41159e24-00bd-4956-bd81-dd7bf48f7e9f",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "imp",
+										"base": "3d-1",
+										"armor_divisor": 3
+									},
+									"strength": "11",
+									"usage": "Гарпун",
+									"usage_notes": "Застревает в цели. Извлечение гарпуна наносит ещё половину ранее нанесённого урона и требует манёвра подготовки.",
+									"accuracy": "2",
+									"range": "20/30",
+									"rate_of_fire": "1",
+									"shots": "3(2i)",
+									"bulk": "-3",
+									"recoil": "3",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol"
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "20/30",
+										"damage": "3d-1(3) imp"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 15000,
+								"extended_weight": "20 lb"
+							}
+						},
+						{
+							"id": "e66e4f12-55d4-4c85-9422-43a30c033797",
+							"type": "equipment",
+							"description": "Патрон на пистолет-гарпун устройства вертикальной мобильности",
+							"quantity": 1,
+							"value": 10,
+							"weight": "0.26 lb",
+							"calc": {
+								"extended_value": 10,
+								"extended_weight": "0.26 lb"
+							}
+						}
+					],
+					"description": "Джетпаки",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 15010,
+						"extended_weight": "20.26 lb"
+					}
+				},
+				{
+					"id": "a8999b7c-51a6-4b69-8a76-cf396ebc3fdd",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "149cdf87-a588-41d3-bcf0-233bc5d45204",
+							"type": "equipment_container",
+							"children": [
+								{
+									"id": "b8641757-ab8d-4d6f-a459-5b5822bbf54c",
+									"type": "equipment",
+									"description": "Сиавасэ Каимуши",
+									"notes": "Четырёхногий жукоподобный дрон, которого тяжело с первого взгляда отличить от настоящего насекомого. Он идеален для скрытного проникновения в труднодоступные места, а его лапки и малый вес дают ему возможность ползать по стенам и потолку, но хрупкость конструкции делают его беззащитным перед тапком или стирателем меток.\nST/HP 2; Hnd/SR +2/2; HT 8; Move 1/1; SM -7; DR 0; Range 1; Locations 6L. Complexity 4. Использует навык Driving (Mecha)",
+									"legality_class": "3",
+									"quantity": 1,
+									"value": 1000,
+									"weight": "0.1 lb",
+									"calc": {
+										"extended_value": 1000,
+										"extended_weight": "0.1 lb"
+									}
+								},
+								{
+									"id": "c7b5d038-0103-4dd4-a570-d887d8811134",
+									"type": "equipment",
+									"description": "Скорски-Белл Микроскиммер",
+									"notes": "Тихий и прочный дискообразный скиммер, который меньше тарелки от фрисби и может скользить по воде. Его приводят в движение небольшие и довольно слабые ховерджеты. Он довольно мал, но всё же больше чем Канмуши. \nST/HP 3; Hnd/SR +1/0; HT 10; Move 3/3; SM -6; DR 0; Range 2; Locations R. Complexity 4. Использует навык Driving (Hovercraft)",
+									"legality_class": "3",
+									"quantity": 1,
+									"value": 1000,
+									"weight": "0.1 lb",
+									"calc": {
+										"extended_value": 1000,
+										"extended_weight": "0.1 lb"
+									}
+								},
+								{
+									"id": "1c228844-1057-4c46-9b0c-a906da8c7b66",
+									"type": "equipment",
+									"description": "Хоризон Летучий Глаз",
+									"notes": "Дрон, устанавливаемый в имплант \"Окулярный дрон\". Указана стоимость за замену дрона\nST/HP 2; Hnd/SR +0/0; HT 9; Move 3/6; SM -8; DR 0; Range 2; Locations R. Complexity 4. Использует навык Piloting (Helicopter)",
+									"legality_class": "3",
+									"quantity": 1,
+									"value": 4000,
+									"calc": {
+										"extended_value": 4000,
+										"extended_weight": "0 lb"
+									}
+								}
+							],
+							"description": "Микродроны",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 6000,
+								"extended_weight": "0.2 lb"
+							}
+						},
+						{
+							"id": "d7908bc3-6be9-4194-998b-a25c889c025d",
+							"type": "equipment_container",
+							"children": [
+								{
+									"id": "9efa9908-0f49-4954-95ab-0acf64b4c466",
+									"type": "equipment",
+									"description": "КТМ Флай Спай",
+									"notes": "Детище Мицушимы имеет размер и форму крупного насекомого, но способно летать на много большей высоте. Дрон может служить воздушным разведчиком, что, учитывая сложность его обнаружения, делает его удобным при слежке. \nST/HP 3; Hnd/SR +1/0; HT 9; Move 5/5; SM -6; DR 0; Range 10; Locations Wi. Complexity 4. Использует навык Piloting (Ultralight)",
+									"legality_class": "3",
+									"quantity": 1,
+									"value": 2000,
+									"weight": "0.2 lb",
+									"calc": {
+										"extended_value": 2000,
+										"extended_weight": "0.2 lb"
+									}
+								}
+							],
+							"description": "Минидроны",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 2000,
+								"extended_weight": "0.2 lb"
+							}
+						},
+						{
+							"id": "f0aa1bf5-2da2-439c-aefe-bd7f01254cfa",
+							"type": "equipment_container",
+							"children": [
+								{
+									"id": "748f5dc1-04e7-434e-a386-a1f48d0b58f0",
+									"type": "equipment",
+									"description": "Шагатель Ацтехнолоджи",
+									"notes": "Небольшой дрон, легко преодолевающий препятствия вроде лестниц. Предназначенный для работы в качестве городской ищейки, Шагатель неплохо показывает себя и в сильнопересечённой местности.\nST/HP 5; Hnd/SR +2/2; HT 9; Move 1/2; SM -4; DR 2; Range 4; Locations 4L. Complexity 5. Использует навык Driving (Mecha)",
+									"legality_class": "3",
+									"quantity": 1,
+									"value": 4000,
+									"weight": "2 lb",
+									"calc": {
+										"extended_value": 4000,
+										"extended_weight": "2 lb"
+									}
+								},
+								{
+									"id": "1d284dfc-8116-4360-a2c3-84a17509d889",
+									"type": "equipment",
+									"description": "Локхид Ортик-Икс2",
+									"notes": "Этот созданный по технологии стелс дрон короткого вертикального взлёта в сложенном виде имеет размер как у кибердеки. В разложенном виде он достигает размеров ястреба или другой хищной птицы. Запатентованная технология ограниченной заметности делает Икс2 любимцем спецслужб и бегущих в тени; радары, а также слуховые и визуальные попытки обнаружить Икс2 получают штраф -2\nST/HP 5; Hnd/SR +1/0; HT 10; Move 4/16; SM -2/-4; DR 1; Range 25; Locations Wi. Complexity 5. Использует навык Piloting (Ultralight)",
+									"legality_class": "3",
+									"quantity": 1,
+									"value": 21000,
+									"weight": "3 lb",
+									"calc": {
+										"extended_value": 21000,
+										"extended_weight": "3 lb"
+									}
+								}
+							],
+							"description": "Малые дроны",
+							"notes": "Может быть установлено не больше 1 ёмкости модификаций",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 25000,
+								"extended_weight": "5 lb"
+							}
+						},
+						{
+							"id": "1ce80401-271a-4acc-b14e-3d2eaf0bc8f7",
+							"type": "equipment_container",
+							"children": [
+								{
+									"id": "6e52072c-42cb-4e05-b30a-80fca80e9b57",
+									"type": "equipment",
+									"description": "Арес Дуэлянт",
+									"notes": "Антропоморфный дрон среднего размера обладающий несколькими необычными особенностями. Предназначен для пешего, на двух ногах, патрулирования и имеет в качестве основного вооружения встроенные в руки лезвия. Кроме того, его корпус стилизован под самурая в традиционной броне, похожего на Красного Самурая Ренраку, возможно в качестве насмешки над мегой-конкурентом. Эти необычные для дронов особенности дают Дуэлянту два преимущества, во-первых, на расстоянии его можно спутать с куда более универсальным живым охранником, которых на некоторых объектах бывает довольно мало, а во-вторых, клинки чуть более эффективны против духов чем традиционные для дронов пушки. Дрон поставляется с парой обычных мечей в уникальных креплениях. (Данные мечи нельзя заметить другим оружием, но дополнительное вооружение может быть установлено по обычным правилам.)\nST/HP 10; Hnd/SR +0/2; HT 10; Move 1/4; SM -1; DR 5; Range 4; Locations 2L. Complexity 5. Использует навык Driving (Mecha)",
+									"legality_class": "2",
+									"quantity": 1,
+									"value": 5000,
+									"weight": "100 lb",
+									"calc": {
+										"extended_value": 5000,
+										"extended_weight": "100 lb"
+									}
+								},
+								{
+									"id": "a5e0bc4d-316f-47e2-b7d4-650eeaa5379e",
+									"type": "equipment",
+									"description": "ГМ-Ниссан Доберман",
+									"notes": "Гусеничный дрон для патрулирования периметра, создан для охраны объекта днём и ночью. Оснащён креплением для обычного оружия.\nST/HP 10; Hnd/SR +0/3; HT 10; Move 2/4; SM -2; DR 5; Range 10; Locations X. Complexity 4. Использует навык Driving (Tracked)",
+									"legality_class": "2",
+									"quantity": 1,
+									"value": 5500,
+									"weight": "60 lb",
+									"calc": {
+										"extended_value": 5500,
+										"extended_weight": "60 lb"
+									}
+								},
+								{
+									"id": "5ace5501-78c5-42a6-9a41-3cc8f6ce0fa1",
+									"type": "equipment",
+									"description": "КТМ-Ниссан Рото-Дрон",
+									"notes": "Простой, без изысков вертолётообразный дрон, отличающийся модульностью и настраиваемостью.\nST/HP 7; Hnd/SR +1/1; HT 9; Move 5/15; SM -2; DR 2; Range 20; Locations H. Complexity 4. Использует навык Piloting (Helicopter)",
+									"legality_class": "2",
+									"quantity": 1,
+									"value": 5500,
+									"weight": "10 lb",
+									"calc": {
+										"extended_value": 5500,
+										"extended_weight": "10 lb"
+									}
+								}
+							],
+							"description": "Средние дроны",
+							"notes": "Может быть установлено не больше 2 ёмкостей модификаций",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 16000,
+								"extended_weight": "170 lb"
+							}
+						},
+						{
+							"id": "7e744660-ca25-4e16-afac-de9bcbbb4a33",
+							"type": "equipment_container",
+							"children": [
+								{
+									"id": "1f6d2698-728a-4e47-8fe2-53906db3daae",
+									"type": "equipment",
+									"description": "Киберспейс Дизайн Далматинец",
+									"notes": "Крупный и надёжный дрон вертикального взлёта, способен зависать и имеет довольно прочную, для своего веса, раму. Размер: при хранении, как газонокосилка, в рабочем состоянии — как большой дельтаплан. Одинокая Звезда и Странствующий Рыцарь лицензировали Далматинца для городского наблюдения и патрулирования.\nST/HP 12; Hnd/SR +1/1; HT 9; Move 6/30; SM 0/+1; DR 4; Range 40; Locations H. Complexity 5. Использует навык Piloting (Helicopter)",
+									"legality_class": "2",
+									"quantity": 1,
+									"value": 10000,
+									"weight": "30 lb",
+									"calc": {
+										"extended_value": 10000,
+										"extended_weight": "30 lb"
+									}
+								},
+								{
+									"id": "43ba86a6-2b51-4de7-99cb-7c81e8497648",
+									"type": "equipment",
+									"description": "Стил Линкс Боевой Дрон",
+									"notes": "Закалённый ветеран наземных боёв, обладатель четырёх колёс и крепления тяжёлого оружия.\nST/HP 15; Hnd/SR 0/4; HT 11; Move 3/10; SM 0; DR 15; Range 20; Locations T. Complexity 5. Использует навык Driving (Tracked)",
+									"legality_class": "2",
+									"quantity": 1,
+									"value": 25000,
+									"weight": "150 lb",
+									"calc": {
+										"extended_value": 25000,
+										"extended_weight": "150 lb"
+									}
+								}
+							],
+							"description": "Крупные дроны",
+							"notes": "Может быть установлено не больше 3 ёмкостей модификаций",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 35000,
+								"extended_weight": "180 lb"
+							}
+						}
+					],
+					"description": "Дроны",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 84000,
+						"extended_weight": "355.4 lb"
+					}
+				}
+			],
+			"description": "Транспорт",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1122310,
+				"extended_weight": "535.66 lb"
+			}
+		},
+		{
+			"id": "c3265c3d-56cc-423d-8803-f3f0fdaaf1a9",
+			"type": "equipment_container",
+			"children": [
+				{
+					"id": "b4eb0bd4-1639-47cf-93de-fadd1b41ed3a",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "d0555a2d-42b6-4cda-9bb4-3c8a0b34e742",
+							"type": "equipment",
+							"description": "Potion: Aging",
+							"reference": "M214",
+							"legality_class": "1",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 4125,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 4125,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "345c30ad-9c4f-46ef-8d9f-6af2dafb98f1",
+							"type": "equipment",
+							"description": "Potion: Alchemical Antidote",
+							"reference": "M217",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 600,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 600,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "e1995368-38ad-49e9-954f-5a314344b060",
+							"type": "equipment",
+							"description": "Potion: Attractiveness",
+							"reference": "M216",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 3000,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 3000,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "79a54a75-d8f0-42f7-b53c-b13fa0424c68",
+							"type": "equipment",
+							"description": "Potion: Awakening",
+							"reference": "M217",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 1500,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 1500,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "77b7c1ea-4b34-4156-813b-10ac8bd0d8c1",
+							"type": "equipment",
+							"description": "Potion: Battle",
+							"reference": "M214",
+							"legality_class": "3",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 1750,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 1750,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "346c8aa0-f583-4b96-9377-0af6f0b2c313",
+							"type": "equipment",
+							"description": "Potion: Beast-Speech",
+							"reference": "M213",
+							"legality_class": "3",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 4000,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 4000,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "bc8d17bf-e409-4380-9bed-37a868aaaec0",
+							"type": "equipment",
+							"description": "Potion: Bird Control",
+							"reference": "M213",
+							"legality_class": "3",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 2750,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 2750,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "f414dc8c-e5e6-415d-8649-19530791ccde",
+							"type": "equipment",
+							"description": "Potion: Charisma",
+							"reference": "M218",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 1500,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 1500,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "2b4d4efd-5cbf-4e3a-ac07-147df98e93b8",
+							"type": "equipment",
+							"description": "Potion: Craftsmanship",
+							"reference": "M219",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 4400,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 4400,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "e1eb85d4-32a5-403a-8809-55e763cb888b",
+							"type": "equipment",
+							"description": "Potion: Death",
+							"reference": "M215",
+							"legality_class": "2",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 2000,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 2000,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "9977e375-9772-4afa-8269-0114e551afea",
+							"type": "equipment",
+							"description": "Potion: Endurance",
+							"reference": "M214",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 4400,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 4400,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "0de5c365-db1a-42d7-8436-41f963387494",
+							"type": "equipment",
+							"description": "Potion: Eternal Rest",
+							"reference": "M217",
+							"legality_class": "3",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 4100,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 4100,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "53dca004-ed18-48c3-b0f3-29f7845cf873",
+							"type": "equipment",
+							"description": "Potion: Fear",
+							"reference": "M215",
+							"legality_class": "2",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 1225,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 1225,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "74e89178-50a2-44f1-b833-0e25652d0772",
+							"type": "equipment",
+							"description": "Potion: Fetching and Carrying",
+							"reference": "M214",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 1500,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 1500,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "52318ee6-3218-4a3c-a69b-36ef47cea170",
+							"type": "equipment",
+							"description": "Potion: Fire Risistance",
+							"reference": "M216",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 2500,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 2500,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "312d2f95-5018-42f4-8d5a-e87ece300e2a",
+							"type": "equipment",
+							"description": "Potion: Flight",
+							"reference": "M216",
+							"legality_class": "2",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 15000,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 15000,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "36ae1df8-268d-4c13-9fbd-01132548b3da",
+							"type": "equipment",
+							"description": "Potion: Foolishness",
+							"reference": "M215",
+							"legality_class": "2",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 2500,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 2500,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "17a8bb85-f492-41a3-971b-128f56f66dce",
+							"type": "equipment",
+							"description": "Potion: Forgetfulness",
+							"reference": "M219",
+							"legality_class": "2",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 3500,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 3500,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "2d08822a-ea27-4205-9ee0-45dbb67762e8",
+							"type": "equipment",
+							"description": "Potion: Friendship",
+							"reference": "M219",
+							"legality_class": "3",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 2750,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 2750,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "a527fb0b-eba3-4762-ad6f-1247c27f3172",
+							"type": "equipment",
+							"description": "Potion: Fustration",
+							"reference": "M215",
+							"legality_class": "2",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 2400,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 2400,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "30936082-ece5-4b13-9464-dca64a61e2bc",
+							"type": "equipment",
+							"description": "Potion: Gambling",
+							"reference": "M216",
+							"legality_class": "2",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 2700,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 2700,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "f8bd959d-dd52-4744-9a29-b869f941fb13",
+							"type": "equipment",
+							"description": "Potion: Gullibility",
+							"reference": "M219",
+							"legality_class": "2",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 2500,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 2500,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "ae38e85d-bfc1-42fb-85fd-bbf6430f10da",
+							"type": "equipment",
+							"description": "Potion: Hardheartedness",
+							"reference": "M218",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 200,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 200,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "c7ba28ca-4121-493e-9f61-8456151ea5e7",
+							"type": "equipment",
+							"description": "Potion: Hatred",
+							"reference": "M215",
+							"legality_class": "2",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 1500,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 1500,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "f9ec9098-dad4-4149-9ca9-478d35f38497",
+							"type": "equipment",
+							"description": "Potion: Healing",
+							"reference": "M217",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 600,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 600,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "36f06220-30eb-4a56-bc67-a0e8b9f70a68",
+							"type": "equipment",
+							"description": "Potion: Health",
+							"reference": "M217",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 3750,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 3750,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "ab4c4f80-fbc1-4df0-94aa-6a5c42ca5f77",
+							"type": "equipment",
+							"description": "Potion: Invisibility",
+							"reference": "M216",
+							"legality_class": "2",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 15000,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 15000,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "243e880e-5762-416f-9c81-903903f4e867",
+							"type": "equipment",
+							"description": "Potion: Invulnerability",
+							"reference": "M214",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 4200,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 4200,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "70dd5b77-7db6-428a-8cfe-86e53722ed83",
+							"type": "equipment",
+							"description": "Potion: Jealousy",
+							"reference": "M215",
+							"legality_class": "2",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 2000,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 2000,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "2ba1b322-35c6-4207-bfb9-25088ed0e84d",
+							"type": "equipment",
+							"description": "Potion: Leadership",
+							"reference": "M214",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 6000,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 6000,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "d0535b0f-4276-464c-9ed8-d2e45a6c9c13",
+							"type": "equipment",
+							"description": "Potion: Lecherousness",
+							"reference": "M215",
+							"legality_class": "3",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 2500,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 2500,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "b866c0d2-2e03-47db-b799-1c19c2908370",
+							"type": "equipment",
+							"description": "Potion: Long Slumber",
+							"reference": "M217",
+							"legality_class": "1",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 45000,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 45000,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "910f12f8-424b-41fd-8053-64a4869c28a1",
+							"type": "equipment",
+							"description": "Potion: Luck",
+							"reference": "M216",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 6500,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 6500,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "6dd1dc4d-bb7f-43d8-b142-3631f3e6b643",
+							"type": "equipment",
+							"description": "Potion: Madness",
+							"reference": "M215",
+							"legality_class": "2",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 1000,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 1000,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "ac2a70ae-9498-45d4-bbae-e5eeac596316",
+							"type": "equipment",
+							"description": "Potion: Magic Resistance",
+							"reference": "M216",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 6400,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 6400,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "749ed3fc-20b8-43d1-b8d8-01d23667472b",
+							"type": "equipment",
+							"description": "Potion: Reanimation",
+							"reference": "M217",
+							"legality_class": "3",
+							"tags": [
+								"Ointment"
+							],
+							"quantity": 1,
+							"value": 25000,
+							"weight": "0.2 lb",
+							"calc": {
+								"extended_value": 25000,
+								"extended_weight": "0.2 lb"
+							}
+						},
+						{
+							"id": "221447de-21e3-4cc6-ad3d-d5ec65943168",
+							"type": "equipment",
+							"description": "Potion: Memory",
+							"reference": "M219",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 6000,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 6000,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "207f4c39-00c7-452c-bf19-ff1de1da0063",
+							"type": "equipment",
+							"description": "Potion: Music",
+							"reference": "M219",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 1500,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 1500,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "4ab090fa-d41c-4aaf-9d08-be0ba15524b5",
+							"type": "equipment",
+							"description": "Potion: Odium",
+							"reference": "M215",
+							"legality_class": "3",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 4000,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 4000,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "15098df5-8860-44bd-b726-a78b6803d9be",
+							"type": "equipment",
+							"description": "Potion: Pain Resistance",
+							"reference": "M216",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 3000,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 3000,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "b1ca9801-282b-43fb-9530-c683c37fe562",
+							"type": "equipment",
+							"description": "Potion: Resurrection",
+							"reference": "M218",
+							"legality_class": "1",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 125000,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 125000,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "1e2d3051-ac9b-436a-93f9-c72f40416cb5",
+							"type": "equipment",
+							"description": "Potion: Self-Love",
+							"reference": "M215",
+							"legality_class": "3",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 3000,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 3000,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "4eefd373-1f9a-47f2-bd6d-247b1f28c612",
+							"type": "equipment",
+							"description": "Potion: Sleep",
+							"reference": "M218",
+							"legality_class": "3",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 600,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 600,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "2979f485-ec63-4999-89a7-aa24c6651fc9",
+							"type": "equipment",
+							"description": "Potion: Speed",
+							"reference": "M214",
+							"legality_class": "3",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 2650,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 2650,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "7bc62411-7773-4e0d-b273-e2409d75267e",
+							"type": "equipment",
+							"description": "Potion: Stealth",
+							"reference": "M214",
+							"legality_class": "2",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 2500,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 2500,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "40da0b0a-f265-44de-a858-33e0919a7890",
+							"type": "equipment",
+							"description": "Potion: Strength",
+							"reference": "M214",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 1250,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 1250,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "bfab69d9-6109-474a-b993-dba801bc4c04",
+							"type": "equipment",
+							"description": "Potion: Tranquility",
+							"reference": "M218",
+							"legality_class": "3",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 2000,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 2000,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "3877b6aa-298f-474b-97ca-7c90514f9ef8",
+							"type": "equipment",
+							"description": "Potion: Transformation",
+							"reference": "M216",
+							"legality_class": "3",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 12000,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 12000,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "bc23fac8-72d8-43a3-ac16-61620e874a8d",
+							"type": "equipment",
+							"description": "Potion: True Sight",
+							"reference": "M216",
+							"legality_class": "2",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 2650,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 2650,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "88f00556-2481-47b2-b356-f14418678289",
+							"type": "equipment",
+							"description": "Potion: Truth",
+							"reference": "M219",
+							"legality_class": "2",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 5500,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 5500,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "290d3b3b-0768-47ab-959d-8f3bc72ac498",
+							"type": "equipment",
+							"description": "Potion: Universal Antidote",
+							"reference": "M219",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 3000,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 3000,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "5bfa28d7-aa79-4736-bc59-b392c8e1cb64",
+							"type": "equipment",
+							"description": "Potion: Unluckiness",
+							"reference": "M215",
+							"legality_class": "2",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 8000,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 8000,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "fa07001b-0465-4f9b-9dac-0c2b512fb3dc",
+							"type": "equipment",
+							"description": "Potion: Water Breathing",
+							"reference": "M216",
+							"legality_class": "3",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 3000,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 3000,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "f0617c89-4f1e-412d-921c-cbba5dca16cb",
+							"type": "equipment",
+							"description": "Potion: Water-Walking",
+							"reference": "M216",
+							"legality_class": "3",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 3500,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 3500,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "0dff05af-4fcc-4644-a798-7b555af0895c",
+							"type": "equipment",
+							"description": "Potion: Weakness",
+							"reference": "M215",
+							"legality_class": "3",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 2000,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 2000,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "ef30db61-5aa2-4664-9bf4-518f751a0135",
+							"type": "equipment",
+							"description": "Potion: Wisdom",
+							"reference": "M219",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 7500,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 7500,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "3608512c-c84e-4ae8-b885-d644703ba049",
+							"type": "equipment",
+							"description": "Potion: Youth",
+							"reference": "M218",
+							"legality_class": "2",
+							"tags": [
+								"Potion"
+							],
+							"quantity": 1,
+							"value": 125000,
+							"weight": "0.25 lb",
+							"calc": {
+								"extended_value": 125000,
+								"extended_weight": "0.25 lb"
+							}
+						}
+					],
+					"description": "Зелья",
+					"notes": "Может быть в форме порошка, зелья, мази или газа.",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 514000,
+						"extended_weight": "14.2 lb"
+					}
+				},
+				{
+					"id": "59dc5dea-ea48-4412-81bd-9c09a524f202",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "509d6dd3-6a24-4017-a2af-e40f58edb741",
+							"type": "equipment",
+							"description": "1 pt Powerstone",
+							"reference": "M20",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 350,
+							"max_uses": 1,
+							"uses": 1,
+							"calc": {
+								"extended_value": 350,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "20c21ab3-42b0-46af-af9a-bf6b94a61031",
+							"type": "equipment",
+							"description": "2 pt Powerstone",
+							"reference": "M20",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 825,
+							"max_uses": 2,
+							"uses": 2,
+							"calc": {
+								"extended_value": 825,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "1972b73f-40ee-425b-b35f-9aeee5e05688",
+							"type": "equipment",
+							"description": "3 pt Powerstone",
+							"reference": "M20",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 1400,
+							"max_uses": 3,
+							"uses": 3,
+							"calc": {
+								"extended_value": 1400,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "63f69a69-4b15-42fe-925f-c31596fbb6a8",
+							"type": "equipment",
+							"description": "4 pt Powerstone",
+							"reference": "M20",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 2125,
+							"max_uses": 4,
+							"uses": 4,
+							"calc": {
+								"extended_value": 2125,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "bf716e1e-9762-4d9a-a5a1-fc1b6cf7053d",
+							"type": "equipment",
+							"description": "5 pt Powerstone",
+							"reference": "M20",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 3000,
+							"max_uses": 5,
+							"uses": 5,
+							"calc": {
+								"extended_value": 3000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "b8e0bc14-337c-4bf6-a767-22324c4b95d0",
+							"type": "equipment",
+							"description": "6 pt Powerstone",
+							"reference": "M20",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 3950,
+							"max_uses": 6,
+							"uses": 6,
+							"calc": {
+								"extended_value": 3950,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "01265fe0-df46-48b8-9098-c6e83a780237",
+							"type": "equipment",
+							"description": "7 pt Powerstone",
+							"reference": "M20",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 5000,
+							"max_uses": 7,
+							"uses": 7,
+							"calc": {
+								"extended_value": 5000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "b2e4dc25-2673-4263-81b6-d3185ad41555",
+							"type": "equipment",
+							"description": "8 pt Powerstone",
+							"reference": "M20",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 6500,
+							"max_uses": 8,
+							"uses": 8,
+							"calc": {
+								"extended_value": 6500,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "56d0d030-c97e-4766-ba83-84f1a35bf451",
+							"type": "equipment",
+							"description": "9 pt Powerstone",
+							"reference": "M20",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 7750,
+							"max_uses": 9,
+							"uses": 9,
+							"calc": {
+								"extended_value": 7750,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "c14320f9-75c5-420d-8d3a-4314668fb49f",
+							"type": "equipment",
+							"description": "10 pt Powerstone",
+							"reference": "M20",
+							"legality_class": "3",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 9500,
+							"weight": "1 lb",
+							"max_uses": 10,
+							"uses": 10,
+							"calc": {
+								"extended_value": 9500,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "6a4c4f43-65e8-44d5-b3b0-beb403a050ae",
+							"type": "equipment",
+							"description": "11 pt Powerstone",
+							"reference": "M20",
+							"legality_class": "3",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 11250,
+							"weight": "1 lb",
+							"max_uses": 11,
+							"uses": 11,
+							"calc": {
+								"extended_value": 11250,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "61d6afd3-3b5a-4d7c-845c-86b9a12d639b",
+							"type": "equipment",
+							"description": "12 pt Powerstone",
+							"reference": "M20",
+							"legality_class": "3",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 13250,
+							"weight": "1 lb",
+							"max_uses": 12,
+							"uses": 12,
+							"calc": {
+								"extended_value": 13250,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "39f199ee-0138-4c81-982f-bb14fdca1ca1",
+							"type": "equipment",
+							"description": "13 pt Powerstone",
+							"reference": "M20",
+							"legality_class": "3",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 15250,
+							"weight": "1 lb",
+							"max_uses": 13,
+							"uses": 13,
+							"calc": {
+								"extended_value": 15250,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "7a0aac54-f0d2-4fe4-84d8-49a9f48e502e",
+							"type": "equipment",
+							"description": "14 pt Powerstone",
+							"reference": "M20",
+							"legality_class": "3",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 17750,
+							"weight": "1 lb",
+							"max_uses": 14,
+							"uses": 14,
+							"calc": {
+								"extended_value": 17750,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "5d7062f4-2a1e-4d7f-aeee-b034bb611cba",
+							"type": "equipment",
+							"description": "15 pt Powerstone",
+							"reference": "M20",
+							"legality_class": "3",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 20250,
+							"weight": "1 lb",
+							"max_uses": 15,
+							"uses": 15,
+							"calc": {
+								"extended_value": 20250,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "6e38c18a-5f08-46d5-a589-e3a2b478850f",
+							"type": "equipment",
+							"description": "16 pt Powerstone",
+							"reference": "M20",
+							"legality_class": "3",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 23000,
+							"weight": "1 lb",
+							"max_uses": 16,
+							"uses": 16,
+							"calc": {
+								"extended_value": 23000,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "3931b90d-7057-4a9a-a738-bf6438d47f68",
+							"type": "equipment",
+							"description": "17 pt Powerstone",
+							"reference": "M20",
+							"legality_class": "3",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 26250,
+							"weight": "1 lb",
+							"max_uses": 17,
+							"uses": 17,
+							"calc": {
+								"extended_value": 26250,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "6690f860-f558-4883-bed8-2ee513450a6f",
+							"type": "equipment",
+							"description": "18 pt Powerstone",
+							"reference": "M20",
+							"legality_class": "3",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 29500,
+							"weight": "1 lb",
+							"max_uses": 18,
+							"uses": 18,
+							"calc": {
+								"extended_value": 29500,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "07cd01ea-41e1-4299-8034-89dbec05d86a",
+							"type": "equipment",
+							"description": "19 pt Powerstone",
+							"reference": "M20",
+							"legality_class": "3",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 33000,
+							"weight": "1 lb",
+							"max_uses": 19,
+							"uses": 19,
+							"calc": {
+								"extended_value": 33000,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "85d5487d-10c9-4423-9dbb-bb5bf47f5522",
+							"type": "equipment",
+							"description": "20 pt Powerstone",
+							"reference": "M20",
+							"legality_class": "2",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 36750,
+							"weight": "1 lb",
+							"max_uses": 20,
+							"uses": 20,
+							"calc": {
+								"extended_value": 36750,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "92be2824-e2d3-44bd-84d9-2fa935705daf",
+							"type": "equipment",
+							"description": "21 pt Powerstone",
+							"reference": "M20",
+							"legality_class": "2",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 41000,
+							"weight": "1.5 lb",
+							"max_uses": 21,
+							"uses": 21,
+							"calc": {
+								"extended_value": 41000,
+								"extended_weight": "1.5 lb"
+							}
+						},
+						{
+							"id": "9094a00d-ece6-4225-a7d3-d8a59c1f653a",
+							"type": "equipment",
+							"description": "22 pt Powerstone",
+							"reference": "M20",
+							"legality_class": "2",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 45250,
+							"weight": "1.5 lb",
+							"max_uses": 22,
+							"uses": 22,
+							"calc": {
+								"extended_value": 45250,
+								"extended_weight": "1.5 lb"
+							}
+						},
+						{
+							"id": "91d4f53c-c09f-483d-af01-84fbf3938696",
+							"type": "equipment",
+							"description": "23 pt Powerstone",
+							"reference": "M20",
+							"legality_class": "2",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 50000,
+							"weight": "1.5 lb",
+							"max_uses": 23,
+							"uses": 23,
+							"calc": {
+								"extended_value": 50000,
+								"extended_weight": "1.5 lb"
+							}
+						},
+						{
+							"id": "0660eb50-6ad7-4486-8bb6-78e426d7b05a",
+							"type": "equipment",
+							"description": "24 pt Powerstone",
+							"reference": "M20",
+							"legality_class": "2",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 55000,
+							"weight": "1.5 lb",
+							"max_uses": 24,
+							"uses": 24,
+							"calc": {
+								"extended_value": 55000,
+								"extended_weight": "1.5 lb"
+							}
+						},
+						{
+							"id": "e814f7f0-0246-4f99-b5b7-d533ea67864f",
+							"type": "equipment",
+							"description": "25 pt Powerstone",
+							"reference": "M20",
+							"legality_class": "2",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 60000,
+							"weight": "1.5 lb",
+							"max_uses": 25,
+							"uses": 25,
+							"calc": {
+								"extended_value": 60000,
+								"extended_weight": "1.5 lb"
+							}
+						},
+						{
+							"id": "9ce3efc1-e581-419f-afdf-6e855543ac50",
+							"type": "equipment",
+							"description": "26 pt Powerstone",
+							"reference": "M20",
+							"legality_class": "2",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 65000,
+							"weight": "1.5 lb",
+							"max_uses": 26,
+							"uses": 26,
+							"calc": {
+								"extended_value": 65000,
+								"extended_weight": "1.5 lb"
+							}
+						},
+						{
+							"id": "02aed429-e817-4fb1-ba58-8cc072a948fe",
+							"type": "equipment",
+							"description": "27 pt Powerstone",
+							"reference": "M20",
+							"legality_class": "2",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 72500,
+							"weight": "1.5 lb",
+							"max_uses": 27,
+							"uses": 27,
+							"calc": {
+								"extended_value": 72500,
+								"extended_weight": "1.5 lb"
+							}
+						},
+						{
+							"id": "b007a1b9-9791-43d9-8aaa-1b8362e95eb5",
+							"type": "equipment",
+							"description": "28 pt Powerstone",
+							"reference": "M20",
+							"legality_class": "2",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 77500,
+							"weight": "1.5 lb",
+							"max_uses": 28,
+							"uses": 28,
+							"calc": {
+								"extended_value": 77500,
+								"extended_weight": "1.5 lb"
+							}
+						},
+						{
+							"id": "3e9b0b38-eb22-4b2c-8dfa-dc8a557cde08",
+							"type": "equipment",
+							"description": "29 pt Powerstone",
+							"reference": "M20",
+							"legality_class": "2",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 85000,
+							"weight": "1.5 lb",
+							"max_uses": 29,
+							"uses": 29,
+							"calc": {
+								"extended_value": 85000,
+								"extended_weight": "1.5 lb"
+							}
+						}
+					],
+					"description": "Камни силы",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 817900,
+						"extended_weight": "24.5 lb"
+					}
+				},
+				{
+					"id": "40fbc2e0-6dcd-40f5-a281-afd00cc75b5b",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "69fa8843-463e-43f4-92fb-398e2f50010d",
+							"type": "equipment",
+							"description": "1 pt Manastone",
+							"reference": "M20",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 275,
+							"max_uses": 1,
+							"uses": 1,
+							"calc": {
+								"extended_value": 275,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "e2ed2788-f5a8-49d8-bb34-3b6c4199f5c9",
+							"type": "equipment",
+							"description": "2 pt Manastone",
+							"reference": "M20",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 650,
+							"max_uses": 2,
+							"uses": 2,
+							"calc": {
+								"extended_value": 650,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "89013b66-041c-4b51-81ff-67a45caf3e41",
+							"type": "equipment",
+							"description": "3 pt Manastone",
+							"reference": "M20",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 1125,
+							"max_uses": 3,
+							"uses": 3,
+							"calc": {
+								"extended_value": 1125,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "ccb67915-48f9-490b-9d2b-03acfbb9dc05",
+							"type": "equipment",
+							"description": "4 pt Manastone",
+							"reference": "M20",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 1700,
+							"max_uses": 4,
+							"uses": 4,
+							"calc": {
+								"extended_value": 1700,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "e2e54248-34d9-4be1-943b-70909ecc6749",
+							"type": "equipment",
+							"description": "5 pt Manastone",
+							"reference": "M20",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 2375,
+							"max_uses": 5,
+							"uses": 5,
+							"calc": {
+								"extended_value": 2375,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "8ef4f56a-39e4-4566-b92e-87e5ff56a83f",
+							"type": "equipment",
+							"description": "6 pt Manastone",
+							"reference": "M20",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 3150,
+							"max_uses": 6,
+							"uses": 6,
+							"calc": {
+								"extended_value": 3150,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "5be1e73a-52ae-4a81-a084-28c304a3c2a6",
+							"type": "equipment",
+							"description": "7 pt Manastone",
+							"reference": "M20",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 4025,
+							"max_uses": 7,
+							"uses": 7,
+							"calc": {
+								"extended_value": 4025,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "221b2c6d-c339-434a-8e4d-22cf3f5656f3",
+							"type": "equipment",
+							"description": "8 pt Manastone",
+							"reference": "M20",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 5000,
+							"max_uses": 8,
+							"uses": 8,
+							"calc": {
+								"extended_value": 5000,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "fd811ae8-65df-4c67-afc6-7e6ba06c21e3",
+							"type": "equipment",
+							"description": "9 pt Manastone",
+							"reference": "M20",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 6075,
+							"max_uses": 9,
+							"uses": 9,
+							"calc": {
+								"extended_value": 6075,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "8b94ac9e-afc9-4121-9add-1a8b568ad297",
+							"type": "equipment",
+							"description": "10 pt Manastone",
+							"reference": "M20",
+							"legality_class": "3",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 7250,
+							"weight": "1 lb",
+							"max_uses": 10,
+							"uses": 10,
+							"calc": {
+								"extended_value": 7250,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "ad594859-6e80-4054-9c5c-362245f823c3",
+							"type": "equipment",
+							"description": "11 pt Manastone",
+							"reference": "M20",
+							"legality_class": "3",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 8525,
+							"weight": "1 lb",
+							"max_uses": 11,
+							"uses": 11,
+							"calc": {
+								"extended_value": 8525,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "ea2497e1-1f8a-4bc4-97fd-dcb85be1e2b9",
+							"type": "equipment",
+							"description": "12 pt Manastone",
+							"reference": "M20",
+							"legality_class": "3",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 9900,
+							"weight": "1 lb",
+							"max_uses": 12,
+							"uses": 12,
+							"calc": {
+								"extended_value": 9900,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "07f241e0-4984-4a39-a0aa-f32374bad2e3",
+							"type": "equipment",
+							"description": "13 pt Manastone",
+							"reference": "M20",
+							"legality_class": "3",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 11375,
+							"weight": "1 lb",
+							"max_uses": 13,
+							"uses": 13,
+							"calc": {
+								"extended_value": 11375,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "f149328f-6475-431f-b436-b1cdfc1d6e00",
+							"type": "equipment",
+							"description": "14 pt Manastone",
+							"reference": "M20",
+							"legality_class": "3",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 12950,
+							"weight": "1 lb",
+							"max_uses": 14,
+							"uses": 14,
+							"calc": {
+								"extended_value": 12950,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "cca9b8b3-8a42-4ee2-a1a0-032889caa090",
+							"type": "equipment",
+							"description": "15 pt Manastone",
+							"reference": "M20",
+							"legality_class": "3",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 14625,
+							"weight": "1 lb",
+							"max_uses": 15,
+							"uses": 15,
+							"calc": {
+								"extended_value": 14625,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "be8770ef-ae51-4268-af72-f5bcb1871a79",
+							"type": "equipment",
+							"description": "16 pt Manastone",
+							"reference": "M20",
+							"legality_class": "3",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 16400,
+							"weight": "1 lb",
+							"max_uses": 16,
+							"uses": 16,
+							"calc": {
+								"extended_value": 16400,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "1d73f3ba-3fea-4f37-93ea-e8700ca54f1a",
+							"type": "equipment",
+							"description": "17 pt Manastone",
+							"reference": "M20",
+							"legality_class": "3",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 18275,
+							"weight": "1 lb",
+							"max_uses": 17,
+							"uses": 17,
+							"calc": {
+								"extended_value": 18275,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "b70f4644-f2da-4020-92b6-36055a4bb68d",
+							"type": "equipment",
+							"description": "18 pt Manastone",
+							"reference": "M20",
+							"legality_class": "3",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 20250,
+							"weight": "1 lb",
+							"max_uses": 18,
+							"uses": 18,
+							"calc": {
+								"extended_value": 20250,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "c437709b-50f2-4fca-8a65-f6879704f0cb",
+							"type": "equipment",
+							"description": "19 pt Manastone",
+							"reference": "M20",
+							"legality_class": "3",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 22325,
+							"weight": "1 lb",
+							"max_uses": 19,
+							"uses": 19,
+							"calc": {
+								"extended_value": 22325,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "43ff35c4-7105-44ec-a8b1-ae242f5079e8",
+							"type": "equipment",
+							"description": "20 pt Manastone",
+							"reference": "M20",
+							"legality_class": "2",
+							"tags": [
+								"Powerstone"
+							],
+							"quantity": 1,
+							"value": 24500,
+							"weight": "1 lb",
+							"max_uses": 20,
+							"uses": 20,
+							"calc": {
+								"extended_value": 24500,
+								"extended_weight": "1 lb"
+							}
+						}
+					],
+					"description": "Камни маны",
+					"notes": "Одноразовые",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 190750,
+						"extended_weight": "11 lb"
+					}
+				}
+			],
+			"description": "Магия",
+			"notes": "1 энергия стоит 150$, если всего энергии больше 100. Иначе 1 энергия стоит 5$",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1522650,
+				"extended_weight": "49.7 lb"
+			}
+		}
+	]
+}

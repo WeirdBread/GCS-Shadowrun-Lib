@@ -1,0 +1,7903 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "1141fa6b-9aaa-455c-824d-b6b406642698",
+			"type": "equipment_container",
+			"children": [
+				{
+					"id": "0b8955d3-eab7-4f19-b230-05b0181e4052",
+					"type": "equipment",
+					"description": "Осколочная граната",
+					"notes": "1 манёвр готовности - выдернуть чеку. 2 сек запал",
+					"tech_level": "9",
+					"legality_class": "2",
+					"quantity": 1,
+					"value": 80,
+					"weight": "1 lb",
+					"weapons": [
+						{
+							"id": "b871fcd1-cb1c-438c-98bd-01edf2c82eab",
+							"type": "ranged_weapon",
+							"damage": {
+								"type": "cr ex",
+								"base": "5dx2",
+								"fragmentation": "2d",
+								"fragmentation_type": "cut"
+							},
+							"bulk": "-1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Throwing"
+								},
+								{
+									"type": "dx",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Dropping",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "5dx2 cr ex [2d cut]"
+							}
+						}
+					],
+					"calc": {
+						"extended_value": 80,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "7d62ddf8-3854-48a0-852e-d8976f1ef016",
+					"type": "equipment",
+					"description": "Разрывная граната",
+					"notes": "1 манёвр готовности - выдернуть чеку. 2 сек запал",
+					"tech_level": "9",
+					"legality_class": "2",
+					"quantity": 1,
+					"value": 40,
+					"weight": "1 lb",
+					"weapons": [
+						{
+							"id": "b485705c-3a1a-4dab-a746-ce63203e6ab6",
+							"type": "ranged_weapon",
+							"damage": {
+								"type": "cr ex",
+								"base": "8dx2"
+							},
+							"bulk": "-1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Throwing"
+								},
+								{
+									"type": "dx",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Dropping",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "8dx2 cr ex"
+							}
+						}
+					],
+					"calc": {
+						"extended_value": 40,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "fa79e084-d956-41e9-a52d-f9399cd8f0cb",
+					"type": "equipment",
+					"description": "ЭМИ граната",
+					"notes": "1 манёвр готовности - выдернуть чеку. 2 сек запал",
+					"tech_level": "9",
+					"legality_class": "2",
+					"quantity": 1,
+					"value": 400,
+					"weight": "1 lb",
+					"weapons": [
+						{
+							"id": "537531ea-faae-40d8-992e-a9cfe20b5620",
+							"type": "ranged_weapon",
+							"damage": {
+								"type": "HT-8 (2) (8 метров) + 2d cr ex"
+							},
+							"bulk": "-1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Throwing"
+								},
+								{
+									"type": "dx",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Dropping",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "HT-8 (2) (8 метров) + 2d cr ex"
+							}
+						}
+					],
+					"calc": {
+						"extended_value": 400,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "31753dac-d45e-462e-a475-08c9f9630583",
+					"type": "equipment",
+					"description": "Дезориентирующая граната",
+					"reference": "HT192",
+					"notes": "1 манёвр готовности - выдернуть чеку. 2 сек запал. Создаёт дымки радиусом 5м (штраф к зрению -5)",
+					"tech_level": "9",
+					"legality_class": "3",
+					"quantity": 1,
+					"value": 80,
+					"weight": "1 lb",
+					"weapons": [
+						{
+							"id": "78a796d3-ccb2-4931-bfbc-e9ba24942ea0",
+							"type": "ranged_weapon",
+							"damage": {
+								"type": "cr ex",
+								"base": "1d+1",
+								"fragmentation": "1d-1",
+								"fragmentation_type": "cr"
+							},
+							"bulk": "-1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Throwing"
+								},
+								{
+									"type": "skill",
+									"name": "Dropping",
+									"modifier": -4
+								},
+								{
+									"type": "dx",
+									"modifier": -3
+								}
+							],
+							"calc": {
+								"damage": "1d+1 cr ex [1d-1 cr]"
+							}
+						},
+						{
+							"id": "cd40d58e-b999-41bb-8e14-bc3ce8516489",
+							"type": "ranged_weapon",
+							"damage": {
+								"type": "ЗД-6 оглуш. (10 м)"
+							},
+							"usage": "Послед.",
+							"calc": {
+								"damage": "ЗД-6 оглуш. (10 м)"
+							}
+						}
+					],
+					"calc": {
+						"extended_value": 80,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "b8673227-9cea-4401-8ab7-550d601912cb",
+					"type": "equipment",
+					"description": "Одноразовая глушилка",
+					"reference": "UT157",
+					"notes": "1 манёвр готовности - выдернуть чеку. 2 сек запал",
+					"tech_level": "9",
+					"legality_class": "3",
+					"quantity": 1,
+					"value": 200,
+					"weight": "1 lb",
+					"weapons": [
+						{
+							"id": "ccddc046-e1f9-460f-820e-626747e43d6d",
+							"type": "ranged_weapon",
+							"damage": {
+								"type": "особый. 60 метров"
+							},
+							"bulk": "-1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Throwing"
+								},
+								{
+									"type": "dx",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Dropping",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"damage": "особый. 60 метров"
+							}
+						}
+					],
+					"calc": {
+						"extended_value": 200,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "556dfe8b-4913-4e5c-b35d-fa1e896c023b",
+					"type": "equipment",
+					"description": "Дымовая граната",
+					"reference": "HT192",
+					"notes": "1 манёвр готовности - выдернуть чеку. 2 сек запал. После взрыва создаёт непроглядное облако дыма радиусом 7м",
+					"tech_level": "9",
+					"legality_class": "3",
+					"quantity": 1,
+					"value": 40,
+					"weight": "1 lb",
+					"calc": {
+						"extended_value": 40,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "de9d499a-32d0-4b58-9759-331b42c67a43",
+					"type": "equipment",
+					"description": "Подрывной заряд",
+					"tech_level": "9",
+					"legality_class": "1",
+					"quantity": 1,
+					"value": 80,
+					"weight": "1 lb",
+					"weapons": [
+						{
+							"id": "c576c907-602c-44c2-9306-57070d979d0f",
+							"type": "ranged_weapon",
+							"damage": {
+								"type": "cr inc",
+								"base": "6dx7",
+								"armor_divisor": 10
+							},
+							"bulk": "-1",
+							"calc": {
+								"damage": "6dx7(10) cr inc"
+							}
+						},
+						{
+							"id": "d352097b-15be-4e2c-b49d-3fedbbfa2e7d",
+							"type": "ranged_weapon",
+							"damage": {
+								"type": "cr ex",
+								"base": "8d",
+								"fragmentation": "3d",
+								"fragmentation_type": "cut"
+							},
+							"usage": "Послед.",
+							"calc": {
+								"damage": "8d cr ex [3d cut]"
+							}
+						}
+					],
+					"calc": {
+						"extended_value": 80,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "bd732791-ab78-4e11-b7d5-0fc8b83aef5c",
+					"type": "equipment",
+					"description": "Дымовая граната, горячий дым",
+					"reference": "HT192",
+					"notes": "1 манёвр готовности - выдернуть чеку. 2 сек запал. После взрыва создаёт непроглядное облако тёплого дыма радиусом 7м",
+					"tech_level": "9",
+					"legality_class": "3",
+					"quantity": 1,
+					"value": 80,
+					"weight": "1 lb",
+					"calc": {
+						"extended_value": 80,
+						"extended_weight": "1 lb"
+					}
+				}
+			],
+			"description": "Гранаты",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "10b4701a-f98e-4088-9ad5-eedc7aa5d8c1",
+			"type": "equipment_container",
+			"children": [
+				{
+					"id": "818a8926-204f-4772-8d9e-e4cb897eb1e6",
+					"type": "equipment",
+					"description": "Прицел с переменной кратностью",
+					"reference": "HT156",
+					"notes": "200$ за +1 к Точн. Выберите три кратности: [1.5x-32x], [1.5x-32x], [1.5x-32x].",
+					"tech_level": "9",
+					"tags": [
+						"Firearm Accessories"
+					],
+					"quantity": 1,
+					"value": 200,
+					"weight": "1 lb",
+					"calc": {
+						"extended_value": 200,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "60853d0e-f5c7-4b8c-ac80-81f90903345a",
+					"type": "equipment",
+					"description": "Компактный прицел",
+					"reference": "UT149",
+					"notes": "Приближение 4x, инфракрасное зрение, туннельное зрение. A/100hr.",
+					"tech_level": "9",
+					"tags": [
+						"Firearm Accessories",
+						"Weaponry"
+					],
+					"quantity": 1,
+					"value": 1000,
+					"weight": "0.5 lb",
+					"calc": {
+						"extended_value": 1000,
+						"extended_weight": "0.5 lb"
+					}
+				},
+				{
+					"id": "e34734c6-b1f0-4aab-9c9b-1725210e4bb4",
+					"type": "equipment",
+					"description": "Улучшенный прицел",
+					"reference": "UT149",
+					"notes": "Гиперспектральное зрение 8x. Туннельное зрение. B/400hr.",
+					"tech_level": "9",
+					"tags": [
+						"Firearm Accessories",
+						"Weaponry"
+					],
+					"quantity": 1,
+					"value": 8000,
+					"weight": "2 lb",
+					"calc": {
+						"extended_value": 8000,
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "3ccf78fe-115c-4136-99db-59c885ca8e51",
+					"type": "equipment",
+					"description": "Съёмный  глушитель, огромный",
+					"reference": "HT159",
+					"notes": "-4 Hearing. -1 Bulk.",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Firearm Accessories"
+					],
+					"quantity": 1,
+					"value": 1400,
+					"weight": "3 lb",
+					"calc": {
+						"extended_value": 1400,
+						"extended_weight": "3 lb"
+					}
+				},
+				{
+					"id": "95ac7e0a-9c00-4ced-833d-0701f21751b0",
+					"type": "equipment",
+					"description": "Съёмный глушитель, винтовка",
+					"reference": "HT159",
+					"notes": "-5 Hearing. -1 Bulk.",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Firearm Accessories"
+					],
+					"quantity": 1,
+					"value": 700,
+					"weight": "0.5 lb",
+					"calc": {
+						"extended_value": 700,
+						"extended_weight": "0.5 lb"
+					}
+				},
+				{
+					"id": "12dd1524-0968-40ec-bf68-9246728e6ed2",
+					"type": "equipment",
+					"description": "Съемный глушитель, пистолет или ПП",
+					"reference": "HT159",
+					"notes": "-4 Hearing.",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Firearm Accessories"
+					],
+					"quantity": 1,
+					"value": 500,
+					"weight": "0.2 lb",
+					"calc": {
+						"extended_value": 500,
+						"extended_weight": "0.2 lb"
+					}
+				},
+				{
+					"id": "476dd7bc-3910-489d-8ac4-623ffad71c1a",
+					"type": "equipment",
+					"description": "Коллиматорный прицел",
+					"reference": "HT156",
+					"notes": "+1 к навыку при стрельбе Тотальной (точной) до 300м",
+					"tech_level": "9",
+					"tags": [
+						"Firearm Accessories"
+					],
+					"quantity": 1,
+					"value": 350,
+					"weight": "0.1 lb",
+					"calc": {
+						"extended_value": 350,
+						"extended_weight": "0.1 lb"
+					}
+				},
+				{
+					"id": "253777fa-9674-4385-90ae-ec010b10af4a",
+					"type": "equipment",
+					"description": "Лазерный целеуказатель",
+					"reference": "HT157",
+					"notes": "+1 к стрельбе до 150м",
+					"tech_level": "9",
+					"tags": [
+						"Firearm Accessories"
+					],
+					"quantity": 1,
+					"value": 10,
+					"calc": {
+						"extended_value": 10,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "7955f20d-bda7-4826-a839-585496d45831",
+					"type": "equipment",
+					"description": "Гиростабилизатор",
+					"reference": "UT150",
+					"notes": "Plus $200 and 1lb. per pound of loaded weight.",
+					"tech_level": "9",
+					"tags": [
+						"Firearm Accessories",
+						"Weaponry"
+					],
+					"quantity": 1,
+					"value": 1000,
+					"calc": {
+						"extended_value": 1000,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "8c91a97f-cee5-4be1-833e-6ce2ae0b1384",
+					"type": "equipment",
+					"description": "Силовая кобура (@Weapon@)",
+					"reference": "UT151",
+					"notes": "B/100 uses.",
+					"tech_level": "9",
+					"tags": [
+						"Firearm Accessories",
+						"Weaponry"
+					],
+					"quantity": 1,
+					"value": 1000,
+					"weight": "2 lb",
+					"calc": {
+						"extended_value": 1000,
+						"extended_weight": "2 lb"
+					}
+				}
+			],
+			"description": "Аксессуары для оружия",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 14160,
+				"extended_weight": "9.3 lb"
+			}
+		},
+		{
+			"id": "fc65685c-8b64-4cb9-a3f0-801a3a1061cf",
+			"type": "equipment_container",
+			"children": [
+				{
+					"id": "17e27d96-4885-45bc-8915-0600188eb024",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "5dd4105e-d67c-4995-a76f-86016f7ed276",
+							"type": "equipment",
+							"description": "Monowire Whip",
+							"reference": "UT163",
+							"tech_level": "9^",
+							"legality_class": "2",
+							"tags": [
+								"Melee Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 3000,
+							"weight": "0.5 lb",
+							"weapons": [
+								{
+									"id": "718e8398-caed-4636-976d-3d69951d4559",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cut",
+										"st": "sw",
+										"base": "1d-2",
+										"armor_divisor": 10
+									},
+									"strength": "5",
+									"reach": "1-7*",
+									"parry": "-2U",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Monowire Whip"
+										},
+										{
+											"type": "dx",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Kusari",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Whip",
+											"modifier": -3
+										}
+									],
+									"calc": {
+										"parry": "-2U",
+										"block": "No",
+										"damage": "sw+1d-2(10) cut"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 3000,
+								"extended_weight": "0.5 lb"
+							}
+						},
+						{
+							"id": "d8878725-9a7f-4d75-85fc-80622e2acc14",
+							"type": "equipment",
+							"description": "Zap Glove",
+							"reference": "UT165",
+							"notes": "B/10 zaps. \"Kill\" mode delivers two zaps at once.",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Melee Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 400,
+							"weight": "1 lb",
+							"weapons": [
+								{
+									"id": "99f05d23-8846-45af-be99-95f41412eb2a",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "HT-6(2) aff"
+									},
+									"strength": "2",
+									"usage": "Zap",
+									"reach": "C",
+									"parry": "No",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Boxing"
+										},
+										{
+											"type": "skill",
+											"name": "Brawling"
+										},
+										{
+											"type": "skill",
+											"name": "Karate"
+										},
+										{
+											"type": "dx"
+										}
+									],
+									"calc": {
+										"parry": "No",
+										"block": "No",
+										"damage": "HT-6(2) aff"
+									}
+								},
+								{
+									"id": "f04dc89e-0c5a-4ce0-b884-d1db2ef8be9e",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "burn",
+										"base": "2d"
+									},
+									"strength": "2",
+									"usage": "Kill",
+									"reach": "C",
+									"parry": "No",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Boxing"
+										},
+										{
+											"type": "skill",
+											"name": "Brawling"
+										},
+										{
+											"type": "skill",
+											"name": "Crawling"
+										},
+										{
+											"type": "dx"
+										}
+									],
+									"calc": {
+										"parry": "No",
+										"block": "No",
+										"damage": "2d burn"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 400,
+								"extended_weight": "1 lb"
+							}
+						}
+					],
+					"description": "Прочее",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 3400,
+						"extended_weight": "1.5 lb"
+					}
+				},
+				{
+					"id": "40f0781f-5b5e-4dac-9b94-a4ca37be21ac",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "7a3cb7d7-8e17-44a8-9de2-1fb1aafed969",
+							"type": "equipment",
+							"description": "Monowire Great Axe With Rocket Booster",
+							"reference": "B274",
+							"tech_level": "1",
+							"legality_class": "2",
+							"tags": [
+								"Melee Weapon"
+							],
+							"modifiers": [
+								{
+									"id": "fa84e44e-ed14-49db-ba47-2a5d40ceb2bc",
+									"type": "eqp_modifier",
+									"name": "Rocket Striker",
+									"reference": "UT163",
+									"notes": "Max 6 uses. Each use add +4 Striking ST and +2 to ST req.",
+									"cost_type": "to_final_base_cost",
+									"weight_type": "to_final_base_weight",
+									"tech_level": "9",
+									"cost": "+500",
+									"weight": "+1 lb"
+								},
+								{
+									"id": "365dff57-f1ce-4e38-b1d4-674c7901953d",
+									"type": "eqp_modifier",
+									"name": "Monowire Blade",
+									"reference": "UT163",
+									"cost_type": "to_base_cost",
+									"tech_level": "9",
+									"cost": "+9 CF"
+								}
+							],
+							"quantity": 1,
+							"value": 100,
+							"weight": "8 lb",
+							"max_uses": 6,
+							"uses": 6,
+							"weapons": [
+								{
+									"id": "5d5bb711-1504-4e0e-9252-8f73f535fda2",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cut",
+										"st": "sw",
+										"base": "5",
+										"armor_divisor": 10
+									},
+									"strength": "12‡",
+									"usage": "Swung",
+									"reach": "1,2*",
+									"parry": "0U",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Axe/Mace"
+										},
+										{
+											"type": "skill",
+											"name": "Axe/Mace",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Polearm",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Flail",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"parry": "0U",
+										"block": "No",
+										"damage": "sw+5(10) cut"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 1500,
+								"extended_weight": "9 lb"
+							}
+						},
+						{
+							"id": "76791502-67be-4699-be56-bb7a70dc6611",
+							"type": "equipment",
+							"description": "Monowire Katana",
+							"reference": "B271",
+							"tech_level": "3",
+							"legality_class": "2",
+							"tags": [
+								"Melee Weapon"
+							],
+							"modifiers": [
+								{
+									"id": "6a303207-d788-47b2-8569-abfd68f40220",
+									"type": "eqp_modifier",
+									"name": "Monowire Blade",
+									"reference": "UT163",
+									"cost_type": "to_base_cost",
+									"tech_level": "9",
+									"cost": "+9 CF"
+								}
+							],
+							"quantity": 1,
+							"value": 650,
+							"weight": "5 lb",
+							"weapons": [
+								{
+									"id": "853bd474-f48a-4303-8d69-e7de1cf19817",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cut",
+										"st": "sw",
+										"base": "3",
+										"armor_divisor": 10
+									},
+									"strength": "11",
+									"usage": "Swung",
+									"usage_notes": "1-handed",
+									"reach": "1,2",
+									"parry": "0",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Force Sword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Broadsword"
+										},
+										{
+											"type": "skill",
+											"name": "Rapier",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Saber",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Shortsword",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Sword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Sword!"
+										}
+									],
+									"calc": {
+										"parry": "0",
+										"block": "No",
+										"damage": "sw+3(10) cut"
+									}
+								},
+								{
+									"id": "12d7698b-f56f-4f0d-9992-d7a59be0e1cb",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "imp",
+										"st": "thr",
+										"base": "2"
+									},
+									"strength": "11",
+									"usage": "Thrust",
+									"usage_notes": "1-handed",
+									"reach": "1",
+									"parry": "0",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Force Sword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Broadsword"
+										},
+										{
+											"type": "skill",
+											"name": "Rapier",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Saber",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Shortsword",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Sword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Sword!"
+										}
+									],
+									"calc": {
+										"parry": "0",
+										"block": "No",
+										"damage": "thr+2 imp"
+									}
+								},
+								{
+									"id": "fcde15fa-9455-4611-8d94-309a0e1a350d",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cut",
+										"st": "sw",
+										"base": "4",
+										"armor_divisor": 10
+									},
+									"strength": "10†",
+									"usage": "Swung",
+									"usage_notes": "2-handed",
+									"reach": "1,2",
+									"parry": "0",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Sword"
+										},
+										{
+											"type": "skill",
+											"name": "Broadsword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Force Sword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Sword!"
+										}
+									],
+									"calc": {
+										"parry": "0",
+										"block": "No",
+										"damage": "sw+4(10) cut"
+									}
+								},
+								{
+									"id": "92d744f6-83ef-4b18-8ee3-b29efd81df94",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "imp",
+										"st": "thr",
+										"base": "2"
+									},
+									"strength": "10†",
+									"usage": "Thrust",
+									"usage_notes": "2-handed",
+									"reach": "1",
+									"parry": "0",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Sword"
+										},
+										{
+											"type": "skill",
+											"name": "Broadsword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Force Sword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Sword!"
+										}
+									],
+									"calc": {
+										"parry": "0",
+										"block": "No",
+										"damage": "thr+2 imp"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 6500,
+								"extended_weight": "5 lb"
+							}
+						},
+						{
+							"id": "20a248e0-56b8-49c4-b5c6-8c59526ed5c8",
+							"type": "equipment",
+							"description": "Katana",
+							"reference": "B271",
+							"tech_level": "3",
+							"legality_class": "3",
+							"tags": [
+								"Melee Weapon"
+							],
+							"modifiers": [
+								{
+									"id": "424838a3-ba9f-4eea-ae7b-3c67e8ff15b5",
+									"type": "eqp_modifier",
+									"name": "Superfine Blade",
+									"reference": "UT163",
+									"cost_type": "to_base_cost",
+									"tech_level": "9",
+									"cost": "+5 CF"
+								}
+							],
+							"quantity": 1,
+							"value": 650,
+							"weight": "5 lb",
+							"weapons": [
+								{
+									"id": "ffae2e29-a7b0-4946-b330-64a2d1803a56",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cut",
+										"st": "sw",
+										"base": "3",
+										"armor_divisor": 2
+									},
+									"strength": "11",
+									"usage": "Swung",
+									"usage_notes": "1-handed",
+									"reach": "1,2",
+									"parry": "0",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Force Sword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Broadsword"
+										},
+										{
+											"type": "skill",
+											"name": "Rapier",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Saber",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Shortsword",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Sword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Sword!"
+										}
+									],
+									"calc": {
+										"parry": "0",
+										"block": "No",
+										"damage": "sw+3(2) cut"
+									}
+								},
+								{
+									"id": "7888873b-8650-4b65-b0ea-422ec707af1a",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "imp",
+										"st": "thr",
+										"base": "3",
+										"armor_divisor": 2
+									},
+									"strength": "11",
+									"usage": "Thrust",
+									"usage_notes": "1-handed",
+									"reach": "1",
+									"parry": "0",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Force Sword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Broadsword"
+										},
+										{
+											"type": "skill",
+											"name": "Rapier",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Saber",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Shortsword",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Sword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Sword!"
+										}
+									],
+									"calc": {
+										"parry": "0",
+										"block": "No",
+										"damage": "thr+3(2) imp"
+									}
+								},
+								{
+									"id": "c8a56b21-7c0a-4a89-8558-b59ab9166fad",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cut",
+										"st": "sw",
+										"base": "4",
+										"armor_divisor": 2
+									},
+									"strength": "10†",
+									"usage": "Swung",
+									"usage_notes": "2-handed",
+									"reach": "1,2",
+									"parry": "0",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Sword"
+										},
+										{
+											"type": "skill",
+											"name": "Broadsword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Force Sword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Sword!"
+										}
+									],
+									"calc": {
+										"parry": "0",
+										"block": "No",
+										"damage": "sw+4(2) cut"
+									}
+								},
+								{
+									"id": "806104e4-2dc2-4e10-a9c4-c391cd81853f",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "imp",
+										"st": "thr",
+										"base": "3",
+										"armor_divisor": 2
+									},
+									"strength": "10†",
+									"usage": "Thrust",
+									"usage_notes": "2-handed",
+									"reach": "1",
+									"parry": "0",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Sword"
+										},
+										{
+											"type": "skill",
+											"name": "Broadsword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Force Sword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Sword!"
+										}
+									],
+									"calc": {
+										"parry": "0",
+										"block": "No",
+										"damage": "thr+3(2) imp"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 3900,
+								"extended_weight": "5 lb"
+							}
+						},
+						{
+							"id": "61a9ff74-79f9-409d-aa24-24679396e345",
+							"type": "equipment",
+							"description": "Combat Knife",
+							"reference": "B272",
+							"tech_level": "0",
+							"tags": [
+								"Melee Weapon",
+								"Missile Weapon"
+							],
+							"modifiers": [
+								{
+									"id": "5480aee8-d82e-4578-b063-09c815ea89d1",
+									"type": "eqp_modifier",
+									"name": "Superfine Blade",
+									"reference": "UT163",
+									"cost_type": "to_base_cost",
+									"tech_level": "9",
+									"cost": "+5 CF"
+								}
+							],
+							"quantity": 1,
+							"value": 40,
+							"weight": "1 lb",
+							"weapons": [
+								{
+									"id": "94580d76-8490-47a5-8a23-b1cb9e39ee54",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cut",
+										"st": "sw",
+										"armor_divisor": 2
+									},
+									"strength": "6",
+									"usage": "Swung",
+									"reach": "C,1",
+									"parry": "-1",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Knife"
+										},
+										{
+											"type": "skill",
+											"name": "Force Sword",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Main-Gauche",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Shortsword",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Sword!"
+										}
+									],
+									"calc": {
+										"parry": "-1",
+										"block": "No",
+										"damage": "sw(2) cut"
+									}
+								},
+								{
+									"id": "92092634-5070-4111-b42d-3131e0197b66",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "imp",
+										"st": "thr",
+										"base": "2",
+										"armor_divisor": 2
+									},
+									"strength": "6",
+									"usage": "Thrust",
+									"reach": "C",
+									"parry": "-1",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Knife"
+										},
+										{
+											"type": "skill",
+											"name": "Force Sword",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Main-Gauche",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Shortsword",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Sword!"
+										}
+									],
+									"calc": {
+										"parry": "-1",
+										"block": "No",
+										"damage": "thr+2(2) imp"
+									}
+								},
+								{
+									"id": "7c4c1703-122f-40cd-a885-746491608817",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "imp",
+										"st": "thr",
+										"base": "2",
+										"armor_divisor": 2
+									},
+									"strength": "6",
+									"usage": "Thrown",
+									"accuracy": "+0",
+									"range": "x0.8/x1.5",
+									"rate_of_fire": "1",
+									"shots": "T(1)",
+									"bulk": "-2",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Thrown Weapon",
+											"specialization": "Knife"
+										}
+									],
+									"calc": {
+										"range": "x0.8/x1.5",
+										"damage": "thr+2(2) imp"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 240,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "db6309e3-1ab4-4015-855a-192372a28e54",
+							"type": "equipment",
+							"description": "Thrusting Broadsword",
+							"reference": "B271",
+							"tech_level": "2",
+							"legality_class": "3",
+							"tags": [
+								"Melee Weapon"
+							],
+							"quantity": 1,
+							"value": 600,
+							"weight": "3 lb",
+							"weapons": [
+								{
+									"id": "f7b3ee33-869c-4117-98df-5bc19c7689c7",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cut",
+										"st": "sw",
+										"base": "2"
+									},
+									"strength": "10",
+									"usage": "Swung",
+									"reach": "1",
+									"parry": "0",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Force Sword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Broadsword"
+										},
+										{
+											"type": "skill",
+											"name": "Rapier",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Saber",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Shortsword",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Sword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Sword!"
+										}
+									],
+									"calc": {
+										"parry": "0",
+										"block": "No",
+										"damage": "sw+2 cut"
+									}
+								},
+								{
+									"id": "a89eb501-53f8-43bd-beb9-d7f2dbab9c94",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "imp",
+										"st": "thr",
+										"base": "3"
+									},
+									"strength": "10",
+									"usage": "Thrust",
+									"reach": "1",
+									"parry": "0",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Force Sword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Broadsword"
+										},
+										{
+											"type": "skill",
+											"name": "Rapier",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Saber",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Shortsword",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Sword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Sword!"
+										}
+									],
+									"calc": {
+										"parry": "0",
+										"block": "No",
+										"damage": "thr+3 imp"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 600,
+								"extended_weight": "3 lb"
+							}
+						}
+					],
+					"description": "Клинковое",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 12740,
+						"extended_weight": "23 lb"
+					}
+				},
+				{
+					"id": "c660d5df-464d-4092-bd24-ec396b5b04bd",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "06c61b40-ebda-410f-9e67-95c5476aee6a",
+							"type": "equipment",
+							"description": "Karatand",
+							"reference": "UT163",
+							"notes": "Вшит в перчатку",
+							"tech_level": "9",
+							"tags": [
+								"Melee Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 100,
+							"weapons": [
+								{
+									"id": "20872b48-f466-46d4-b6b0-3d3b7159f6a4",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cr",
+										"st": "thr"
+									},
+									"usage": "Punch",
+									"reach": "C",
+									"parry": "0",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx"
+										},
+										{
+											"type": "skill",
+											"name": "Boxing"
+										},
+										{
+											"type": "skill",
+											"name": "Brawling"
+										},
+										{
+											"type": "skill",
+											"name": "Karate"
+										}
+									],
+									"calc": {
+										"parry": "0",
+										"block": "No",
+										"damage": "thr cr"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 100,
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "d16dd3b2-144b-4432-91a2-96b90718de05",
+							"type": "equipment",
+							"description": "Electric Stun Wand",
+							"reference": "UT165",
+							"notes": "B/20 hits.",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Melee Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 100,
+							"weight": "1 lb",
+							"weapons": [
+								{
+									"id": "45d00052-8cde-4303-83c8-04aa27c32cf8",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cr",
+										"st": "sw"
+									},
+									"strength": "5",
+									"usage": "Swing",
+									"reach": "1",
+									"parry": "0",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Shortsword"
+										},
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Broadsword",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Force Sword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Jitte/Sai",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Knife",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Saber",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Smallsword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Tonfa",
+											"modifier": -3
+										}
+									],
+									"calc": {
+										"parry": "0",
+										"block": "No",
+										"damage": "sw cr"
+									}
+								},
+								{
+									"id": "d9365eaa-4c75-4607-b362-4e1d58717bbe",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cr",
+										"st": "thr"
+									},
+									"strength": "5",
+									"usage": "Thrust",
+									"reach": "1",
+									"parry": "0",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Shortsword"
+										},
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Broadsword",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Force Sword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Jitte/Sai",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Knife",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Saber",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Smallsword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Tonfa",
+											"modifier": -3
+										}
+									],
+									"calc": {
+										"parry": "0",
+										"block": "No",
+										"damage": "thr cr"
+									}
+								},
+								{
+									"id": "4790f3be-fe67-43c6-8898-3f4b156a3a60",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "HT-5(0.5) aff"
+									},
+									"usage": "Linked",
+									"calc": {
+										"damage": "HT-5(0.5) aff"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 100,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "2b319964-bba0-4bf9-b479-b3956dd5f772",
+							"type": "equipment",
+							"description": "Brass Knuckles",
+							"reference": "B271",
+							"tech_level": "1",
+							"legality_class": "3",
+							"tags": [
+								"Melee Weapon"
+							],
+							"quantity": 1,
+							"value": 10,
+							"weight": "0.25 lb",
+							"weapons": [
+								{
+									"id": "6d929bc3-730c-4aa2-b4b6-d63aaa321732",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cr",
+										"st": "thr"
+									},
+									"usage": "Punch",
+									"reach": "C",
+									"parry": "0",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx"
+										},
+										{
+											"type": "skill",
+											"name": "Boxing"
+										},
+										{
+											"type": "skill",
+											"name": "Brawling"
+										},
+										{
+											"type": "skill",
+											"name": "Karate"
+										}
+									],
+									"calc": {
+										"parry": "0",
+										"block": "No",
+										"damage": "thr cr"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 10,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "7d7e1b41-28d9-4f5f-9cf8-f7d8bdcf589a",
+							"type": "equipment",
+							"description": "Blackjack",
+							"reference": "B271",
+							"tech_level": "1",
+							"tags": [
+								"Melee Weapon"
+							],
+							"quantity": 1,
+							"value": 20,
+							"weight": "1 lb",
+							"weapons": [
+								{
+									"id": "c5075e6a-6252-4b7b-99a8-63fe2cc586b1",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cr",
+										"st": "thr"
+									},
+									"strength": "7",
+									"usage": "Swung",
+									"reach": "C",
+									"parry": "0",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Brawling"
+										},
+										{
+											"type": "dx"
+										}
+									],
+									"calc": {
+										"parry": "0",
+										"block": "No",
+										"damage": "thr cr"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 20,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "112316d0-7ac6-40f7-affb-a029d98a8952",
+							"type": "equipment",
+							"description": "Baton",
+							"reference": "B273",
+							"tech_level": "0",
+							"tags": [
+								"Melee Weapon"
+							],
+							"quantity": 1,
+							"value": 20,
+							"weight": "1 lb",
+							"weapons": [
+								{
+									"id": "beca567a-4cba-4567-a2a3-ebc0c8342f8f",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cr",
+										"st": "sw"
+									},
+									"strength": "6",
+									"usage": "Swung",
+									"reach": "1",
+									"parry": "0",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Shortsword"
+										},
+										{
+											"type": "skill",
+											"name": "Broadsword",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Force Sword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Jitte/Sai",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Knife",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Saber",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Smallsword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Tonfa",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Sword!"
+										}
+									],
+									"calc": {
+										"parry": "0",
+										"block": "No",
+										"damage": "sw cr"
+									}
+								},
+								{
+									"id": "10fc92ed-7c6a-48bd-a6b7-362b2e8b2d9a",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cr",
+										"st": "thr"
+									},
+									"strength": "6",
+									"usage": "Thrust",
+									"reach": "1",
+									"parry": "0",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Shortsword"
+										},
+										{
+											"type": "skill",
+											"name": "Broadsword",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Force Sword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Jitte/Sai",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Knife",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Saber",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Smallsword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Tonfa",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Sword!"
+										}
+									],
+									"calc": {
+										"parry": "0",
+										"block": "No",
+										"damage": "thr cr"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 20,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "d962f93c-85f8-4f48-9d06-13530d3ac5e2",
+							"type": "equipment",
+							"description": "Telescopic Baton",
+							"reference": "B273",
+							"tech_level": "0",
+							"tags": [
+								"Melee Weapon"
+							],
+							"quantity": 1,
+							"value": 100,
+							"weight": "1 lb",
+							"weapons": [
+								{
+									"id": "1e24cfa5-6b09-44c6-88ff-06e4e8daebc4",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cr",
+										"st": "sw"
+									},
+									"strength": "6",
+									"usage": "Swung",
+									"reach": "1",
+									"parry": "0",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Shortsword"
+										},
+										{
+											"type": "skill",
+											"name": "Broadsword",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Force Sword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Jitte/Sai",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Knife",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Saber",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Smallsword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Tonfa",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Sword!"
+										}
+									],
+									"calc": {
+										"parry": "0",
+										"block": "No",
+										"damage": "sw cr"
+									}
+								},
+								{
+									"id": "39925e87-aee9-4ff2-92cf-2d723115df9c",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cr",
+										"st": "thr"
+									},
+									"strength": "6",
+									"usage": "Thrust",
+									"reach": "1",
+									"parry": "0",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Shortsword"
+										},
+										{
+											"type": "skill",
+											"name": "Broadsword",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Force Sword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Jitte/Sai",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Knife",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Saber",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Smallsword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Tonfa",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Sword!"
+										}
+									],
+									"calc": {
+										"parry": "0",
+										"block": "No",
+										"damage": "thr cr"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 100,
+								"extended_weight": "1 lb"
+							}
+						}
+					],
+					"description": "Дробящее",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 350,
+						"extended_weight": "4.25 lb"
+					}
+				},
+				{
+					"id": "90d6a9ff-d3a5-4fe7-b43c-9e8a2ed51fd6",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "25b01337-d28f-465a-bae2-38ad11e12c05",
+							"type": "equipment",
+							"description": "Batcher Knife",
+							"reference": "B272",
+							"tech_level": "0",
+							"tags": [
+								"Melee Weapon",
+								"Missile Weapon"
+							],
+							"quantity": 1,
+							"value": 40,
+							"weight": "1 lb",
+							"weapons": [
+								{
+									"id": "a4108245-c65f-4b2a-9152-0c94c0af1c05",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cut",
+										"st": "sw",
+										"base": "-1"
+									},
+									"strength": "6",
+									"usage": "Swung",
+									"reach": "C,1",
+									"parry": "-1",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Knife"
+										},
+										{
+											"type": "skill",
+											"name": "Force Sword",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Main-Gauche",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Shortsword",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Sword!"
+										}
+									],
+									"calc": {
+										"parry": "-1",
+										"block": "No",
+										"damage": "sw-1 cut"
+									}
+								},
+								{
+									"id": "32f87206-ba40-40e6-8497-7a88ecf3efa7",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "imp",
+										"st": "thr",
+										"base": "1"
+									},
+									"strength": "6",
+									"usage": "Thrust",
+									"reach": "C",
+									"parry": "-1",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Knife"
+										},
+										{
+											"type": "skill",
+											"name": "Force Sword",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Main-Gauche",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Shortsword",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Sword!"
+										}
+									],
+									"calc": {
+										"parry": "-1",
+										"block": "No",
+										"damage": "thr+1 imp"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 40,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "e13d673f-19a8-46bf-ad7a-45a62190a937",
+							"type": "equipment",
+							"description": "Baseball Bat",
+							"reference": "ATE1:31",
+							"tech_level": "4",
+							"tags": [
+								"Melee Weapon"
+							],
+							"quantity": 1,
+							"value": 25,
+							"weight": "2 lb",
+							"weapons": [
+								{
+									"id": "f659851a-f797-438b-8740-19c19d5f2fdf",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cr",
+										"st": "sw",
+										"base": "1"
+									},
+									"strength": "8",
+									"usage": "Swing",
+									"reach": "1",
+									"parry": "0",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Axe/Mace"
+										},
+										{
+											"type": "skill",
+											"name": "Flail",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Axe/Mace",
+											"modifier": -3
+										}
+									],
+									"calc": {
+										"parry": "0",
+										"block": "No",
+										"damage": "sw+1 cr"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 25,
+								"extended_weight": "2 lb"
+							}
+						},
+						{
+							"id": "8ecea42a-0376-425f-bd32-376ff7b761f6",
+							"type": "equipment",
+							"description": "Board with Nail",
+							"reference": "ATE1:31",
+							"tech_level": "4",
+							"tags": [
+								"Melee Weapon"
+							],
+							"modifiers": [
+								{
+									"id": "30622882-d40c-4f0f-a00d-28234757bfd3",
+									"type": "eqp_modifier",
+									"name": "SP -2",
+									"reference": "ATE1:31",
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "this_weapon",
+											"amount": -2
+										}
+									]
+								}
+							],
+							"quantity": 1,
+							"value": 5,
+							"weight": "2 lb",
+							"weapons": [
+								{
+									"id": "2409ecb0-45f7-4b76-8414-00e413e9d757",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "imp",
+										"st": "sw",
+										"base": "-2"
+									},
+									"strength": "8",
+									"usage": "Swing",
+									"reach": "1",
+									"parry": "-1U",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Axe/Mace"
+										},
+										{
+											"type": "skill",
+											"name": "Flail",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Axe/Mace",
+											"modifier": -3
+										}
+									],
+									"calc": {
+										"parry": "-1U",
+										"block": "No",
+										"damage": "sw-2 imp"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 5,
+								"extended_weight": "2 lb"
+							}
+						},
+						{
+							"id": "4f9f3390-5c03-44c5-bfc5-0dc8d83b1edd",
+							"type": "equipment",
+							"description": "Chain",
+							"reference": "ATE1:31",
+							"tech_level": "4",
+							"tags": [
+								"Melee Weapon"
+							],
+							"modifiers": [
+								{
+									"id": "ff3fc5cd-8925-4400-8060-b249dd8da10a",
+									"type": "eqp_modifier",
+									"name": "SP -1",
+									"reference": "ATE1:31",
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "this_weapon",
+											"amount": -1
+										}
+									]
+								}
+							],
+							"quantity": 1,
+							"value": 20,
+							"weight": "5 lb",
+							"weapons": [
+								{
+									"id": "997191d0-832d-4842-9728-e7bf0c8a2162",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cr",
+										"st": "sw",
+										"base": "1"
+									},
+									"strength": "11",
+									"usage": "Strike",
+									"reach": "1-4*",
+									"parry": "-2U",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Kusari"
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Flail",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Whip",
+											"modifier": -3
+										}
+									],
+									"calc": {
+										"parry": "-2U",
+										"block": "No",
+										"damage": "sw+1 cr"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 20,
+								"extended_weight": "5 lb"
+							}
+						},
+						{
+							"id": "b85c287e-b10b-474d-b407-643cb1a8a869",
+							"type": "equipment",
+							"description": "Golf Club",
+							"reference": "ATE1:31",
+							"tech_level": "4",
+							"tags": [
+								"Melee Weapon"
+							],
+							"modifiers": [
+								{
+									"id": "349ea5b4-76ca-474e-b57b-3f50ae2fd6ed",
+									"type": "eqp_modifier",
+									"name": "SP -1",
+									"reference": "ATE1:31",
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "this_weapon",
+											"amount": -1
+										}
+									]
+								}
+							],
+							"quantity": 1,
+							"value": 25,
+							"weight": "1.5 lb",
+							"weapons": [
+								{
+									"id": "9b7b7279-e73a-4c27-9d46-df9b0faa597a",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cr",
+										"st": "sw",
+										"base": "1"
+									},
+									"strength": "10†",
+									"usage": "Swing",
+									"reach": "1, 2",
+									"parry": "0U",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Axe/Mace"
+										},
+										{
+											"type": "skill",
+											"name": "Axe/Mace",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Polearm",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Flail",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"parry": "0U",
+										"block": "No",
+										"damage": "sw+1 cr"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 25,
+								"extended_weight": "1.5 lb"
+							}
+						},
+						{
+							"id": "ccd3e782-7cd9-431d-b68f-0601ba6ad34f",
+							"type": "equipment",
+							"description": "Hammer",
+							"reference": "ATE1:31",
+							"tech_level": "4",
+							"tags": [
+								"Melee Weapon"
+							],
+							"quantity": 1,
+							"value": 15,
+							"weight": "3 lb",
+							"weapons": [
+								{
+									"id": "9fe4510b-549c-4eb1-83bc-d3fe06b935a3",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cr",
+										"st": "sw",
+										"base": "2"
+									},
+									"strength": "10",
+									"usage": "Swing",
+									"reach": "1",
+									"parry": "0U",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Axe/Mace"
+										},
+										{
+											"type": "skill",
+											"name": "Flail",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Axe/Mace",
+											"modifier": -3
+										}
+									],
+									"calc": {
+										"parry": "0U",
+										"block": "No",
+										"damage": "sw+2 cr"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 15,
+								"extended_weight": "3 lb"
+							}
+						},
+						{
+							"id": "7c82fbcf-933e-44a0-973e-2a74a4714ee4",
+							"type": "equipment",
+							"description": "Rebar, Long",
+							"reference": "ATE1:31",
+							"tech_level": "4",
+							"tags": [
+								"Melee Weapon"
+							],
+							"modifiers": [
+								{
+									"id": "b4f1cce9-8f99-4c4d-8b6f-87e68ecc947b",
+									"type": "eqp_modifier",
+									"name": "SP -1",
+									"reference": "ATE1:31",
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "this_weapon",
+											"amount": -1
+										}
+									]
+								}
+							],
+							"quantity": 1,
+							"value": 5,
+							"weight": "3 lb",
+							"weapons": [
+								{
+									"id": "30dd37e9-664b-40a7-a181-6740e4a2a1a5",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cr",
+										"st": "sw",
+										"base": "1"
+									},
+									"strength": "10",
+									"usage": "Swing",
+									"reach": "1",
+									"parry": "0",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Broadsword"
+										},
+										{
+											"type": "skill",
+											"name": "Shortsword",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Sword",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"parry": "0",
+										"block": "No",
+										"damage": "sw+1 cr"
+									}
+								},
+								{
+									"id": "702af0ff-f339-4abe-bfac-34aa45e148c9",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cr",
+										"st": "thr",
+										"base": "1"
+									},
+									"strength": "10",
+									"usage": "Thrust",
+									"reach": "1",
+									"parry": "0",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Broadsword"
+										},
+										{
+											"type": "skill",
+											"name": "Shortsword",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Sword",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"parry": "0",
+										"block": "No",
+										"damage": "thr+1 cr"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 5,
+								"extended_weight": "3 lb"
+							}
+						},
+						{
+							"id": "6d9cc49d-25ef-43e3-a8a4-64b22167ac31",
+							"type": "equipment",
+							"description": "Screwdriver",
+							"reference": "ATE1:31",
+							"tech_level": "4",
+							"tags": [
+								"Melee Weapon"
+							],
+							"modifiers": [
+								{
+									"id": "42b64df0-b6e8-414b-b20f-e59cc4cef7b7",
+									"type": "eqp_modifier",
+									"name": "SP -1",
+									"reference": "ATE1:31",
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "this_weapon",
+											"amount": -1
+										}
+									]
+								}
+							],
+							"quantity": 1,
+							"value": 2,
+							"weight": "0.25 lb",
+							"weapons": [
+								{
+									"id": "2acee610-beca-464f-aed8-66aa78ad8277",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "imp",
+										"st": "thr",
+										"base": "-2"
+									},
+									"strength": "5",
+									"usage": "Thrust",
+									"reach": "C",
+									"parry": "-1",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Knife"
+										},
+										{
+											"type": "skill",
+											"name": "Shortsword",
+											"modifier": -3
+										}
+									],
+									"calc": {
+										"parry": "-1",
+										"block": "No",
+										"damage": "thr-2 imp"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 2,
+								"extended_weight": "0.25 lb"
+							}
+						},
+						{
+							"id": "7a8420f8-90a2-428b-b449-2fee2ffaca74",
+							"type": "equipment",
+							"description": "Shovel",
+							"reference": "ATE1:31",
+							"tech_level": "4",
+							"tags": [
+								"Melee Weapon"
+							],
+							"modifiers": [
+								{
+									"id": "9b2e3fde-52f5-4b45-b874-61df3e6c0130",
+									"type": "eqp_modifier",
+									"name": "SP -1",
+									"reference": "ATE1:31",
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "this_weapon",
+											"amount": -1
+										}
+									]
+								}
+							],
+							"quantity": 1,
+							"value": 12,
+							"weight": "6 lb",
+							"weapons": [
+								{
+									"id": "39218f80-7c0e-42c1-832c-1d319d5d41cc",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cut",
+										"st": "sw",
+										"base": "3"
+									},
+									"strength": "12†",
+									"usage": "Swing",
+									"reach": "1, 2*",
+									"parry": "0U",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Axe/Mace"
+										},
+										{
+											"type": "skill",
+											"name": "Axe/Mace",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Polearm",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Flail",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"parry": "0U",
+										"block": "No",
+										"damage": "sw+3 cut"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 12,
+								"extended_weight": "6 lb"
+							}
+						},
+						{
+							"id": "9259ac10-b086-413d-a272-935798bdd818",
+							"type": "equipment",
+							"description": "Sledgehammer",
+							"reference": "ATE1:31",
+							"tech_level": "4",
+							"tags": [
+								"Melee Weapon"
+							],
+							"modifiers": [
+								{
+									"id": "dee01c41-2211-43ab-9549-68735f94efbb",
+									"type": "eqp_modifier",
+									"name": "SP -1",
+									"reference": "ATE1:31",
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "this_weapon",
+											"amount": -1
+										}
+									]
+								}
+							],
+							"quantity": 1,
+							"value": 10,
+							"weight": "15 lb",
+							"weapons": [
+								{
+									"id": "39f3fb9a-dc63-4e4c-a210-a2e3b2a20610",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cr",
+										"st": "sw",
+										"base": "4"
+									},
+									"strength": "13†",
+									"usage": "Swing",
+									"reach": "1, 2*",
+									"parry": "0U",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Axe/Mace"
+										},
+										{
+											"type": "skill",
+											"name": "Axe/Mace",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Polearm",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Flail",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"parry": "0U",
+										"block": "No",
+										"damage": "sw+4 cr"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 10,
+								"extended_weight": "15 lb"
+							}
+						},
+						{
+							"id": "e098fcb5-3fb7-48fa-8a7e-baec9da93f67",
+							"type": "equipment",
+							"description": "Tire Iron",
+							"reference": "ATE1:31",
+							"tech_level": "4",
+							"tags": [
+								"Melee Weapon"
+							],
+							"modifiers": [
+								{
+									"id": "aeff617d-9af0-4680-bf3f-4a893f993641",
+									"type": "eqp_modifier",
+									"name": "SP -1",
+									"reference": "ATE1:31",
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "this_weapon",
+											"amount": -1
+										}
+									]
+								}
+							],
+							"quantity": 1,
+							"value": 15,
+							"weight": "2 lb",
+							"weapons": [
+								{
+									"id": "0e92b997-e04c-4923-8d45-7cec88598778",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cr",
+										"st": "sw",
+										"base": "1"
+									},
+									"strength": "10",
+									"usage": "Swing",
+									"reach": "1",
+									"parry": "0",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Axe/Mace"
+										},
+										{
+											"type": "skill",
+											"name": "Flail",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Axe/Mace",
+											"modifier": -3
+										}
+									],
+									"calc": {
+										"parry": "0",
+										"block": "No",
+										"damage": "sw+1 cr"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 15,
+								"extended_weight": "2 lb"
+							}
+						},
+						{
+							"id": "d04b8a98-3e08-47d1-a689-382be6643f0c",
+							"type": "equipment",
+							"description": "Weighted Rag",
+							"reference": "ATE1:31",
+							"tech_level": "4",
+							"tags": [
+								"Melee Weapon"
+							],
+							"modifiers": [
+								{
+									"id": "3ecc4c85-a7dc-4997-b6aa-8e171c85bef3",
+									"type": "eqp_modifier",
+									"name": "SP -1",
+									"reference": "ATE1:31",
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "this_weapon",
+											"amount": -1
+										}
+									]
+								}
+							],
+							"quantity": 1,
+							"value": 5,
+							"weight": "1 lb",
+							"weapons": [
+								{
+									"id": "cbea87d0-4bba-4bb7-a141-cba8f9cc04b9",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cr",
+										"st": "sw"
+									},
+									"strength": "6",
+									"usage": "Swing",
+									"reach": "1",
+									"parry": "-2U",
+									"block": "No",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Flail"
+										},
+										{
+											"type": "skill",
+											"name": "Axe/Mace",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Flail",
+											"modifier": -3
+										}
+									],
+									"calc": {
+										"parry": "-2U",
+										"block": "No",
+										"damage": "sw cr"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 5,
+								"extended_weight": "1 lb"
+							}
+						}
+					],
+					"description": "Обиходные вещи",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 179,
+						"extended_weight": "41.75 lb"
+					}
+				}
+			],
+			"description": "Холодное оружие",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16669,
+				"extended_weight": "70.5 lb"
+			}
+		},
+		{
+			"id": "acf58440-a718-454e-98a5-0dc4e3f36283",
+			"type": "equipment_container",
+			"children": [
+				{
+					"id": "9326d960-8c6d-4a82-8e3c-7d9c16493c86",
+					"type": "equipment",
+					"description": "Дефинс ЕХ Шокер",
+					"notes": "Смартган: при попадании может узнать состояние цели (Диагностика 10 навык)",
+					"tech_level": "9",
+					"tags": [
+						"Firearms"
+					],
+					"quantity": 1,
+					"value": 400,
+					"weight": "2 lb",
+					"weapons": [
+						{
+							"id": "5117030d-091b-4419-86b9-1bddded4985d",
+							"type": "ranged_weapon",
+							"damage": {
+								"type": "pi-",
+								"base": "1d-3",
+								"armor_divisor": 2
+							},
+							"strength": "7",
+							"accuracy": "0",
+							"range": "10/20",
+							"rate_of_fire": "1х2",
+							"shots": "1(3)",
+							"bulk": "-2",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Musket",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Shotgun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Machine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Submachine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Gun!"
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Grenade Launcher",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Gyroc",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Anti-Armor Weapon",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"range": "10/20",
+								"damage": "1d-3(2) pi-"
+							}
+						},
+						{
+							"id": "fa93c3d4-f1c9-439e-a614-ef332ab743ff",
+							"type": "ranged_weapon",
+							"damage": {
+								"type": "HT-5(0.5) aff"
+							},
+							"usage": "Follow-Up",
+							"calc": {
+								"damage": "HT-5(0.5) aff"
+							}
+						}
+					],
+					"calc": {
+						"extended_value": 400,
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "94994c71-a9ea-4152-a54b-87b43e92f2bf",
+					"type": "equipment",
+					"description": "Ямаха Пульсар",
+					"notes": "Смартган: при попадании может узнать состояние цели (Диагностика 10 навык)",
+					"tech_level": "9",
+					"tags": [
+						"Firearms"
+					],
+					"quantity": 1,
+					"value": 250,
+					"weight": "0.75 lb",
+					"weapons": [
+						{
+							"id": "ed79e8e4-fc83-4c1f-9406-b39e640be7ef",
+							"type": "ranged_weapon",
+							"damage": {
+								"type": "pi-",
+								"base": "1d-3",
+								"armor_divisor": 2
+							},
+							"strength": "7",
+							"accuracy": "0",
+							"range": "10/20",
+							"rate_of_fire": "3",
+							"shots": "4(3)",
+							"bulk": "-2",
+							"recoil": "2",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol"
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Rifle",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Musket",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Shotgun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Machine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Submachine Gun",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Gun!"
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Grenade Launcher",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Gyroc",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Light Anti-Armor Weapon",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"range": "10/20",
+								"damage": "1d-3(2) pi-"
+							}
+						},
+						{
+							"id": "83ef051a-4e8c-4a52-9bd6-33b6b482ba4a",
+							"type": "ranged_weapon",
+							"damage": {
+								"type": "HT-3(0.5) aff"
+							},
+							"usage": "Follow-Up",
+							"calc": {
+								"damage": "HT-3(0.5) aff"
+							}
+						}
+					],
+					"calc": {
+						"extended_value": 250,
+						"extended_weight": "0.75 lb"
+					}
+				},
+				{
+					"id": "8414fd90-e737-46f9-aeec-ea4abe9a8606",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "a145199e-0e76-4abf-9213-cb7078c78dcc",
+							"type": "equipment",
+							"description": "Заряд Дефинс ЕХ Шокер",
+							"quantity": 1,
+							"value": 20,
+							"weight": "0.1 lb",
+							"calc": {
+								"extended_value": 20,
+								"extended_weight": "0.1 lb"
+							}
+						},
+						{
+							"id": "76fd707f-147b-4f4d-be79-77584d74601d",
+							"type": "equipment",
+							"description": "Заряд Ямаха Пульсар",
+							"quantity": 1,
+							"value": 40,
+							"weight": "0.1 lb",
+							"calc": {
+								"extended_value": 40,
+								"extended_weight": "0.1 lb"
+							}
+						}
+					],
+					"description": "Боезапас",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 60,
+						"extended_weight": "0.2 lb"
+					}
+				}
+			],
+			"description": "Энергетическое",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 710,
+				"extended_weight": "2.95 lb"
+			}
+		},
+		{
+			"id": "4a12e924-4ce8-4c8c-b8bf-bc9c0d5061b3",
+			"type": "equipment_container",
+			"open": true,
+			"children": [
+				{
+					"id": "253d172b-193f-4b67-a6c3-97a81d2eae85",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "cc16e57b-a72c-4d4f-8121-c393896155af",
+							"type": "equipment",
+							"description": "Фичетти Тиффани Игольник, 4mm Flechette",
+							"reference": "UT137",
+							"notes": "Смартган: Смена цвета покрытия",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 1000,
+							"weight": "0.5 lb",
+							"weapons": [
+								{
+									"id": "ad5ee15b-2baa-4209-a589-d8f5a9a9fa88",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi-",
+										"base": "2d",
+										"armor_divisor": 2
+									},
+									"strength": "7",
+									"usage": "4mm Flechette",
+									"accuracy": "1",
+									"range": "120/2,000",
+									"rate_of_fire": "3",
+									"shots": "4+1(3)",
+									"bulk": "-1",
+									"recoil": "2",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "120/2,000",
+										"damage": "2d(2) pi-"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 1000,
+								"extended_weight": "0.5 lb"
+							}
+						},
+						{
+							"id": "fdf5888b-3cd5-4bf7-a88c-53615c163f49",
+							"type": "equipment",
+							"description": "Вальтер Палм Пистол, .45 ACP",
+							"reference": "UT137",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 200,
+							"weight": "0.5 lb",
+							"weapons": [
+								{
+									"id": "f2405072-c54f-4edc-b5a5-4906a240be2a",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi+",
+										"base": "2d-1"
+									},
+									"strength": "8",
+									"accuracy": "1",
+									"range": "30/300",
+									"rate_of_fire": "2",
+									"shots": "2(3i)",
+									"bulk": "0",
+									"recoil": "2",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "30/300",
+										"damage": "2d-1 pi+"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 200,
+								"extended_weight": "0.5 lb"
+							}
+						},
+						{
+							"id": "82713d4d-f6f7-45ce-bafc-719df470e4dd",
+							"type": "equipment",
+							"description": "Стритлайн Спешл, 9x20mm NewPara",
+							"reference": "UT137",
+							"notes": "Металлодетекторы не дают бонус",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 150,
+							"weight": "1 lb",
+							"weapons": [
+								{
+									"id": "61b31c70-2916-4215-bb7f-a2610900e4f3",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "2d+1"
+									},
+									"strength": "8",
+									"accuracy": "1",
+									"range": "50/300",
+									"rate_of_fire": "3",
+									"shots": "6+1(3)",
+									"bulk": "-1",
+									"recoil": "2",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "50/300",
+										"damage": "2d+1 pi"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 150,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "3f393981-fd70-4fa8-89ba-1ee98fa92577",
+							"type": "equipment",
+							"description": "Сиавасэ Армс Пазлер, 9x20mm NewPara",
+							"reference": "UT137",
+							"notes": "Собирается из двадцати невидимых для металлоискателя и являющихся предметами повседневного обихода компонентов. Металлодетекторы не дают бонус, +4 для сокрытия",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 900,
+							"weight": "1 lb",
+							"weapons": [
+								{
+									"id": "660ecc08-6fee-48c0-9415-980e1d90fda3",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "2d+1"
+									},
+									"strength": "8",
+									"accuracy": "1",
+									"range": "100/600",
+									"rate_of_fire": "3",
+									"shots": "10+1(3)",
+									"bulk": "-2",
+									"recoil": "2",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "100/600",
+										"damage": "2d+1 pi"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 900,
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "a3b4da16-5d28-4e1c-8359-9260451f5342",
+							"type": "equipment_container",
+							"children": [
+								{
+									"id": "aff1ea29-183f-4d8b-a2a2-e3befed53be5",
+									"type": "equipment",
+									"description": "Коробчатый магазин",
+									"quantity": 1,
+									"value": 40,
+									"weight": "0.1 lb",
+									"calc": {
+										"extended_value": 40,
+										"extended_weight": "0.1 lb"
+									}
+								},
+								{
+									"id": "d8af0c1e-f609-4307-b067-5fb53178fe8f",
+									"type": "equipment",
+									"description": "4mm SAPFSDS (Flechette)",
+									"reference": "UT139",
+									"tech_level": "9",
+									"legality_class": "3",
+									"tags": [
+										"Ammunition",
+										"Weaponry"
+									],
+									"quantity": 1,
+									"value": 4,
+									"weight": "0.006 lb",
+									"calc": {
+										"extended_value": 4,
+										"extended_weight": "0.006 lb"
+									}
+								},
+								{
+									"id": "63bb4165-04a1-45ce-a6fb-9ae3a2d06fa8",
+									"type": "equipment",
+									"description": ".45 ACP (11.43x23mm)",
+									"reference": "HT176",
+									"tags": [
+										"Ammunition",
+										"Warheads"
+									],
+									"quantity": 1,
+									"value": 1,
+									"weight": "0.047 lb",
+									"calc": {
+										"extended_value": 1,
+										"extended_weight": "0.047 lb"
+									}
+								},
+								{
+									"id": "5cc6217a-c4c9-4c0a-b991-6bbe145e976b",
+									"type": "equipment",
+									"description": "9x20mm NewPara",
+									"reference": "HT176",
+									"tags": [
+										"Ammunition",
+										"Warheads"
+									],
+									"quantity": 1,
+									"value": 0.6,
+									"weight": "0.026 lb",
+									"calc": {
+										"extended_value": 0.6,
+										"extended_weight": "0.026 lb"
+									}
+								}
+							],
+							"description": "Боезапас",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 45.6,
+								"extended_weight": "0.179 lb"
+							}
+						}
+					],
+					"description": "Скрытого ношения",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 2295.6,
+						"extended_weight": "3.179 lb"
+					}
+				},
+				{
+					"id": "ddb825c8-7835-495c-bb99-4c76dde29cc0",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "a527c9a1-a7d7-4529-be14-4571c028b5ad",
+							"type": "equipment",
+							"description": "Таурус Омни-6, .44",
+							"reference": "HT94",
+							"notes": "Интегрированный лазерный прицел. Сменные барабаны под патроны .44 Magnum и .44 Special",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Firearms"
+							],
+							"quantity": 1,
+							"value": 400,
+							"weight": "3 lb",
+							"weapons": [
+								{
+									"id": "8d9ba1c6-eaca-4a61-93b5-e01f53d9e901",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi+",
+										"base": "3d+1"
+									},
+									"strength": "11",
+									"accuracy": "2",
+									"range": "210/2,300",
+									"rate_of_fire": "1",
+									"shots": "6(3i)",
+									"bulk": "-3",
+									"recoil": "4",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Musket",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Machine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Submachine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Gun!"
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Grenade Launcher",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Gyroc",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Anti-Armor Weapon",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"range": "210/2,300",
+										"damage": "3d+1 pi+"
+									}
+								},
+								{
+									"id": "98999be8-deb6-4115-aa4d-c906a66b528f",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi+",
+										"base": "2d"
+									},
+									"strength": "10",
+									"accuracy": "2",
+									"range": "120/1,100",
+									"rate_of_fire": "3",
+									"shots": "6(3i)",
+									"bulk": "-3",
+									"recoil": "3",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Musket",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Machine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Submachine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Gun!"
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Grenade Launcher",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Gyroc",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Anti-Armor Weapon",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"range": "120/1,100",
+										"damage": "2d pi+"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 400,
+								"extended_weight": "3 lb"
+							}
+						},
+						{
+							"id": "0977b411-74b8-43c9-b0d4-81f2aa53840b",
+							"type": "equipment",
+							"description": "Ругер Супер Вархок, .454 Casull",
+							"reference": "HT97",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Firearms"
+							],
+							"quantity": 1,
+							"value": 600,
+							"weight": "3 lb",
+							"weapons": [
+								{
+									"id": "a1cdd95c-bec7-46c7-8f87-8a2aff090b33",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi+",
+										"base": "4d"
+									},
+									"strength": "12",
+									"accuracy": "1",
+									"range": "210/2,300",
+									"rate_of_fire": "3",
+									"shots": "6(3i)",
+									"bulk": "-2",
+									"recoil": "6",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Musket",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Machine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Submachine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Gun!"
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Grenade Launcher",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Gyroc",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Anti-Armor Weapon",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"range": "210/2,300",
+										"damage": "4d pi+"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 600,
+								"extended_weight": "3 lb"
+							}
+						},
+						{
+							"id": "20da8166-c454-45ab-80f0-a3702a1bb045",
+							"type": "equipment_container",
+							"children": [
+								{
+									"id": "97f3837e-8321-4b25-8294-05b8bd229b73",
+									"type": "equipment",
+									"description": "Спидлоадер",
+									"quantity": 1,
+									"value": 10,
+									"calc": {
+										"extended_value": 10,
+										"extended_weight": "0 lb"
+									}
+								},
+								{
+									"id": "c0f45989-c79e-4694-ba23-a0300e69d609",
+									"type": "equipment",
+									"description": ".44 Magnum (10.9x33mmR)",
+									"reference": "HT176",
+									"tags": [
+										"Ammunition",
+										"Warheads"
+									],
+									"quantity": 1,
+									"value": 1.4,
+									"weight": "0.054 lb",
+									"calc": {
+										"extended_value": 1.4,
+										"extended_weight": "0.054 lb"
+									}
+								},
+								{
+									"id": "acebcbf4-bb43-475c-91df-46d657c14180",
+									"type": "equipment",
+									"description": ".44 Special (10.9x29mmR)",
+									"reference": "HT176",
+									"tags": [
+										"Ammunition",
+										"Warheads"
+									],
+									"quantity": 1,
+									"value": 0.8,
+									"weight": "0.047 lb",
+									"calc": {
+										"extended_value": 0.8,
+										"extended_weight": "0.047 lb"
+									}
+								},
+								{
+									"id": "83576e3e-c43a-437c-bd5f-4a9962f7b272",
+									"type": "equipment",
+									"description": ".454 Casull (11.43x35mmR)",
+									"reference": "HT176",
+									"tags": [
+										"Ammunition",
+										"Warheads"
+									],
+									"quantity": 1,
+									"value": 2,
+									"weight": "0.066 lb",
+									"calc": {
+										"extended_value": 2,
+										"extended_weight": "0.066 lb"
+									}
+								}
+							],
+							"description": "Боезапас",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 14.2,
+								"extended_weight": "0.167 lb"
+							}
+						}
+					],
+					"description": "Револьверы",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 1014.2,
+						"extended_weight": "6.167 lb"
+					}
+				},
+				{
+					"id": "6b16ae09-f5e9-439e-b23d-f4c0fb2dc8f7",
+					"type": "equipment_container",
+					"open": true,
+					"children": [
+						{
+							"id": "c5988f34-5eab-45a4-ad78-8928f4e5ff0e",
+							"type": "equipment",
+							"description": "Арес Лайт Фаер 75, 9x20mm NewPara",
+							"reference": "UT137",
+							"notes": "Специальный глушитель: -1 к слуху, комбинируется с обычным глушителем",
+							"tech_level": "9",
+							"legality_class": "2",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 1000,
+							"weight": "2 lb",
+							"weapons": [
+								{
+									"id": "9c416f13-c35e-4fa9-a8fe-fa1493c8a74e",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "2d+2"
+									},
+									"strength": "9",
+									"accuracy": "2",
+									"range": "150/1,900",
+									"rate_of_fire": "3",
+									"shots": "16+1(3)",
+									"bulk": "-2",
+									"recoil": "2",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "150/1,900",
+										"damage": "2d+2 pi"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 1000,
+								"extended_weight": "2 lb"
+							}
+						},
+						{
+							"id": "83720acc-5b03-4ecf-bb7c-731ed245f524",
+							"type": "equipment",
+							"description": "Фичетти Секьюрити 600, 9x20mm NewPara",
+							"reference": "UT137",
+							"notes": "Оснащён съемным прикладом (0.2 lb, +1 acc) и интегрированным ЛЦУ",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 500,
+							"weight": "2.2 lb",
+							"weapons": [
+								{
+									"id": "13b85a1e-2846-4444-80a9-10273bc79bef",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "2d+2"
+									},
+									"strength": "9",
+									"accuracy": "2",
+									"range": "150/1,900",
+									"rate_of_fire": "3",
+									"shots": "30+1(3)",
+									"bulk": "-3",
+									"recoil": "2",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "150/1,900",
+										"damage": "2d+2 pi"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 500,
+								"extended_weight": "2.2 lb"
+							}
+						},
+						{
+							"id": "7e489e31-f8e2-476f-9e85-792824005caf",
+							"type": "equipment",
+							"description": "Арес Лайт Фаер 70, 9x20mm NewPara",
+							"reference": "UT137",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 300,
+							"weight": "2 lb",
+							"weapons": [
+								{
+									"id": "e507f6a7-0582-40c5-bb3b-cd06fef717f6",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "2d+2"
+									},
+									"strength": "9",
+									"accuracy": "2",
+									"range": "150/1,900",
+									"rate_of_fire": "3",
+									"shots": "16+1(3)",
+									"bulk": "-2",
+									"recoil": "2",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "150/1,900",
+										"damage": "2d+2 pi"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 300,
+								"extended_weight": "2 lb"
+							}
+						},
+						{
+							"id": "439252a7-607e-4ff9-b528-e409a45ab1dc",
+							"type": "equipment",
+							"description": "Арес Хищник V, .40 S\u0026W",
+							"reference": "UT137",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 800,
+							"weight": "3 lb",
+							"weapons": [
+								{
+									"id": "1eb56025-722a-4f49-a016-52f20beee1b1",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi+",
+										"base": "2d+2"
+									},
+									"strength": "9",
+									"accuracy": "2",
+									"range": "160/1,600",
+									"rate_of_fire": "3",
+									"shots": "15+1(3)",
+									"bulk": "-3",
+									"recoil": "2",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "160/1,600",
+										"damage": "2d+2 pi+"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 800,
+								"extended_weight": "3 lb"
+							}
+						},
+						{
+							"id": "705e1639-98b7-4c5b-98a7-4c14bffd4f3e",
+							"type": "equipment",
+							"description": "Кольт Гавермент 2066, .45 ACP",
+							"reference": "UT137",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 400,
+							"weight": "2.5 lb",
+							"weapons": [
+								{
+									"id": "5da6bebb-5882-4a68-9eca-f36a06cbb712",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi+",
+										"base": "2d+1"
+									},
+									"strength": "9",
+									"accuracy": "2",
+									"range": "100/1,200",
+									"rate_of_fire": "3",
+									"shots": "14+1(3)",
+									"bulk": "-2",
+									"recoil": "2",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "100/1,200",
+										"damage": "2d+1 pi+"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 400,
+								"extended_weight": "2.5 lb"
+							}
+						},
+						{
+							"id": "f8b4f0ab-b5f6-45b0-b014-dcb2d6476cf5",
+							"type": "equipment",
+							"description": "Кольт Америка Л36, .45 ACP",
+							"reference": "UT137",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 350,
+							"weight": "2 lb",
+							"weapons": [
+								{
+									"id": "a6ca8149-8520-4a36-ab35-6cebc7d4f5e6",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi+",
+										"base": "2d"
+									},
+									"strength": "9",
+									"accuracy": "2",
+									"range": "100/1,200",
+									"rate_of_fire": "3",
+									"shots": "11+1(3)",
+									"bulk": "-2",
+									"recoil": "2",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "100/1,200",
+										"damage": "2d pi+"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 350,
+								"extended_weight": "2 lb"
+							}
+						},
+						{
+							"id": "cc5b947c-a0f6-4b87-baf1-f90298cf1404",
+							"type": "equipment",
+							"description": "Браунинг Ультра Пауэр, .40 S\u0026W",
+							"reference": "UT137",
+							"notes": "Интегрированный ЛЦУ",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 500,
+							"weight": "2.5 lb",
+							"weapons": [
+								{
+									"id": "7f75d912-3d3c-4adf-b682-5da2b8404407",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi+",
+										"base": "2d+2"
+									},
+									"strength": "9",
+									"accuracy": "2",
+									"range": "160/1,600",
+									"rate_of_fire": "3",
+									"shots": "10+1(3)",
+									"bulk": "-2",
+									"recoil": "2",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "160/1,600",
+										"damage": "2d+2 pi+"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 500,
+								"extended_weight": "2.5 lb"
+							}
+						},
+						{
+							"id": "e62494b2-221e-42bc-bd30-c9886d84ee36",
+							"type": "equipment",
+							"description": "Арес Вайпер Сильверган, 5mm Flechette",
+							"reference": "UT137",
+							"notes": "Интегрированный глушитель: -4 к слуху",
+							"tech_level": "9",
+							"legality_class": "2",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 800,
+							"weight": "3 lb",
+							"weapons": [
+								{
+									"id": "e97cc785-c219-4bd9-b8cb-4f154f90ef64",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi-",
+										"base": "3d",
+										"armor_divisor": 2
+									},
+									"strength": "9",
+									"accuracy": "2",
+									"range": "220/1,900",
+									"rate_of_fire": "3",
+									"shots": "30+1(3)",
+									"bulk": "-3",
+									"recoil": "2",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "220/1,900",
+										"damage": "3d(2) pi-"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 800,
+								"extended_weight": "3 lb"
+							}
+						},
+						{
+							"id": "2e1af421-c41b-41e5-8be5-aec26dba738f",
+							"type": "equipment_container",
+							"children": [
+								{
+									"id": "0e2566a0-b308-425a-a069-17908da0e822",
+									"type": "equipment",
+									"description": "Коробчатый магазин",
+									"quantity": 1,
+									"value": 40,
+									"weight": "0.1 lb",
+									"calc": {
+										"extended_value": 40,
+										"extended_weight": "0.1 lb"
+									}
+								},
+								{
+									"id": "955526f8-bd3e-4155-9c7b-43e7c2f0cf8c",
+									"type": "equipment",
+									"description": ".45 ACP (11.43x23mm)",
+									"reference": "HT176",
+									"tags": [
+										"Ammunition",
+										"Warheads"
+									],
+									"quantity": 1,
+									"value": 1,
+									"weight": "0.047 lb",
+									"calc": {
+										"extended_value": 1,
+										"extended_weight": "0.047 lb"
+									}
+								},
+								{
+									"id": "b05a24dd-9d8f-42fa-8e7a-e4a55743d593",
+									"type": "equipment",
+									"description": "9x20mm NewPara",
+									"reference": "HT176",
+									"tags": [
+										"Ammunition",
+										"Warheads"
+									],
+									"quantity": 1,
+									"value": 0.6,
+									"weight": "0.026 lb",
+									"calc": {
+										"extended_value": 0.6,
+										"extended_weight": "0.026 lb"
+									}
+								},
+								{
+									"id": "7539ffe8-7d40-42b9-9f78-5b85b7de056c",
+									"type": "equipment",
+									"description": ".40 S\u0026W (10x21mm)",
+									"reference": "HT176",
+									"tags": [
+										"Ammunition",
+										"Warheads"
+									],
+									"quantity": 1,
+									"value": 1,
+									"weight": "0.035 lb",
+									"calc": {
+										"extended_value": 1,
+										"extended_weight": "0.035 lb"
+									}
+								},
+								{
+									"id": "56c2bca1-f68e-47e9-930f-44cbec06296e",
+									"type": "equipment",
+									"description": "5mm SAPFSDS (Flechette)",
+									"reference": "UT139",
+									"tech_level": "9",
+									"legality_class": "3",
+									"tags": [
+										"Ammunition",
+										"Weaponry"
+									],
+									"quantity": 1,
+									"value": 6,
+									"weight": "0.006 lb",
+									"calc": {
+										"extended_value": 6,
+										"extended_weight": "0.006 lb"
+									}
+								}
+							],
+							"description": "Боезапас",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 48.6,
+								"extended_weight": "0.214 lb"
+							}
+						}
+					],
+					"description": "Пистолеты",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 4698.6,
+						"extended_weight": "19.414 lb"
+					}
+				},
+				{
+					"id": "d49d3bb0-171d-400d-95b0-60d5eabb3a40",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "80813f6b-6905-4278-b1b3-829d2858cb8e",
+							"type": "equipment",
+							"description": "Беретта 201Т, 9x20mm NewPara",
+							"reference": "UT137",
+							"notes": "Оснащён складным прикладом (+1 acc). Стреляет отсечкой по три",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 500,
+							"weight": "3 lb",
+							"weapons": [
+								{
+									"id": "904848f6-d26a-452c-b872-7fa44d03f0fa",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "2d+2"
+									},
+									"strength": "9",
+									"accuracy": "2",
+									"range": "150/1,900",
+									"rate_of_fire": "9#",
+									"shots": "21+1(3)",
+									"bulk": "-3*",
+									"recoil": "2",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "150/1,900",
+										"damage": "2d+2 pi"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 500,
+								"extended_weight": "3 lb"
+							}
+						},
+						{
+							"id": "ee41af99-5e3c-4b64-adfa-13f2dcc84e95",
+							"type": "equipment",
+							"description": "Арес Крестоносец II, 9x20mm NewPara",
+							"reference": "UT137",
+							"notes": "Оснащён интегрированным компенсатором (+1 к навыку при очереди 3+)",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 900,
+							"weight": "3 lb",
+							"weapons": [
+								{
+									"id": "a1d0e00f-35dd-4e9d-9539-26b69f0e31c8",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "2d+2"
+									},
+									"strength": "9",
+									"accuracy": "2",
+									"range": "150/1,900",
+									"rate_of_fire": "20",
+									"shots": "40+1(3)",
+									"bulk": "-3",
+									"recoil": "2/3",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "150/1,900",
+										"damage": "2d+2 pi"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 900,
+								"extended_weight": "3 lb"
+							}
+						},
+						{
+							"id": "b54ebfb7-dbac-471c-8aae-2d5f28737496",
+							"type": "equipment",
+							"description": "Ческа Чёрный, .380 ACP",
+							"reference": "UT137",
+							"notes": "Оснащён складным прикладом (+1 acc)",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 400,
+							"weight": "2.5 lb",
+							"weapons": [
+								{
+									"id": "1f031fcf-e118-42d4-848b-04e6231becc5",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "2d"
+									},
+									"strength": "9",
+									"accuracy": "2",
+									"range": "160/1,600",
+									"rate_of_fire": "20",
+									"shots": "35+1(3)",
+									"bulk": "-3*",
+									"recoil": "2/3",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "160/1,600",
+										"damage": "2d pi"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 400,
+								"extended_weight": "2.5 lb"
+							}
+						},
+						{
+							"id": "9f99bc3f-e8e6-4ef7-82eb-740e6111bf92",
+							"type": "equipment",
+							"description": "СкорпионСтейр ТМП, .380 ACP",
+							"reference": "UT137",
+							"notes": "Оснащён ЛЦУ. Есть отсечка по три",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 550,
+							"weight": "2 lb",
+							"weapons": [
+								{
+									"id": "845b0fa1-dd62-47e8-9ddd-163d1fa36990",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "2d"
+									},
+									"strength": "9",
+									"accuracy": "2",
+									"range": "160/1,600",
+									"rate_of_fire": "9#/20",
+									"shots": "30+1(3)",
+									"bulk": "-2",
+									"recoil": "2/3",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "160/1,600",
+										"damage": "2d pi"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 550,
+								"extended_weight": "2 lb"
+							}
+						},
+						{
+							"id": "ae237a77-2bbe-467a-83cd-acd2830b1f2c",
+							"type": "equipment_container",
+							"children": [
+								{
+									"id": "705e6532-2801-4520-93e0-a77df221e758",
+									"type": "equipment",
+									"description": "Коробчатый магазин",
+									"quantity": 1,
+									"value": 40,
+									"weight": "0.1 lb",
+									"calc": {
+										"extended_value": 40,
+										"extended_weight": "0.1 lb"
+									}
+								},
+								{
+									"id": "b039668b-d2dc-4614-9e3f-52f32f093bf4",
+									"type": "equipment",
+									"description": "9x20mm NewPara",
+									"reference": "HT176",
+									"tags": [
+										"Ammunition",
+										"Warheads"
+									],
+									"quantity": 1,
+									"value": 0.6,
+									"weight": "0.026 lb",
+									"calc": {
+										"extended_value": 0.6,
+										"extended_weight": "0.026 lb"
+									}
+								},
+								{
+									"id": "7b9d943b-61a1-4613-bd08-ddc6aa2f2c03",
+									"type": "equipment",
+									"description": ".380 ACP (9x17mm)",
+									"reference": "HT176",
+									"tags": [
+										"Ammunition",
+										"Warheads"
+									],
+									"quantity": 1,
+									"value": 0.4,
+									"weight": "0.021 lb",
+									"calc": {
+										"extended_value": 0.4,
+										"extended_weight": "0.021 lb"
+									}
+								}
+							],
+							"description": "Боезапас",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 41,
+								"extended_weight": "0.147 lb"
+							}
+						}
+					],
+					"description": "Автоматические пистолеты",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 2391,
+						"extended_weight": "10.647 lb"
+					}
+				},
+				{
+					"id": "66c9108d-a378-4cd9-9911-49bdf5c78260",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "0a399292-682f-42b4-bf92-42c66d507601",
+							"type": "equipment",
+							"description": "Кольт Кобра ТЗ-120, 9x20mm NewPara",
+							"reference": "UT137",
+							"notes": "Интегрированный компенсатор (+1 к навыку при очереди 3+) и ЛЦУ. Складной приклад",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 750,
+							"weight": "4 lb",
+							"weapons": [
+								{
+									"id": "de87c5cc-35b8-4499-86c2-e4cd0ddadf24",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "2d+2"
+									},
+									"strength": "8†",
+									"accuracy": "3",
+									"range": "150/1,900",
+									"rate_of_fire": "15",
+									"shots": "32+1(3)",
+									"bulk": "-4*",
+									"recoil": "2",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Submachine Gun"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "150/1,900",
+										"damage": "2d+2 pi"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 750,
+								"extended_weight": "4 lb"
+							}
+						},
+						{
+							"id": "5596e040-3131-4252-b9be-535dfa8d9ca1",
+							"type": "equipment",
+							"description": "ФН Ф93 Претор, 9x20mm NewPara",
+							"reference": "UT137",
+							"notes": "Интегрированный фонарь (50-yd). Булпап",
+							"tech_level": "9",
+							"legality_class": "2",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 1100,
+							"weight": "3.5 lb",
+							"weapons": [
+								{
+									"id": "44cb74a4-d5b4-4efd-bfd8-0cffa8f1007b",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "2d+2"
+									},
+									"strength": "8†",
+									"accuracy": "3",
+									"range": "150/1,900",
+									"rate_of_fire": "12",
+									"shots": "28+1(3)",
+									"bulk": "-3",
+									"recoil": "2",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Submachine Gun"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "150/1,900",
+										"damage": "2d+2 pi"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 1100,
+								"extended_weight": "3.5 lb"
+							}
+						},
+						{
+							"id": "85420cf3-e7e6-4843-8b2e-6b2433ac4383",
+							"type": "equipment",
+							"description": "Ингрэм Смартган X, .45 ACP",
+							"reference": "UT137",
+							"notes": "Интегрированный компенсатор (+1 к навыку при очереди 3+)",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 900,
+							"weight": "3 lb",
+							"weapons": [
+								{
+									"id": "f971b98a-4dc4-4a4e-b634-00e6ce1f50e6",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi+",
+										"base": "2d"
+									},
+									"strength": "10",
+									"accuracy": "2",
+									"range": "150/1,900",
+									"rate_of_fire": "17",
+									"shots": "32+1(3)",
+									"bulk": "-3",
+									"recoil": "3",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Submachine Gun"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "150/1,900",
+										"damage": "2d pi+"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 900,
+								"extended_weight": "3 lb"
+							}
+						},
+						{
+							"id": "99b2217c-9aae-4c58-87c2-b324c30a8144",
+							"type": "equipment",
+							"description": "Узи IV, 9x20mm NewPara",
+							"reference": "UT137",
+							"notes": "Интегрированный ЛЦУ и коллиматор",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 400,
+							"weight": "3 lb",
+							"weapons": [
+								{
+									"id": "1aeafddd-92a0-4f8f-83a7-e1cdab1dca6c",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "2d+2"
+									},
+									"strength": "10",
+									"accuracy": "2",
+									"range": "150/1,900",
+									"rate_of_fire": "25",
+									"shots": "24+1(3)",
+									"bulk": "-3",
+									"recoil": "3",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Submachine Gun"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "150/1,900",
+										"damage": "2d+2 pi"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 400,
+								"extended_weight": "3 lb"
+							}
+						},
+						{
+							"id": "95635929-77ac-4af0-8baf-99e856711ea6",
+							"type": "equipment_container",
+							"children": [
+								{
+									"id": "ada0ac5d-5a4e-4a82-ba4a-0ae44e7017b5",
+									"type": "equipment",
+									"description": "Коробчатый магазин",
+									"quantity": 1,
+									"value": 40,
+									"weight": "0.1 lb",
+									"calc": {
+										"extended_value": 40,
+										"extended_weight": "0.1 lb"
+									}
+								},
+								{
+									"id": "0740fd78-df68-432f-8423-b380c3832ca2",
+									"type": "equipment",
+									"description": "9x20mm NewPara",
+									"reference": "HT176",
+									"tags": [
+										"Ammunition",
+										"Warheads"
+									],
+									"quantity": 1,
+									"value": 0.6,
+									"weight": "0.026 lb",
+									"calc": {
+										"extended_value": 0.6,
+										"extended_weight": "0.026 lb"
+									}
+								},
+								{
+									"id": "088c78a8-c185-466b-8b96-40839545be8c",
+									"type": "equipment",
+									"description": ".380 ACP (9x17mm)",
+									"reference": "HT176",
+									"tags": [
+										"Ammunition",
+										"Warheads"
+									],
+									"quantity": 1,
+									"value": 0.4,
+									"weight": "0.021 lb",
+									"calc": {
+										"extended_value": 0.4,
+										"extended_weight": "0.021 lb"
+									}
+								}
+							],
+							"description": "Боезапас",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 41,
+								"extended_weight": "0.147 lb"
+							}
+						}
+					],
+					"description": "Пистолеты-Пулемёты",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 3191,
+						"extended_weight": "13.647 lb"
+					}
+				},
+				{
+					"id": "b6e01c2d-4701-42d6-ab27-179ff49c0acb",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "8c9cbc00-032f-4c51-816c-9b3e36e719a1",
+							"type": "equipment",
+							"description": "AK-97, 5.45x39mm",
+							"reference": "HT120",
+							"tech_level": "8",
+							"legality_class": "3",
+							"tags": [
+								"Firearms"
+							],
+							"quantity": 1,
+							"value": 1000,
+							"weight": "7 lb",
+							"weapons": [
+								{
+									"id": "d66f326d-114f-4373-a4bf-127faf910f8d",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "4d+2"
+									},
+									"strength": "9†",
+									"accuracy": "4",
+									"range": "440/3,000",
+									"rate_of_fire": "11",
+									"shots": "38+1(3)",
+									"bulk": "-5",
+									"recoil": "2",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Musket",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Machine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Submachine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Gun!"
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Grenade Launcher",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Gyroc",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Anti-Armor Weapon",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"range": "440/3,000",
+										"damage": "4d+2 pi"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 1000,
+								"extended_weight": "7 lb"
+							}
+						},
+						{
+							"id": "f4da11de-d4d7-4c63-92f8-62da12b60673",
+							"type": "equipment",
+							"description": "Арес Альфа, 6x45mm",
+							"reference": "UT137",
+							"notes": "Стреляет отсечкой по три. Интегрированный гранатомёт. Булпап",
+							"tech_level": "9",
+							"legality_class": "1",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 3200,
+							"weight": "10 lb",
+							"weapons": [
+								{
+									"id": "373dcdc7-2b0a-4e5b-8cb1-fdd6ee4e4a84",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "4d+2"
+									},
+									"strength": "9†",
+									"accuracy": "4",
+									"range": "750/2,900",
+									"rate_of_fire": "9#",
+									"shots": "42+1(3)",
+									"bulk": "-4",
+									"recoil": "1",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "750/2,900",
+										"damage": "4d+2 pi"
+									}
+								},
+								{
+									"id": "6b6f0608-6bc9-43a8-bb19-6dfe8abc7227",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "cr ex",
+										"base": "4d-1",
+										"fragmentation": "2d",
+										"fragmentation_type": "cut"
+									},
+									"usage": "GL, 40x46mm",
+									"accuracy": "1",
+									"range": "30/440",
+									"rate_of_fire": "1",
+									"shots": "1(3)",
+									"bulk": "-4",
+									"recoil": "2",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Grenade Launcher"
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"range": "30/440",
+										"damage": "4d-1 cr ex [2d cut]"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 3200,
+								"extended_weight": "10 lb"
+							}
+						},
+						{
+							"id": "8ccabb8f-6877-4bd1-8335-dfe0d501c748",
+							"type": "equipment",
+							"description": "Кольт М23, 6x45mm",
+							"reference": "HT119",
+							"notes": "Accessory rail.",
+							"tech_level": "8",
+							"legality_class": "3",
+							"tags": [
+								"Firearms"
+							],
+							"quantity": 1,
+							"value": 700,
+							"weight": "6 lb",
+							"weapons": [
+								{
+									"id": "d0bfabdf-dc17-4b98-914f-37573337b3be",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "4d+2"
+									},
+									"strength": "9†",
+									"accuracy": "4",
+									"range": "750/2,900",
+									"rate_of_fire": "15",
+									"shots": "40+1(3)",
+									"bulk": "-4",
+									"recoil": "2",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Musket",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Machine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Submachine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Gun!"
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Grenade Launcher",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Gyroc",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Anti-Armor Weapon",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"range": "750/2,900",
+										"damage": "4d+2 pi"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 700,
+								"extended_weight": "6 lb"
+							}
+						},
+						{
+							"id": "db13df55-d7d1-4819-8557-6b8ae47909e1",
+							"type": "equipment",
+							"description": "ФН ХАР, 6x45mm",
+							"reference": "HT121",
+							"notes": "Интегрированный компенсатор (+1 к навыку при очереди 3+)",
+							"tech_level": "8",
+							"legality_class": "3",
+							"tags": [
+								"Firearms"
+							],
+							"quantity": 1,
+							"value": 1500,
+							"weight": "6 lb",
+							"weapons": [
+								{
+									"id": "e02f1201-9a42-4ce0-a5de-abc555aa7146",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "4d+2"
+									},
+									"strength": "9†",
+									"accuracy": "4",
+									"range": "750/2,900",
+									"rate_of_fire": "11",
+									"shots": "35+1(3)",
+									"bulk": "-4*",
+									"recoil": "2",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Musket",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Machine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Submachine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Gun!"
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Grenade Launcher",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Gyroc",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Anti-Armor Weapon",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"range": "750/2,900",
+										"damage": "4d+2 pi"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 1500,
+								"extended_weight": "6 lb"
+							}
+						},
+						{
+							"id": "922215f0-8de1-4aa1-b5a3-ccbc09aee264",
+							"type": "equipment",
+							"description": "Ямаха Рейден, 6x45mm",
+							"reference": "UT137",
+							"notes": "Интегрированный глушитель (-4 к слуху)",
+							"tech_level": "9",
+							"legality_class": "2",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 2800,
+							"weight": "5 lb",
+							"weapons": [
+								{
+									"id": "392a1409-99a4-4e03-b24d-a3852e9684ce",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "4d+2"
+									},
+									"strength": "9†",
+									"accuracy": "5",
+									"range": "750/2,900",
+									"rate_of_fire": "15",
+									"shots": "42+1(3)",
+									"bulk": "-4",
+									"recoil": "2",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "750/2,900",
+										"damage": "4d+2 pi"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 2800,
+								"extended_weight": "5 lb"
+							}
+						},
+						{
+							"id": "832749f7-9e95-44e8-ba7f-43796f73ee65",
+							"type": "equipment_container",
+							"children": [
+								{
+									"id": "acacfb16-bcc0-465e-85f5-88973d8ea087",
+									"type": "equipment",
+									"description": "Коробчатый магазин",
+									"quantity": 1,
+									"value": 40,
+									"weight": "0.1 lb",
+									"calc": {
+										"extended_value": 40,
+										"extended_weight": "0.1 lb"
+									}
+								},
+								{
+									"id": "71c110c2-bdf4-4318-893b-de9453dcfeef",
+									"type": "equipment",
+									"description": "5.45x39mm",
+									"reference": "HT176",
+									"tags": [
+										"Ammunition",
+										"Warheads"
+									],
+									"quantity": 1,
+									"value": 0.8,
+									"weight": "0.023 lb",
+									"calc": {
+										"extended_value": 0.8,
+										"extended_weight": "0.023 lb"
+									}
+								},
+								{
+									"id": "5bac3800-a85b-4ad0-8b98-1ffeb4e7c501",
+									"type": "equipment",
+									"description": "40x46mmSR",
+									"reference": "HT177",
+									"tags": [
+										"Ammunition",
+										"Warheads"
+									],
+									"quantity": 1,
+									"value": 10,
+									"weight": "0.5 lb",
+									"calc": {
+										"extended_value": 10,
+										"extended_weight": "0.5 lb"
+									}
+								},
+								{
+									"id": "c899c4af-c256-423f-84f1-933bee179a0c",
+									"type": "equipment",
+									"description": "6x45mm",
+									"reference": "HT176",
+									"tags": [
+										"Ammunition",
+										"Warheads"
+									],
+									"quantity": 1,
+									"value": 0.8,
+									"weight": "0.023 lb",
+									"calc": {
+										"extended_value": 0.8,
+										"extended_weight": "0.023 lb"
+									}
+								}
+							],
+							"description": "Боезапас",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 51.6,
+								"extended_weight": "0.646 lb"
+							}
+						}
+					],
+					"description": "Штурмовые винтовки",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 9251.6,
+						"extended_weight": "34.646 lb"
+					}
+				},
+				{
+					"id": "69cff7f7-5c4c-4060-a58b-8c7f1f602f2b",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "f951179c-46c4-448a-b23e-99ba4e875c9b",
+							"type": "equipment",
+							"description": "Арес Дезерт Страйк, 7.62x51mm",
+							"reference": "UT137",
+							"notes": "Компактный прицел (Приближение 4x, инфракрасное зрение, туннельное зрение. A/100hr.) 0.5lb",
+							"tech_level": "9",
+							"legality_class": "2",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 17000,
+							"weight": "8 lb",
+							"weapons": [
+								{
+									"id": "a8d4eb7d-eda6-470d-a5a5-c9c1d402b128",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "7d+1"
+									},
+									"strength": "10†",
+									"accuracy": "7+2",
+									"range": "1,000/4,200",
+									"rate_of_fire": "3",
+									"shots": "14+1(3)",
+									"bulk": "-6",
+									"recoil": "3",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "1,000/4,200",
+										"damage": "7d+1 pi"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 17000,
+								"extended_weight": "8 lb"
+							}
+						},
+						{
+							"id": "0078e511-1136-4747-8507-e84aef356dd5",
+							"type": "equipment",
+							"description": "Кавалер Армс Кроккет ЕБР, 7.62x51mm",
+							"reference": "UT137",
+							"notes": "Компактный прицел (Приближение 4x, инфракрасное зрение, туннельное зрение. A/100hr.) 0.5lb",
+							"tech_level": "9",
+							"legality_class": "2",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 10000,
+							"weight": "7 lb",
+							"weapons": [
+								{
+									"id": "edb6b836-d8d1-4eeb-896c-49de24646e40",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "7d"
+									},
+									"strength": "10†",
+									"accuracy": "5+2",
+									"range": "1,000/4,200",
+									"rate_of_fire": "9",
+									"shots": "20+1(3)",
+									"bulk": "-5",
+									"recoil": "3",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "1,000/4,200",
+										"damage": "7d pi"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 10000,
+								"extended_weight": "7 lb"
+							}
+						},
+						{
+							"id": "1b0fa950-d9d6-42ee-9727-35e5f84bf42c",
+							"type": "equipment",
+							"description": "Ремингтон Модель 950, 7.62x51mm",
+							"reference": "HT120",
+							"notes": "Съёмная оптика (Приближение 4x, туннельное зрение), 1lb",
+							"tech_level": "8",
+							"legality_class": "3",
+							"tags": [
+								"Firearms"
+							],
+							"quantity": 1,
+							"value": 2200,
+							"weight": "8 lb",
+							"weapons": [
+								{
+									"id": "e3ba3c55-68d3-4d64-9a3e-5764b0ed501e",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "7d"
+									},
+									"strength": "11†",
+									"accuracy": "5+2",
+									"range": "1,000/4,200",
+									"rate_of_fire": "1",
+									"shots": "5(3i)",
+									"bulk": "-5",
+									"recoil": "4",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Musket",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Machine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Submachine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Gun!"
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Grenade Launcher",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Gyroc",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Anti-Armor Weapon",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"range": "1,000/4,200",
+										"damage": "7d pi"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 2200,
+								"extended_weight": "8 lb"
+							}
+						},
+						{
+							"id": "bb8db810-b698-4c61-9534-a6a89f6d1850",
+							"type": "equipment",
+							"description": "Рейнджер Армс СМ-5, .300 WM",
+							"reference": "UT137",
+							"notes": "Компактный прицел (Гиперспектральное зрение 8x. Туннельное зрение. B/400hr.) 2lb. Интегрированный глушитель (-4 к слуху). Булпап. Хрупкая и капризная: -1HT на поломку, после одного боя штраф -1Malf.",
+							"tech_level": "9",
+							"legality_class": "2",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 28000,
+							"weight": "7 lb",
+							"weapons": [
+								{
+									"id": "cdd55739-99f6-4abe-ac4b-53d5b1216c07",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "8d+1"
+									},
+									"strength": "11†",
+									"accuracy": "6+3",
+									"range": "1,200/4,600",
+									"rate_of_fire": "3",
+									"shots": "15+1(3)",
+									"bulk": "-4",
+									"recoil": "3",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "1,200/4,600",
+										"damage": "8d+1 pi"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 28000,
+								"extended_weight": "7 lb"
+							}
+						},
+						{
+							"id": "5d0ff5df-544e-414d-ae8b-9f20edebea6d",
+							"type": "equipment_container",
+							"children": [
+								{
+									"id": "aecf107e-575f-4679-bad9-6aed592b8e90",
+									"type": "equipment",
+									"description": "Коробчатый магазин",
+									"quantity": 1,
+									"value": 40,
+									"weight": "0.1 lb",
+									"calc": {
+										"extended_value": 40,
+										"extended_weight": "0.1 lb"
+									}
+								},
+								{
+									"id": "361cf048-003c-4b36-bd16-fc23b647dfd8",
+									"type": "equipment",
+									"description": "7.62x51mm",
+									"reference": "HT176",
+									"tags": [
+										"Ammunition",
+										"Warheads"
+									],
+									"quantity": 1,
+									"value": 1.6,
+									"weight": "0.056 lb",
+									"calc": {
+										"extended_value": 1.6,
+										"extended_weight": "0.056 lb"
+									}
+								},
+								{
+									"id": "db84a9bc-9245-48ab-8743-cb97dd86e50f",
+									"type": "equipment",
+									"description": ".300 WM",
+									"reference": "HT176",
+									"tags": [
+										"Ammunition",
+										"Warheads"
+									],
+									"quantity": 1,
+									"value": 3,
+									"weight": "0.068 lb",
+									"calc": {
+										"extended_value": 3,
+										"extended_weight": "0.068 lb"
+									}
+								}
+							],
+							"description": "Боезапас",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 44.6,
+								"extended_weight": "0.224 lb"
+							}
+						}
+					],
+					"description": "Снайперские винтовки",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 57244.6,
+						"extended_weight": "30.224 lb"
+					}
+				},
+				{
+					"id": "cd6d131d-1866-4853-ae62-4de75f3fe8e7",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "aa1e8a70-3114-48ec-a17c-5982728e2f87",
+							"type": "equipment",
+							"description": "Ремингтон Румклинер, 12G",
+							"reference": "UT138",
+							"tech_level": "9",
+							"legality_class": "3",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 300,
+							"weight": "4 lb",
+							"weapons": [
+								{
+									"id": "bbdefbb1-026b-4d19-a14f-1ee568095998",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi++",
+										"base": "4d"
+									},
+									"strength": "12",
+									"accuracy": "1",
+									"range": "100/500",
+									"rate_of_fire": "1",
+									"shots": "8(3i)",
+									"bulk": "-3",
+									"recoil": "5",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "100/500",
+										"damage": "4d pi++"
+									}
+								},
+								{
+									"id": "d44f9cad-bdec-412c-a18f-40c6fa94bb85",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "1d+1"
+									},
+									"strength": "12",
+									"accuracy": "1",
+									"range": "10/50",
+									"rate_of_fire": "1x12",
+									"shots": "8(3i)",
+									"bulk": "-3",
+									"recoil": "1",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "10/50",
+										"damage": "1d+1 pi"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 300,
+								"extended_weight": "4 lb"
+							}
+						},
+						{
+							"id": "d398bcc0-d6f9-4852-84fc-05039fa1be7e",
+							"type": "equipment",
+							"description": "Дефинс Т-250, 12G",
+							"reference": "HT104",
+							"tech_level": "8",
+							"legality_class": "3",
+							"tags": [
+								"Firearms"
+							],
+							"quantity": 1,
+							"value": 450,
+							"weight": "7.5 lb",
+							"weapons": [
+								{
+									"id": "d0945c72-5f83-4601-80fb-5f3cf8b2bf31",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "1d+2"
+									},
+									"strength": "10†",
+									"accuracy": "3",
+									"range": "40/800",
+									"rate_of_fire": "3x12",
+									"shots": "5+1(2i)",
+									"bulk": "-5",
+									"recoil": "1/5",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Musket",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Machine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Submachine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Gun!"
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Grenade Launcher",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Gyroc",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Anti-Armor Weapon",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"range": "40/800",
+										"damage": "1d+2 pi"
+									}
+								},
+								{
+									"id": "5c929ad7-c6f3-46dc-8441-a143bc41511f",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi++",
+										"base": "5d"
+									},
+									"strength": "10†",
+									"usage": "slug",
+									"accuracy": "4",
+									"range": "100/1200",
+									"rate_of_fire": "3",
+									"shots": "5+1(2i)",
+									"bulk": "-5",
+									"recoil": "5",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Musket",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Machine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Submachine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Gun!"
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Grenade Launcher",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Gyroc",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Anti-Armor Weapon",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"range": "100/1200",
+										"damage": "5d pi++"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 450,
+								"extended_weight": "7.5 lb"
+							}
+						},
+						{
+							"id": "820e47e5-ce98-43fe-9f42-c101157a8ed9",
+							"type": "equipment",
+							"description": "Дефинс Т-250 короткий, 12G",
+							"reference": "HT104",
+							"notes": "Обрез без приклада",
+							"tech_level": "8",
+							"legality_class": "3",
+							"tags": [
+								"Firearms"
+							],
+							"quantity": 1,
+							"value": 350,
+							"weight": "5.5 lb",
+							"weapons": [
+								{
+									"id": "71cd1afa-e546-48ce-8fee-b63240029b39",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "1d+2"
+									},
+									"strength": "12†",
+									"accuracy": "2",
+									"range": "40/800",
+									"rate_of_fire": "3x12",
+									"shots": "5+1(2i)",
+									"bulk": "-4",
+									"recoil": "1/6",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Musket",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Machine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Submachine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Gun!"
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Grenade Launcher",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Gyroc",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Anti-Armor Weapon",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"range": "40/800",
+										"damage": "1d+2 pi"
+									}
+								},
+								{
+									"id": "abddc318-c519-48a0-bbb2-11a0cdf0f429",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi++",
+										"base": "5d"
+									},
+									"strength": "12†",
+									"usage": "slug",
+									"accuracy": "3",
+									"range": "100/1200",
+									"rate_of_fire": "3",
+									"shots": "5+1(2i)",
+									"bulk": "-4",
+									"recoil": "6",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Musket",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Machine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Submachine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Gun!"
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Grenade Launcher",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Gyroc",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Anti-Armor Weapon",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"range": "100/1200",
+										"damage": "5d pi++"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 350,
+								"extended_weight": "5.5 lb"
+							}
+						},
+						{
+							"id": "ae3d3217-a286-45e9-994c-b85560d8f988",
+							"type": "equipment",
+							"description": "Энфилд АС-7, 10G",
+							"reference": "HT104",
+							"notes": "Интегрированный ЛЦУ",
+							"tech_level": "9",
+							"legality_class": "2",
+							"tags": [
+								"Firearms"
+							],
+							"quantity": 1,
+							"value": 1100,
+							"weight": "8.5 lb",
+							"weapons": [
+								{
+									"id": "4ea95fdc-ad77-4e2b-9754-9aa8a130c54c",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "2d-1"
+									},
+									"strength": "11†",
+									"accuracy": "3",
+									"range": "40/800",
+									"rate_of_fire": "3x13",
+									"shots": "10+1(3)",
+									"bulk": "-6",
+									"recoil": "1/7",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Musket",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Machine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Submachine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Gun!"
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Grenade Launcher",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Gyroc",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Anti-Armor Weapon",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"range": "40/800",
+										"damage": "2d-1 pi"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 1100,
+								"extended_weight": "8.5 lb"
+							}
+						},
+						{
+							"id": "387882c6-918a-4114-92d0-97e0cb97bc09",
+							"type": "equipment",
+							"description": "ПЖСС Модель 55, 12G",
+							"reference": "HT104",
+							"tech_level": "8",
+							"legality_class": "3",
+							"tags": [
+								"Firearms"
+							],
+							"quantity": 1,
+							"value": 1000,
+							"weight": "6 lb",
+							"weapons": [
+								{
+									"id": "edb079e4-b89d-465f-b792-c0c52c7e5a15",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "1d+2"
+									},
+									"strength": "10†",
+									"accuracy": "4",
+									"range": "40/800",
+									"rate_of_fire": "2x12",
+									"shots": "2(2i)",
+									"bulk": "-5",
+									"recoil": "1/5",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Musket",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Machine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Submachine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Gun!"
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Grenade Launcher",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Gyroc",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Anti-Armor Weapon",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"range": "40/800",
+										"damage": "1d+2 pi"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 1000,
+								"extended_weight": "6 lb"
+							}
+						},
+						{
+							"id": "c5640706-bd2a-4a07-a547-080ccf61a8a3",
+							"type": "equipment",
+							"description": "ПЖСС Модель 55 обрез, 12G",
+							"reference": "HT104",
+							"tech_level": "8",
+							"legality_class": "2",
+							"tags": [
+								"Firearms"
+							],
+							"quantity": 1,
+							"value": 1000,
+							"weight": "4 lb",
+							"weapons": [
+								{
+									"id": "1283dbd7-3749-4b87-8099-9ca44277974f",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "1d+1"
+									},
+									"strength": "12†",
+									"accuracy": "2",
+									"range": "30/600",
+									"rate_of_fire": "2x12",
+									"shots": "2(2i)",
+									"bulk": "-3",
+									"recoil": "1/6",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Musket",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Machine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Submachine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Gun!"
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Grenade Launcher",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Gyroc",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Anti-Armor Weapon",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"range": "30/600",
+										"damage": "1d+1 pi"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 1000,
+								"extended_weight": "4 lb"
+							}
+						},
+						{
+							"id": "ab6a2836-bf0e-43ca-8ff4-501172bdbd72",
+							"type": "equipment",
+							"description": "Крайм Кэнон, 8G",
+							"reference": "HT120",
+							"tech_level": "9",
+							"legality_class": "2",
+							"tags": [
+								"Firearms"
+							],
+							"quantity": 1,
+							"value": 21000,
+							"weight": "12 lb",
+							"weapons": [
+								{
+									"id": "33fecc30-85f1-4171-bda0-0886bacafb15",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi++",
+										"base": "7d-1"
+									},
+									"strength": "13†",
+									"usage": "Slug",
+									"accuracy": "4",
+									"range": "180/1,800",
+									"rate_of_fire": "3",
+									"shots": "6(3i)",
+									"bulk": "-5",
+									"recoil": "7",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Musket",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Machine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Submachine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Gun!"
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Grenade Launcher",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Gyroc",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Anti-Armor Weapon",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"range": "180/1,800",
+										"damage": "7d-1 pi++"
+									}
+								},
+								{
+									"id": "ee0f84f1-672e-4115-a99c-cabaae3692ab",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "2d"
+									},
+									"strength": "13†",
+									"usage": "Buckshot",
+									"accuracy": "3",
+									"range": "50/900",
+									"rate_of_fire": "3x15",
+									"shots": "6(3i)",
+									"bulk": "-5",
+									"recoil": "1",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Musket",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Machine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Submachine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Gun!"
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Grenade Launcher",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Gyroc",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Anti-Armor Weapon",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"range": "50/900",
+										"damage": "2d pi"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 21000,
+								"extended_weight": "12 lb"
+							}
+						},
+						{
+							"id": "01bad68d-000f-40d3-a9f0-d5b8516367cf",
+							"type": "equipment_container",
+							"children": [
+								{
+									"id": "9986bc35-5ac6-49e1-9557-29775c03992d",
+									"type": "equipment",
+									"description": "Коробчатый магазин",
+									"quantity": 1,
+									"value": 40,
+									"weight": "0.1 lb",
+									"calc": {
+										"extended_value": 40,
+										"extended_weight": "0.1 lb"
+									}
+								},
+								{
+									"id": "63fb334d-b141-4361-9d2c-f361be65a8bf",
+									"type": "equipment",
+									"description": "12-gauge 3\"",
+									"reference": "HT176",
+									"tags": [
+										"Ammunition",
+										"Warheads"
+									],
+									"quantity": 1,
+									"value": 1.4,
+									"weight": "0.18 lb",
+									"calc": {
+										"extended_value": 1.4,
+										"extended_weight": "0.18 lb"
+									}
+								},
+								{
+									"id": "9bb67feb-d3ac-45ff-b6dc-05ba8f4c1ced",
+									"type": "equipment",
+									"description": "10-gauge 3\"",
+									"reference": "HT176",
+									"tags": [
+										"Ammunition",
+										"Warheads"
+									],
+									"quantity": 1,
+									"value": 2.6,
+									"weight": "0.15 lb",
+									"calc": {
+										"extended_value": 2.6,
+										"extended_weight": "0.15 lb"
+									}
+								},
+								{
+									"id": "1b73c94d-0460-46ad-bd6d-816f5b2e384d",
+									"type": "equipment",
+									"description": "8-gauge 3\"",
+									"reference": "HT177",
+									"tags": [
+										"Ammunition",
+										"Warheads"
+									],
+									"quantity": 1,
+									"value": 8,
+									"weight": "0.26 lb",
+									"calc": {
+										"extended_value": 8,
+										"extended_weight": "0.26 lb"
+									}
+								}
+							],
+							"description": "Боезапас",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 52,
+								"extended_weight": "0.69 lb"
+							}
+						}
+					],
+					"description": "Дробовики",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 25252,
+						"extended_weight": "48.19 lb"
+					}
+				},
+				{
+					"id": "f0bf323b-828d-4953-af4c-ebf6bc1a1718",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "e3c8c765-1327-482c-8dd8-efa6dd09d3a9",
+							"type": "equipment",
+							"description": "Инграм Велиант, 6x45mm",
+							"notes": "Встроенный ЛЦУ. Интегрированный компенсатор (+1 к навыку при очереди 3+)",
+							"tech_level": "9",
+							"legality_class": "1",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 5800,
+							"weight": "10 lb",
+							"weapons": [
+								{
+									"id": "a9869025-f960-4f61-930f-016356fbaed5",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "5d+1"
+									},
+									"strength": "9†",
+									"accuracy": "4",
+									"range": "750/2,900",
+									"rate_of_fire": "22",
+									"shots": "100(5)/30(3)",
+									"bulk": "-6",
+									"recoil": "2",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Machine Gun"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "750/2,900",
+										"damage": "5d+1 pi"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 5800,
+								"extended_weight": "10 lb"
+							}
+						},
+						{
+							"id": "f6880120-dd57-4a1b-9ca8-61e54eab0221",
+							"type": "equipment",
+							"description": "Стоунер-Арес M202, 7.62x51mm",
+							"tech_level": "9",
+							"legality_class": "1",
+							"tags": [
+								"Missile Weapon",
+								"Weaponry"
+							],
+							"quantity": 1,
+							"value": 7000,
+							"weight": "20 lb",
+							"weapons": [
+								{
+									"id": "9a9e6641-6be8-45fe-819a-5ac19f567703",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi",
+										"base": "7d+1"
+									},
+									"strength": "11B†",
+									"accuracy": "5",
+									"range": "1,100/4,800",
+									"rate_of_fire": "15",
+									"shots": "100(5)/50(3)",
+									"bulk": "-7",
+									"recoil": "3",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Machine Gun"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "1,100/4,800",
+										"damage": "7d+1 pi"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 7000,
+								"extended_weight": "20 lb"
+							}
+						},
+						{
+							"id": "ea60f7e7-c3bc-4410-b410-55396fef7239",
+							"type": "equipment",
+							"description": "РПК ХМГ, 12.7x108mm",
+							"reference": "HT137",
+							"tech_level": "9",
+							"legality_class": "1",
+							"tags": [
+								"Firearms"
+							],
+							"quantity": 1,
+							"value": 17000,
+							"weight": "35 lb",
+							"weapons": [
+								{
+									"id": "f7b945bf-745c-4f7d-9881-9f417c8a79cf",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "pi+",
+										"base": "7dx2"
+									},
+									"strength": "16B†",
+									"accuracy": "5",
+									"range": "1,800/7,700",
+									"rate_of_fire": "12",
+									"shots": "100(5)/50(5)",
+									"bulk": "-8",
+									"recoil": "4",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Machine Gun"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"range": "1,800/7,700",
+										"damage": "7dx2 pi+"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 17000,
+								"extended_weight": "35 lb"
+							}
+						}
+					],
+					"description": "Пулемёты",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 29800,
+						"extended_weight": "65 lb"
+					}
+				},
+				{
+					"id": "7a31d8e8-7a2d-4f4d-8ad7-e2c394ceafae",
+					"type": "equipment_container",
+					"open": true,
+					"children": [
+						{
+							"id": "8ed21bd7-6f73-4dac-9f7e-64a832a8170a",
+							"type": "equipment",
+							"description": "Арес Антиох-2, 40x46mmSR",
+							"reference": "HT145",
+							"notes": "Беспроводной: Вы можете использовать беспроводной триггер для ваших гранат",
+							"tech_level": "9",
+							"legality_class": "1",
+							"tags": [
+								"Firearms"
+							],
+							"quantity": 1,
+							"value": 4000,
+							"weight": "10.3 lb",
+							"weapons": [
+								{
+									"id": "0f9c9af8-4f5e-4467-ae37-309d2c67eb52",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "cr ex",
+										"base": "4d-1",
+										"fragmentation": "2d",
+										"fragmentation_type": "cut"
+									},
+									"strength": "10†",
+									"accuracy": "1",
+									"range": "30/440",
+									"rate_of_fire": "1",
+									"shots": "8(3i)",
+									"bulk": "-6*",
+									"recoil": "3",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Grenade Launcher"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"range": "30/440",
+										"damage": "4d-1 cr ex [2d cut]"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 4000,
+								"extended_weight": "10.3 lb"
+							}
+						},
+						{
+							"id": "4b92e999-7012-4832-bc7c-a66d310a8d79",
+							"type": "equipment",
+							"description": "АрмТех МГЛ-12, 40x46mmSR",
+							"reference": "HT145",
+							"notes": "Беспроводной: Вы можете использовать беспроводной триггер для ваших гранат",
+							"tech_level": "9",
+							"legality_class": "1",
+							"tags": [
+								"Firearms"
+							],
+							"quantity": 1,
+							"value": 8000,
+							"weight": "15 lb",
+							"weapons": [
+								{
+									"id": "5b33cb3a-5f8c-4b29-9878-1279b7be7636",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "cr ex",
+										"base": "4d-1",
+										"fragmentation": "2d",
+										"fragmentation_type": "cut"
+									},
+									"strength": "10†",
+									"accuracy": "1",
+									"range": "30/440",
+									"rate_of_fire": "3",
+									"shots": "12(3)",
+									"bulk": "-5",
+									"recoil": "3",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Grenade Launcher"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"range": "30/440",
+										"damage": "4d-1 cr ex [2d cut]"
+									}
+								}
+							],
+							"calc": {
+								"extended_value": 8000,
+								"extended_weight": "15 lb"
+							}
+						},
+						{
+							"id": "08accdea-3251-48a8-a12b-dcdf69e700df",
+							"type": "equipment_container",
+							"open": true,
+							"children": [
+								{
+									"id": "d9c3693d-2be6-458a-b66e-889c0f9b98ac",
+									"type": "equipment",
+									"description": "40x46mmSR",
+									"reference": "HT177",
+									"notes": "Light cased.",
+									"tags": [
+										"Ammunition",
+										"Warheads"
+									],
+									"quantity": 1,
+									"value": 10,
+									"weight": "0.5 lb",
+									"calc": {
+										"extended_value": 10,
+										"extended_weight": "0.5 lb"
+									}
+								},
+								{
+									"id": "9e2fc222-5334-45de-b7d2-0aa8a9414d6b",
+									"type": "equipment",
+									"description": "Коробчатый магазин АрмТех МГЛ-12",
+									"quantity": 1,
+									"value": 100,
+									"weight": "1 lb",
+									"calc": {
+										"extended_value": 100,
+										"extended_weight": "1 lb"
+									}
+								}
+							],
+							"description": "Боезапас",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 110,
+								"extended_weight": "1.5 lb"
+							}
+						},
+						{
+							"id": "671e0ba2-e10f-4e9f-a753-b64486ebe1cc",
+							"type": "equipment_container",
+							"children": [
+								{
+									"id": "a48d4c58-2039-46dc-9b32-975c7ae6f54d",
+									"type": "equipment",
+									"description": "Ацтехнолоджи Страйкер, 84mm",
+									"reference": "HT148",
+									"notes": "Backblast [2d burn]. Беспроводной: Вы можете использовать беспроводной триггер для ваших ракет",
+									"tech_level": "9",
+									"legality_class": "1",
+									"tags": [
+										"Firearms"
+									],
+									"quantity": 1,
+									"value": 1600,
+									"weight": "11 lb",
+									"weapons": [
+										{
+											"id": "d3b557fc-5c6d-43f2-920e-ccce51844d74",
+											"type": "ranged_weapon",
+											"damage": {
+												"type": "cr ex",
+												"base": "6dx6",
+												"armor_divisor": 10
+											},
+											"strength": "8†",
+											"accuracy": "2",
+											"range": "10/2,300",
+											"rate_of_fire": "1",
+											"shots": "1",
+											"bulk": "-5",
+											"recoil": "1",
+											"defaults": [
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Light Anti-Armor Weapon"
+												},
+												{
+													"type": "dx",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Gun!"
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"modifier": -4
+												}
+											],
+											"calc": {
+												"range": "10/2,300",
+												"damage": "6dx6(10) cr ex"
+											}
+										},
+										{
+											"id": "4047ee88-1c43-4025-8b0d-b842450f9bc7",
+											"type": "ranged_weapon",
+											"damage": {
+												"type": "cr ex",
+												"base": "7dx2"
+											},
+											"usage": "Linked",
+											"calc": {
+												"damage": "7dx2 cr ex"
+											}
+										}
+									],
+									"calc": {
+										"extended_value": 1600,
+										"extended_weight": "11 lb"
+									}
+								},
+								{
+									"id": "86d09570-5893-4a06-89d8-7768f99625f1",
+									"type": "equipment",
+									"description": "Онотари Перехватчик, 70mm",
+									"reference": "HT152",
+									"notes": "Backblast [2d burn]. Самонаводящиеся боеголовки. Вес пусковой установки - 4 lb. Цена пусковой установки - 10,000.  Вес ракеты - 21 lb. Цена ракеты: 20,000. ",
+									"tech_level": "9",
+									"legality_class": "1",
+									"tags": [
+										"Firearms"
+									],
+									"quantity": 1,
+									"value": 30000,
+									"weight": "25 lb",
+									"weapons": [
+										{
+											"id": "a6e0dda9-f299-4a1a-9342-ee551188ed68",
+											"type": "ranged_weapon",
+											"damage": {
+												"type": "cr ex",
+												"base": "6dx3",
+												"fragmentation": "3d+2",
+												"fragmentation_type": "cut"
+											},
+											"strength": "10†",
+											"accuracy": "5",
+											"range": "800/8,800",
+											"rate_of_fire": "1",
+											"shots": "2(10)",
+											"recoil": "1",
+											"defaults": [
+												{
+													"type": "skill",
+													"name": "Artillery",
+													"specialization": "Guided Missile"
+												},
+												{
+													"type": "iq",
+													"modifier": -5
+												}
+											],
+											"calc": {
+												"range": "800/8,800",
+												"damage": "6dx3 cr ex [3d+2 cut]"
+											}
+										},
+										{
+											"id": "4e389ce5-2be3-4873-a81e-bfb473662505",
+											"type": "ranged_weapon",
+											"damage": {
+												"type": "burn",
+												"base": "4d"
+											},
+											"usage": "Backblast",
+											"calc": {
+												"damage": "4d burn"
+											}
+										}
+									],
+									"calc": {
+										"extended_value": 30000,
+										"extended_weight": "25 lb"
+									}
+								}
+							],
+							"description": "Реактивные гранатомёты",
+							"quantity": 1,
+							"calc": {
+								"extended_value": 31600,
+								"extended_weight": "36 lb"
+							}
+						},
+						{
+							"id": "ec63a16a-f167-452f-b20a-a6b075b50873",
+							"type": "equipment_container",
+							"open": true,
+							"children": [
+								{
+									"id": "c39c53fa-fdb3-400f-9127-257ce19290da",
+									"type": "equipment",
+									"description": "M260, 70mm",
+									"reference": "HT150",
+									"tech_level": "8",
+									"legality_class": "1",
+									"tags": [
+										"Firearms"
+									],
+									"quantity": 1,
+									"value": 4200,
+									"weight": "35 lb",
+									"weapons": [
+										{
+											"id": "9e83af59-2b54-4062-ba65-0d8f51acfef0",
+											"type": "ranged_weapon",
+											"damage": {
+												"type": "cr ex",
+												"base": "7dx3",
+												"fragmentation": "3d+2",
+												"fragmentation_type": "cut"
+											},
+											"strength": "22M",
+											"accuracy": "2",
+											"range": "70/10,500",
+											"rate_of_fire": "7",
+											"shots": "7(10i)",
+											"bulk": "-9",
+											"recoil": "1",
+											"defaults": [
+												{
+													"type": "skill",
+													"name": "Gunner",
+													"specialization": "Rockets"
+												},
+												{
+													"type": "skill",
+													"name": "Gunner",
+													"modifier": -4
+												},
+												{
+													"type": "dx",
+													"modifier": -4
+												}
+											],
+											"calc": {
+												"range": "70/10,500",
+												"damage": "7dx3 cr ex [3d+2 cut]"
+											}
+										}
+									],
+									"calc": {
+										"extended_value": 4200,
+										"extended_weight": "35 lb"
+									}
+								}
+							],
+							"description": "РСЗО",
+							"legality_class": "4",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"extended_value": 4200,
+								"extended_weight": "35 lb"
+							}
+						}
+					],
+					"description": "Гранатомёты",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 47910,
+						"extended_weight": "97.8 lb"
+					}
+				}
+			],
+			"description": "Огнестрельное",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 183048.6,
+				"extended_weight": "328.914 lb"
+			}
+		}
+	]
+}

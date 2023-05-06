@@ -1,0 +1,3258 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "dfb3c9bd-1f94-4d37-b1b8-9e0d7979f912",
+	"traits": [
+		{
+			"id": "7885180a-aa34-480e-9337-06be01881909",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "91011abc-00a2-4b8b-8bf3-84d9d1b91002",
+					"type": "trait",
+					"name": "Mancer Talent",
+					"tags": [
+						"Physical"
+					],
+					"levels": 1,
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "starts_with",
+								"qualifier": "Mancer"
+							},
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "c65959b5-fee8-4e5e-a602-db534a220e3d",
+					"type": "trait",
+					"name": "Imbue Talent",
+					"reference": "PU1:17",
+					"tags": [
+						"Enhancement",
+						"Imbue",
+						"Mental",
+						"Supernatural",
+						"Transformation"
+					],
+					"levels": 1,
+					"points_per_level": 10,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Annihilating Weapon"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Arching Shot"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Bank Shot"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Conic Blast"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Continuing Attack"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Crippling Blow"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Dancing Weapon"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Drugged Weapon"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Electric Weapon"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Envenomed Weapon"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Far Shot"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Forceful Blow"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Ghostly Weapon"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Guided Weapon"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Homing Weapon"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Incendiary Weapon"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Multi-Shot"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Penetrating Strike"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Project Blow"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Shattershot"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Shockwave"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Stealthy Attack"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Stupefying Blow"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Sudden Death"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Supreme Control"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Telescoping Weapon"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Traumatic Blow"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Binding Shot"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Burning Strike"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Chilling Strike"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Corrosive Strike"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Crushing Strike"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Cutting Strike"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Dazzling Display"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Deafening Display"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Fatiguing Strike"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Impaling Strike"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Piercing Strike"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Strike of Negation"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Toxic Strike"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Vampiric Weapon"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Withering Strike"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Blinding Defense"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Blunting Armor"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Dancing Shield"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Energizing Defense"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Expand Armor"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Fireproof Armor"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Healthful Armor"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Impenetrable Armor"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Insulated Armor"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Lighten Armor"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Nullifying Armor"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Padded Armor"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Reinforce Armor"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Resilient Armor"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Restorative Armor"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Rigid Armor"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Sovereign Armor"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Spiritual Defense"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Subtle Defense"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Thunderous Defense"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Vengeful Defense"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Widen Shield"
+							},
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "5a645cc4-2b9d-41cc-b2a4-17ed214853fc",
+					"type": "trait",
+					"name": "Sorcery Talent",
+					"reference": "TSOR5",
+					"tags": [
+						"Mental",
+						"Supernatural"
+					],
+					"modifiers": [
+						{
+							"id": "393b527e-2810-41b3-9fc2-caf47232b351",
+							"type": "modifier",
+							"name": "Limited",
+							"cost": 0.5,
+							"cost_type": "multiplier",
+							"disabled": true
+						}
+					],
+					"levels": 1,
+					"points_per_level": 10,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Innate Attack"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "thaumatology"
+							},
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 10
+					}
+				}
+			],
+			"name": "Talents",
+			"calc": {
+				"points": 25
+			}
+		},
+		{
+			"id": "d1ece72a-081b-4332-9735-c4e8a1a91075",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "f0268bcd-0be5-4c1d-90f9-a7ad13d25eb1",
+					"type": "trait_container",
+					"children": [
+						{
+							"id": "e06f5b2f-5f61-4ad5-b828-90600dc0e48c",
+							"type": "trait",
+							"name": "Sorcerous Empowerment",
+							"reference": "TSOR4",
+							"tags": [
+								"Mental",
+								"Supernatural"
+							],
+							"modifiers": [
+								{
+									"id": "5a8ea687-8e1f-46c6-bd58-9f3a8c92cae7",
+									"type": "modifier",
+									"name": "Limited Colleges (1 College) (@College@)",
+									"reference": "TSOR4",
+									"cost": -40,
+									"affects": "levels_only",
+									"disabled": true
+								},
+								{
+									"id": "9cd7062b-5504-45e6-9c3c-02726a2dfeb1",
+									"type": "modifier",
+									"name": "Limited Colleges (2 Colleges) (@Colleges@)",
+									"reference": "TSOR4",
+									"cost": -30,
+									"affects": "levels_only",
+									"disabled": true
+								},
+								{
+									"id": "8422d620-1dda-4582-8208-f1d7df75f944",
+									"type": "modifier",
+									"name": "Limited Colleges (3 Colleges) (@Colleges@)",
+									"reference": "TSOR4",
+									"cost": -20,
+									"affects": "levels_only",
+									"disabled": true
+								},
+								{
+									"id": "a3bc6727-0387-485b-bbe1-12f62c25e634",
+									"type": "modifier",
+									"name": "Limited Colleges (4 Colleges) (@Colleges@)",
+									"reference": "TSOR4",
+									"cost": -10,
+									"affects": "levels_only",
+									"disabled": true
+								},
+								{
+									"id": "2065383e-3552-4fae-9820-58def973a72a",
+									"type": "modifier",
+									"name": "Limited Scope",
+									"reference": "TSOR4",
+									"notes": "The GM may limit Sorcerous Empowerment in a way that doesn't line up with normal colleges",
+									"cost": -20,
+									"disabled": true
+								}
+							],
+							"base_points": 10,
+							"levels": 1,
+							"points_per_level": 10,
+							"can_level": true,
+							"calc": {
+								"points": 20
+							}
+						}
+					],
+					"name": "Магия",
+					"container_type": "alternative_abilities",
+					"calc": {
+						"points": 20
+					}
+				}
+			],
+			"name": "Маг",
+			"container_type": "alternative_abilities",
+			"calc": {
+				"points": 20
+			}
+		},
+		{
+			"id": "ab670379-a62c-4557-9bdc-5ddd620d06ca",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "63fe673b-cfdf-44c0-aa29-c93f6555a03c",
+					"type": "trait",
+					"name": "Imbue",
+					"reference": "PU1:4",
+					"tags": [
+						"Imbue",
+						"Mental",
+						"Supernatural"
+					],
+					"modifiers": [
+						{
+							"id": "a636aaaa-187f-4e9b-8aca-1f56c8d01a20",
+							"type": "modifier",
+							"name": "Imbue level 1",
+							"reference": "PU1:4",
+							"notes": "Novice imbuement skills available.",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "64619af5-148d-4323-97d8-bae597e566d7",
+							"type": "modifier",
+							"name": "Imbue level 2",
+							"reference": "PU1:4",
+							"notes": "Intermediate (and easier) imbuement skills available.",
+							"cost": 20,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "1505be2a-dc9e-474a-bf3f-831aedcff5c4",
+							"type": "modifier",
+							"name": "Imbue level 3",
+							"reference": "PU1:4",
+							"notes": "Master (and easier) imbuement skills available.",
+							"cost": 40,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "bb0f4cd2-1287-415e-a245-17cb372fdec8",
+							"type": "modifier",
+							"name": "Chi",
+							"reference": "PU1:4",
+							"cost": -10,
+							"disabled": true
+						},
+						{
+							"id": "ab399736-b516-4934-a7c2-e9cce1a5e5ba",
+							"type": "modifier",
+							"name": "Divine",
+							"reference": "PU1:4",
+							"cost": -10,
+							"disabled": true
+						},
+						{
+							"id": "61db1a84-f8bd-4ac0-81e2-56f3fdad203a",
+							"type": "modifier",
+							"name": "Magical",
+							"reference": "PU1:4",
+							"cost": -10,
+							"disabled": true
+						},
+						{
+							"id": "f2cd194b-bb15-4046-938f-a304727d8921",
+							"type": "modifier",
+							"name": "Psionic",
+							"reference": "PU1:4",
+							"cost": -10,
+							"disabled": true
+						},
+						{
+							"id": "0896442b-ca03-4005-939e-baf87df430ad",
+							"type": "modifier",
+							"name": "Power Based",
+							"reference": "PY12:24",
+							"cost": -5,
+							"disabled": true
+						},
+						{
+							"id": "d1ca9208-c7ac-415c-a1fe-307e42eed7ea",
+							"type": "modifier",
+							"name": "Cosmic",
+							"reference": "PU1:4",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "590cb931-dadd-45c7-929e-f0915d1f81ff",
+							"type": "modifier",
+							"name": "Ignore DR",
+							"reference": "PU1:4",
+							"cost": 300,
+							"disabled": true
+						},
+						{
+							"id": "6e420a23-f9b2-48f2-bed4-ec77c5620005",
+							"type": "modifier",
+							"name": "Only One Skill",
+							"reference": "PU1:4",
+							"cost": -80,
+							"disabled": true
+						},
+						{
+							"id": "f8ed6489-d5c5-4054-b25d-4b421c8c6724",
+							"type": "modifier",
+							"name": "Only Two Skills",
+							"reference": "PU1:4",
+							"cost": -60,
+							"disabled": true
+						},
+						{
+							"id": "7bf0fd4d-3665-4358-b4c3-9a8c1bee52a0",
+							"type": "modifier",
+							"name": "Only Three Skills",
+							"reference": "PU1:4",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "3b5d6fe4-7b7f-4616-95d2-f12f9ad7e460",
+							"type": "modifier",
+							"name": "Only Four Skills",
+							"reference": "PU1:4",
+							"cost": -20,
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 0
+					}
+				}
+			],
+			"name": "Адепт",
+			"modifiers": [
+				{
+					"id": "9b463a8a-19e4-4fd4-98cd-2f87a7de5a49",
+					"type": "modifier",
+					"name": "Magical",
+					"cost": -10
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "ad9c8e50-83d2-4315-b0e1-737180c9c06b",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "0c654a25-e13b-4926-a50e-1a59b7bb9b64",
+					"type": "trait",
+					"name": "Mind Control",
+					"reference": "B68",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "7e2c2c40-d0c5-4bf7-90de-0bdd2293b1f8",
+							"type": "modifier",
+							"name": "Conditioning",
+							"reference": "B69",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "7751e490-7187-4543-8df1-c21c5bc6cf99",
+							"type": "modifier",
+							"name": "No Memory",
+							"reference": "B69",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "7b028fca-8fc3-4289-bdb5-58ab0991162b",
+							"type": "modifier",
+							"name": "Conditioning Only",
+							"reference": "B69",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "6100920d-6e5d-498b-8e39-405a1e3292f6",
+							"type": "modifier",
+							"name": "Puppet",
+							"reference": "B69",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "26541285-6575-416b-9a4a-ad9113e28004",
+							"type": "modifier",
+							"name": "Independent",
+							"reference": "P61",
+							"cost": 70,
+							"disabled": true
+						},
+						{
+							"id": "749840f9-4f5c-4025-bd33-9a25f411f538",
+							"type": "modifier",
+							"name": "Emotion Control",
+							"reference": "P61",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "b002b420-104c-4025-8f74-080af8db6bd1",
+							"type": "modifier",
+							"name": "One Emotion Only",
+							"reference": "H17",
+							"cost": -80,
+							"disabled": true
+						},
+						{
+							"id": "568cb211-32d3-4c95-84ae-df0a2f894fe2",
+							"type": "modifier",
+							"name": "Suggestion",
+							"reference": "P61",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "965f4944-eb23-456e-9e4f-7c251cd43435",
+							"type": "modifier",
+							"name": "Rationalization",
+							"reference": "PSI15",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "c2b31465-7323-4bf3-b9a9-5d3d8ec8912f",
+							"type": "modifier",
+							"name": "Slow and Sure",
+							"reference": "PSI15",
+							"notes": "1 hour",
+							"cost": 80,
+							"disabled": true
+						},
+						{
+							"id": "15d5633b-7df5-466d-9161-d7beb11b4277",
+							"type": "modifier",
+							"name": "Slow and Sure Only",
+							"reference": "PSI15",
+							"notes": "1 hour",
+							"cost": 40,
+							"disabled": true
+						},
+						{
+							"id": "3135bebb-6eb8-4ee3-a9dc-b2a21b49bde0",
+							"type": "modifier",
+							"name": "Slow and Sure",
+							"reference": "PSI15",
+							"notes": "10 minutes",
+							"cost": 110,
+							"disabled": true
+						},
+						{
+							"id": "7b906254-edb6-45e6-a03d-ab01a1741835",
+							"type": "modifier",
+							"name": "Slow and Sure Only",
+							"reference": "PSI15",
+							"notes": "10 minutes",
+							"cost": 70,
+							"disabled": true
+						},
+						{
+							"id": "52b69fbd-e4d5-4ee5-8992-34601f85f746",
+							"type": "modifier",
+							"name": "Slow and Sure",
+							"reference": "PSI15",
+							"notes": "10 seconds",
+							"cost": 155,
+							"disabled": true
+						},
+						{
+							"id": "7e233b06-eb4b-4904-a944-7921cd94a6ed",
+							"type": "modifier",
+							"name": "Slow and Sure Only",
+							"reference": "PSI15",
+							"notes": "10 seconds",
+							"cost": 115,
+							"disabled": true
+						},
+						{
+							"id": "3917e56e-7f72-4db5-91a6-5180ddcfd4b0",
+							"type": "modifier",
+							"name": "Mind Tricks",
+							"reference": "PSI15",
+							"cost": -30,
+							"disabled": true
+						},
+						{
+							"id": "bdf6d9e7-d607-4108-bb79-d724637692ba",
+							"type": "modifier",
+							"name": "Computers Only"
+						},
+						{
+							"id": "8177a3fd-6092-4fdd-8cbb-e4704f81bb03",
+							"type": "modifier",
+							"name": "Costs Fatigue",
+							"reference": "B111",
+							"cost": -5,
+							"levels": 2
+						}
+					],
+					"base_points": 50,
+					"calc": {
+						"points": 40
+					}
+				},
+				{
+					"id": "5b350ff6-91ef-4343-b1d7-22037e69e38c",
+					"type": "trait",
+					"name": "Detect",
+					"reference": "B48",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "6460d102-ef02-4d91-b127-e523fa3d396d",
+							"type": "modifier",
+							"name": "@Rare Substance/Condition@",
+							"reference": "B48",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "8bfd4413-51b2-403e-9cad-77e2e9c70bb3",
+							"type": "modifier",
+							"name": "@Occasional Substance/Condition@",
+							"reference": "B48",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "c6a434c1-c57e-4d35-8370-5059c249d597",
+							"type": "modifier",
+							"name": "Radio",
+							"reference": "B48",
+							"cost": 10,
+							"cost_type": "points"
+						},
+						{
+							"id": "ccbbb4b7-a4fa-42d3-903f-ba6e7bc8102f",
+							"type": "modifier",
+							"name": "@Very Common Substance/Condition@",
+							"reference": "B48",
+							"cost": 30,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "12a213d8-75f2-4327-8130-a9fdb0c17e27",
+							"type": "modifier",
+							"name": "Precise",
+							"reference": "B48",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "d9770ec8-f757-4de9-99bb-bb1c3b2a569e",
+							"type": "modifier",
+							"name": "Signal Detection",
+							"reference": "B48",
+							"notes": "You can detect an active transmission of some sort, such as a radio, radar, or laser; see Scanning Sense (p. 81) and Telecommunication (p. 91). You suffer no range penalties, but must be within twice the signal’s own range and (if the signal is directional) within in its path."
+						},
+						{
+							"id": "d0a8dfe2-ffed-4494-8603-bde3cc1516dc",
+							"type": "modifier",
+							"name": "Vague",
+							"reference": "B48",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "e01517c2-96a6-4b1b-a461-63189caa9bbd",
+							"type": "modifier",
+							"name": "Analyzing",
+							"reference": "P47",
+							"notes": "Your sense has an extremely high resolution, like a superscience scanner. Basic analysis is automatic if your Sense roll succeeds. Only make a separate IQ roll if you opt to do a detailed analysis. Success reveals details such as the form and purity of the item sensed, its precise subclass, etc.",
+							"cost": 100
+						},
+						{
+							"id": "6de4e48b-fdf7-472d-86e1-d6e28cb855e0",
+							"type": "modifier",
+							"name": "Lock-On",
+							"reference": "PSI14",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "d44ea63f-5c01-401a-83ec-4137986db6da",
+							"type": "modifier",
+							"name": "Precise, Nontargeting",
+							"reference": "PSI14",
+							"cost": 90,
+							"disabled": true
+						},
+						{
+							"id": "81f1fc69-3eae-464f-94aa-c20ba6794398",
+							"type": "modifier",
+							"name": "Analysis Only",
+							"reference": "PSI14",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "c3cbcd98-118c-4260-9f00-6273374ae2e3",
+							"type": "modifier",
+							"name": "Cannot Analyze",
+							"reference": "PSI14",
+							"cost": -10,
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 19
+					}
+				},
+				{
+					"id": "ab182a85-2035-4e40-b929-171b55368fd4",
+					"type": "trait",
+					"name": "Telecommunication",
+					"reference": "B91",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "5bc1db29-464e-4148-be5e-ad9623665523",
+							"type": "modifier",
+							"name": "Infrared Communication",
+							"reference": "B91",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "224259da-4380-49c8-b2e6-8b5cf72901f4",
+							"type": "modifier",
+							"name": "Laser Communication",
+							"reference": "B91",
+							"cost": 15,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "92772fb4-74dd-4f91-b2cd-8c5386bb3ccc",
+							"type": "modifier",
+							"name": "Radio",
+							"reference": "B91",
+							"cost": 10,
+							"cost_type": "points"
+						},
+						{
+							"id": "61581bba-d426-4718-b98f-ed74233995d0",
+							"type": "modifier",
+							"name": "Telesend",
+							"reference": "B91",
+							"cost": 30,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "bcd64fbd-cb65-44a0-a447-d585d0f66ca8",
+							"type": "modifier",
+							"name": "Broadcast",
+							"reference": "B91",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "84c293f5-e945-42f6-afda-e585f2a22fc5",
+							"type": "modifier",
+							"name": "Short Wave",
+							"reference": "B91",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "70e7b374-15ba-45b3-91ac-845123419469",
+							"type": "modifier",
+							"name": "Universal",
+							"reference": "B91",
+							"notes": "Your messages are automatically translated into your subject’s language. ",
+							"cost": 50
+						},
+						{
+							"id": "0443d939-a83b-4034-8a48-92bb31c3ca56",
+							"type": "modifier",
+							"name": "Video",
+							"reference": "B91",
+							"cost": 40,
+							"disabled": true
+						},
+						{
+							"id": "2d30bc84-25ad-4a30-9c11-172fffd9e8d6",
+							"type": "modifier",
+							"name": "Racial",
+							"reference": "B91",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "47cd4775-ba29-443c-bdf5-4f26566bb2af",
+							"type": "modifier",
+							"name": "Receive Only",
+							"reference": "B91",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "526b847a-45b8-4581-a895-48fcf75e8940",
+							"type": "modifier",
+							"name": "Send Only",
+							"reference": "B91",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "dfa21438-84fa-4055-9cc8-6f159b04448f",
+							"type": "modifier",
+							"name": "Vague",
+							"reference": "B91",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "dfcb68ed-3368-4c25-9eb7-56d41cd8dfce",
+							"type": "modifier",
+							"name": "Directional Sound",
+							"reference": "P81",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "1e179b0d-e417-4231-b9f3-369b927661c7",
+							"type": "modifier",
+							"name": "Gravity Ripple",
+							"reference": "P81",
+							"cost": 20,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "fbd85182-4e35-477b-9820-d11314c83e86",
+							"type": "modifier",
+							"name": "Neutrino",
+							"reference": "P81",
+							"cost": 25,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "3e5536c4-9d58-4777-a226-dfc1db3dbbc8",
+							"type": "modifier",
+							"name": "Sonar",
+							"reference": "P81",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "ef956479-151b-4aa9-8cf6-8437cf1bb7cf",
+							"type": "modifier",
+							"name": "Burst",
+							"reference": "P81",
+							"notes": "You transmit a high-speed “blip” that conveys information much faster than you could speak or draw. +30% for 10x normal speed, +60% for 100x, +90% for 1,000x, and so on. Each factor of 10 gives -1 to attempts to intercept the transmission.",
+							"cost": 30,
+							"levels": 1
+						},
+						{
+							"id": "80add33e-18b3-4891-8c45-34cc36fe7aca",
+							"type": "modifier",
+							"name": "FTL",
+							"reference": "P82",
+							"cost": 120,
+							"disabled": true
+						},
+						{
+							"id": "666540d2-5864-42eb-b6ff-61e4cff580de",
+							"type": "modifier",
+							"name": "Secure",
+							"reference": "P82",
+							"notes": "Your signal employs security measures that make it difficult to interpret if intercepted. Eavesdroppers must win a Quick Contest of IQ (if using Telecommunication) or Electronics Operation (if using technology) against your IQ to understand the content of the transmission. If they lose, they get garbage.",
+							"cost": 20
+						},
+						{
+							"id": "323609f0-7960-4f56-a151-cc6fce78f7f6",
+							"type": "modifier",
+							"name": "Sensie",
+							"reference": "P82",
+							"cost": 80,
+							"disabled": true
+						},
+						{
+							"id": "3f92b6b4-f913-4115-b7c9-8d39987a2ecd",
+							"type": "modifier",
+							"name": "Cable Jack",
+							"reference": "UT31",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "39c60615-4766-4489-8dea-c3285ed66b59",
+							"type": "modifier",
+							"name": "Full Communion",
+							"reference": "PSI17",
+							"cost": 20,
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 19
+					}
+				}
+			],
+			"name": "Техномансер",
+			"modifiers": [
+				{
+					"id": "6b68cdc1-67d5-4d82-9052-b54a051efece",
+					"type": "modifier",
+					"name": "Technomancer",
+					"cost": -10
+				}
+			],
+			"container_type": "alternative_abilities",
+			"calc": {
+				"points": 48
+			}
+		}
+	],
+	"skills": [
+		{
+			"id": "402fe21c-506c-4034-8c15-93f0339abf8f",
+			"type": "skill_container",
+			"children": [
+				{
+					"id": "e758c97f-0d16-4a24-959e-0f0dfe85596d",
+					"type": "skill",
+					"name": "Mancer Detect Signal",
+					"difficulty": "iq/h",
+					"points": 1
+				},
+				{
+					"id": "f6b29239-5462-4b77-97a6-bd78c0c1bb45",
+					"type": "skill",
+					"name": "Mancer Control Machine",
+					"difficulty": "iq/h",
+					"points": 1
+				},
+				{
+					"id": "9c4971c9-147a-4d3a-8a7f-ea72f3eb40d6",
+					"type": "skill",
+					"name": "Mancer I/O Signal",
+					"difficulty": "iq/h",
+					"points": 1
+				},
+				{
+					"id": "08299833-5547-42a7-b10a-a2e9f4589520",
+					"type": "technique",
+					"name": "Radio Warfare",
+					"notes": "Борьба двух участников за контроль над машиной",
+					"difficulty": "a",
+					"points": 1,
+					"default": {
+						"type": "skill",
+						"name": "Mancer Control Machine"
+					},
+					"limit": 4
+				},
+				{
+					"id": "cd60b44a-ddfc-434e-a775-165fffdfabea",
+					"type": "technique",
+					"name": "Burst Up",
+					"notes": "Скорость передачи данных увеличивается в десять раз. Стоит 2 FP",
+					"difficulty": "h",
+					"points": 1,
+					"default": {
+						"type": "skill",
+						"name": "Mancer I/O Signal",
+						"modifier": -5
+					},
+					"limit": 0
+				}
+			],
+			"name": "Техномансер"
+		},
+		{
+			"id": "1f765db8-abad-45fe-879f-c513a4defd59",
+			"type": "skill_container",
+			"children": [
+				{
+					"id": "a11c43e6-9136-429c-889a-0387c2958272",
+					"type": "skill",
+					"name": "Annihilating Weapon",
+					"reference": "PU1:6",
+					"tags": [
+						"Enhancement",
+						"Imbue",
+						"Melee"
+					],
+					"specialization": "@Melee Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 2"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "b8edc9d8-53f0-441c-9d25-c8fde2e0c685",
+					"type": "skill",
+					"name": "Arching Shot",
+					"reference": "PU1:6",
+					"tags": [
+						"Enhancement",
+						"Imbue",
+						"Ranged"
+					],
+					"specialization": "@Ranged Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 2"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "d99f85b1-bf90-4bff-8e15-ae76f6eec08f",
+					"type": "skill",
+					"name": "Bank Shot",
+					"reference": "PU1:6",
+					"tags": [
+						"Enhancement",
+						"Imbue",
+						"Ranged"
+					],
+					"specialization": "@Ranged Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 2"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "24ff5efa-81fc-4c28-9d9f-3a381f329cfd",
+					"type": "skill",
+					"name": "Binding Shot",
+					"reference": "PU1:11",
+					"tags": [
+						"Imbue",
+						"Ranged",
+						"Transformation"
+					],
+					"specialization": "@Ranged Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "17d02932-477a-40cf-80cf-b87f1c195dbb",
+					"type": "skill",
+					"name": "Burning Strike",
+					"reference": "PU1:11",
+					"tags": [
+						"General",
+						"Imbue",
+						"Transformation"
+					],
+					"specialization": "@General Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 2"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "63819a13-368b-479f-be98-725b092a0c37",
+					"type": "skill",
+					"name": "Chilling Strike",
+					"reference": "PU1:11",
+					"tags": [
+						"General",
+						"Imbue",
+						"Transformation"
+					],
+					"specialization": "@General Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "eb8b8f15-3cd5-4d48-8bf1-0deb2f4d337e",
+					"type": "skill",
+					"name": "Conic Blast",
+					"reference": "PU1:6",
+					"tags": [
+						"Enhancement",
+						"Imbue",
+						"Ranged"
+					],
+					"specialization": "@Ranged Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "ecc686d5-f298-43fd-aa7c-062639180e10",
+					"type": "skill",
+					"name": "Continuing Attack",
+					"reference": "PU1:7",
+					"tags": [
+						"Enhancement",
+						"General",
+						"Imbue"
+					],
+					"specialization": "@General Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "f2ccdcb3-40e0-4799-89d9-37799d7f3aaf",
+					"type": "skill",
+					"name": "Corrosive Strike",
+					"reference": "PU1:11",
+					"tags": [
+						"General",
+						"Imbue",
+						"Transformation"
+					],
+					"specialization": "@General Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "f9f034e7-66a5-4ad5-a0e1-d7cae67ca466",
+					"type": "skill",
+					"name": "Crippling Blow",
+					"reference": "PU1:7",
+					"tags": [
+						"Enhancement",
+						"General",
+						"Imbue"
+					],
+					"specialization": "@General Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "ba10e173-31ad-40b3-b5c7-c31e3cc606e2",
+					"type": "skill",
+					"name": "Crushing Strike",
+					"reference": "PU1:11",
+					"tags": [
+						"General",
+						"Imbue",
+						"Transformation"
+					],
+					"specialization": "@General Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 2"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 1"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "eafb7d19-317d-4ff9-b09c-242bbcf4265c",
+					"type": "skill",
+					"name": "Cutting Strike",
+					"reference": "PU1:12",
+					"tags": [
+						"General",
+						"Imbue",
+						"Transformation"
+					],
+					"specialization": "@General Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 2"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "f3c16888-9e62-4f95-bac5-984e1331cc12",
+					"type": "skill",
+					"name": "Dancing Weapon",
+					"reference": "PU1:7",
+					"tags": [
+						"Enhancement",
+						"General",
+						"Imbue"
+					],
+					"specialization": "@General Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "5db3530d-c5be-433d-8957-d5703b167880",
+					"type": "skill",
+					"name": "Dazzling Display",
+					"reference": "PU1:12",
+					"tags": [
+						"General",
+						"Imbue",
+						"Transformation"
+					],
+					"specialization": "@General Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 2"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "3f810752-5df5-4411-bd31-3c7874ecad77",
+					"type": "skill",
+					"name": "Deafening Display",
+					"reference": "PU1:12",
+					"tags": [
+						"General",
+						"Imbue",
+						"Transformation"
+					],
+					"specialization": "@General Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 2"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 1"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "5a4c89a9-0a9e-4a65-8ab0-3384c3ec5fc0",
+					"type": "skill",
+					"name": "Drugged Weapon",
+					"reference": "PU1:7",
+					"tags": [
+						"Enhancement",
+						"General",
+						"Imbue"
+					],
+					"specialization": "@General Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "2e6bbbc5-973a-4e26-9d9c-cee98346fb39",
+					"type": "skill",
+					"name": "Electric Weapon",
+					"reference": "PU1:7",
+					"tags": [
+						"Enhancement",
+						"General",
+						"Imbue"
+					],
+					"specialization": "@General Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "5c4d2fd5-8a3d-4754-b43f-4dc3d1f3c978",
+					"type": "skill",
+					"name": "Envenomed Weapon",
+					"reference": "PU1:8",
+					"tags": [
+						"Enhancement",
+						"General",
+						"Imbue"
+					],
+					"specialization": "@General Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "6b25ff01-599c-4be9-bde6-b2c869351a4d",
+					"type": "skill",
+					"name": "Far Shot",
+					"reference": "PU1:8",
+					"tags": [
+						"Enhancement",
+						"Imbue",
+						"Ranged"
+					],
+					"specialization": "@Ranged Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 2"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "4ec0009f-47cc-48ac-83ce-ed9344fcd457",
+					"type": "skill",
+					"name": "Fatiguing Strike",
+					"reference": "PU1:12",
+					"tags": [
+						"General",
+						"Imbue",
+						"Transformation"
+					],
+					"specialization": "@General Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 2"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "3b66abda-9688-473a-83f5-2db3cb2bd5e5",
+					"type": "skill",
+					"name": "Forceful Blow",
+					"reference": "PU1:8",
+					"tags": [
+						"Enhancement",
+						"General",
+						"Imbue"
+					],
+					"specialization": "@General Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 2"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 1"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "a1cfdbfd-3390-4bfe-82d4-29ac16659415",
+					"type": "skill",
+					"name": "Ghostly Weapon",
+					"reference": "PU1:8",
+					"tags": [
+						"Enhancement",
+						"General",
+						"Imbue"
+					],
+					"specialization": "@General Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 2"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 1"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "00423517-97e6-47aa-9d86-d83e6bc06277",
+					"type": "skill",
+					"name": "Guided Weapon",
+					"reference": "PU1:8",
+					"tags": [
+						"Enhancement",
+						"Imbue",
+						"Ranged"
+					],
+					"specialization": "@Ranged Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 2"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "14291388-5e99-4727-8eee-ff211b883dd3",
+					"type": "skill",
+					"name": "Homing Weapon",
+					"reference": "PU1:9",
+					"tags": [
+						"Enhancement",
+						"Imbue",
+						"Ranged"
+					],
+					"specialization": "@Ranged Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "69b85e50-6152-41e5-902b-9f52b4c1f83b",
+					"type": "skill",
+					"name": "Impaling Strike",
+					"reference": "PU1:12",
+					"tags": [
+						"General",
+						"Imbue",
+						"Transformation"
+					],
+					"specialization": "@General Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "67afb99c-58f8-42c9-af8c-795cc49caed6",
+					"type": "skill",
+					"name": "Incendiary Weapon",
+					"reference": "PU1:9",
+					"tags": [
+						"Enhancement",
+						"General",
+						"Imbue"
+					],
+					"specialization": "@General Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "7dc38007-f241-4871-a956-0684df384f1c",
+					"type": "skill",
+					"name": "Multi-Shot",
+					"reference": "PU1:9",
+					"tags": [
+						"Enhancement",
+						"Imbue",
+						"Ranged"
+					],
+					"specialization": "@Ranged Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "ecdfbde4-6315-4fc8-a082-e0b51c388684",
+					"type": "skill",
+					"name": "Penetrating Strike",
+					"reference": "PU1:9",
+					"tags": [
+						"Enhancement",
+						"General",
+						"Imbue"
+					],
+					"specialization": "@General Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "f3570edc-1921-4999-b022-162196081c9a",
+					"type": "skill",
+					"name": "Piercing Strike",
+					"reference": "PU1:13",
+					"tags": [
+						"General",
+						"Imbue",
+						"Transformation"
+					],
+					"specialization": "@General Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 2"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "91dfa73e-38d8-4717-a133-0dd36c197509",
+					"type": "skill",
+					"name": "Project Blow",
+					"reference": "PU1:9",
+					"tags": [
+						"Enhancement",
+						"Imbue",
+						"Melee"
+					],
+					"specialization": "@Melee Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "8797e364-136a-4fe6-a577-499e99d9b201",
+					"type": "skill",
+					"name": "Shattershot",
+					"reference": "PU1:9",
+					"tags": [
+						"Enhancement",
+						"Imbue",
+						"Ranged"
+					],
+					"specialization": "@Ranged Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 2"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "2d2ab904-ee12-40d8-ac57-1b540a99b57a",
+					"type": "skill",
+					"name": "Shockwave",
+					"reference": "PU1:10",
+					"tags": [
+						"Enhancement",
+						"General",
+						"Imbue"
+					],
+					"specialization": "@General Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "dd41c610-ad67-40b6-801b-aa0660915a10",
+					"type": "skill",
+					"name": "Stealthy Attack",
+					"reference": "PU1:10",
+					"tags": [
+						"Enhancement",
+						"General",
+						"Imbue"
+					],
+					"specialization": "@General Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 2"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 1"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "96ed13e0-9ca2-47f1-864c-42b0bc235a1e",
+					"type": "skill",
+					"name": "Strike of Negation",
+					"reference": "PU1:13",
+					"tags": [
+						"Imbue",
+						"Melee",
+						"Transformation"
+					],
+					"specialization": "@Melee Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "6165420f-3a4b-45ee-8c3c-97efb30ca766",
+					"type": "skill",
+					"name": "Stupefying Blow",
+					"reference": "PU1:10",
+					"tags": [
+						"Enhancement",
+						"General",
+						"Imbue"
+					],
+					"specialization": "@General Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "1b8d3838-83a0-4eda-aae8-cf1e161835b5",
+					"type": "skill",
+					"name": "Sudden Death",
+					"reference": "PU1:10",
+					"tags": [
+						"Enhancement",
+						"General",
+						"Imbue"
+					],
+					"specialization": "@General Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 2"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "771d2d25-1606-4c7b-becf-36d4cf13ba39",
+					"type": "skill",
+					"name": "Supreme Control",
+					"reference": "PU1:10",
+					"tags": [
+						"Enhancement",
+						"General",
+						"Imbue"
+					],
+					"specialization": "@General Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 2"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 1"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "5d307c6d-aa7b-4cab-98b9-ffc6a13d1bb9",
+					"type": "skill",
+					"name": "Telescoping Weapon",
+					"reference": "PU1:10",
+					"tags": [
+						"Enhancement",
+						"Imbue",
+						"Melee"
+					],
+					"specialization": "@Melee Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 2"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 1"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "a393461d-dca4-4266-bd01-4377f9d4a081",
+					"type": "skill",
+					"name": "Toxic Strike",
+					"reference": "PU1:13",
+					"tags": [
+						"General",
+						"Imbue",
+						"Transformation"
+					],
+					"specialization": "@General Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 2"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 1"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "4811e3c1-db43-423b-853c-aa12dcb469a3",
+					"type": "skill",
+					"name": "Traumatic Blow",
+					"reference": "PU1:11",
+					"tags": [
+						"Enhancement",
+						"General",
+						"Imbue"
+					],
+					"specialization": "@General Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 2"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 1"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "5640f0c2-090f-4be0-9880-a29f585a4e46",
+					"type": "skill",
+					"name": "Vampiric Weapon",
+					"reference": "PU1:13",
+					"tags": [
+						"Imbue",
+						"Melee",
+						"Transformation"
+					],
+					"specialization": "@Melee Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "b3c35989-25b1-407d-8566-aeaeecc999bd",
+					"type": "skill",
+					"name": "Withering Strike",
+					"reference": "PU1:13",
+					"tags": [
+						"General",
+						"Imbue",
+						"Transformation"
+					],
+					"specialization": "@General Weapon Skill@",
+					"difficulty": "dx/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Imbue"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Imbue level 3"
+								}
+							}
+						]
+					}
+				}
+			],
+			"name": "Адепт"
+		}
+	]
+}

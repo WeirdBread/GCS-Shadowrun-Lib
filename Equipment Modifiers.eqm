@@ -1,0 +1,812 @@
+{
+	"type": "eqp_modifier_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "38d7f42c-1e40-4514-a7bb-52da5d44937a",
+			"type": "eqp_modifier_container",
+			"children": [
+				{
+					"id": "65eb53ea-49de-4de8-8d03-66eac79d06e3",
+					"type": "eqp_modifier",
+					"name": "Электрический",
+					"notes": "Базовое ускорение увеличивается на 30%, Range уполовинивается ",
+					"cost_type": "to_base_cost",
+					"cost": "+0.8 CF"
+				},
+				{
+					"id": "5e22c64d-5173-441c-ae48-6d8d6e08f579",
+					"type": "eqp_modifier",
+					"name": "Манёвренный",
+					"notes": "+1 к Hnd",
+					"cost_type": "to_base_cost",
+					"cost": "+0.7 CF"
+				},
+				{
+					"id": "0ad712a8-4988-4105-a211-1208803caa1a",
+					"type": "eqp_modifier",
+					"name": "Быстрый",
+					"notes": "+40% к максимальной скорости. ",
+					"cost_type": "to_base_cost",
+					"cost": "+1 CF"
+				},
+				{
+					"id": "c108b950-0444-45f1-89c8-30c44b406f9b",
+					"type": "eqp_modifier",
+					"name": "Бронированный",
+					"notes": "+24 DR к корпусу, +12 DR стёклам, +20% HP. Занимает 1 ёмкость",
+					"cost_type": "to_base_cost",
+					"cost": "+1.5 CF"
+				},
+				{
+					"id": "2a976ab2-1fce-416f-8227-1be3d24eacc0",
+					"type": "eqp_modifier",
+					"name": "Косметика",
+					"notes": "+1 к реакции к группе людей: @Субкультура@",
+					"cost_type": "to_base_cost",
+					"cost": "+0.4 CF"
+				},
+				{
+					"id": "d2694109-652a-4297-952e-4fae4470fc22",
+					"type": "eqp_modifier",
+					"name": "Стремительный",
+					"notes": "+1 к ускорению. Может быть до 7 рейтинга. Каждый рейтинг после первого: +1 CF, +1 к ускорению",
+					"cost_type": "to_base_cost",
+					"cost": "+0.5 CF"
+				},
+				{
+					"id": "072f6595-1b55-41e1-a338-42801ce2dbd0",
+					"type": "eqp_modifier",
+					"name": "Надёжный",
+					"notes": "+2 к HT",
+					"cost_type": "to_base_cost",
+					"cost": "+0.8 CF"
+				},
+				{
+					"id": "aef00c5c-a7d1-455f-a49d-717cd70df2b9",
+					"type": "eqp_modifier",
+					"name": "Стабильный",
+					"notes": "+1 к SR",
+					"cost_type": "to_base_cost",
+					"cost": "+0.4 CF"
+				}
+			],
+			"name": "Транспорт"
+		},
+		{
+			"id": "30d8c4a7-da0e-4dd9-9b29-d9bc72c5e663",
+			"type": "eqp_modifier_container",
+			"children": [
+				{
+					"id": "8eb17f96-fa3e-4be5-a966-6b132a6d38d8",
+					"type": "eqp_modifier",
+					"name": "Match-Grade",
+					"reference": "HT165",
+					"notes": "+1 к Acc",
+					"cost_type": "to_base_cost",
+					"cost": "+5 CF"
+				},
+				{
+					"id": "9cca642a-bddf-43b4-8aaa-7df7ae007669",
+					"type": "eqp_modifier",
+					"name": "Subsonic",
+					"reference": "HT165",
+					"notes": "Для пистолетов: -1 к слуху, х0.8 дистанция. Для винтовок: -2 к слуху, х0.6 дистанция и урон",
+					"cost_type": "to_base_cost",
+					"cost": "+1 CF"
+				},
+				{
+					"id": "47a60c6b-a6da-4d56-8a98-aab2a04eee37",
+					"type": "eqp_modifier",
+					"name": "Hollow-Point",
+					"reference": "HT166",
+					"notes": "Делитель брони (0.5), увеличивается тип урона на ступень"
+				},
+				{
+					"id": "7112b91e-7fcd-490e-be1f-01af604f2579",
+					"type": "eqp_modifier",
+					"name": "Armor-Piercing Hardcore",
+					"reference": "HT167",
+					"notes": "Делитель брони (2), уменьшается тип урона на ступень. КЛ 2",
+					"cost_type": "to_base_cost",
+					"cost": "+5 CF"
+				},
+				{
+					"id": "da207265-f8ba-4072-a59d-74116b3917a2",
+					"type": "eqp_modifier",
+					"name": "Incendiary",
+					"reference": "HT175",
+					"notes": "+1 burn урон",
+					"cost_type": "to_base_cost",
+					"cost": "+1 CF"
+				},
+				{
+					"id": "b1e54110-a795-4a3c-a7fd-ca2ce4edac19",
+					"type": "eqp_modifier",
+					"name": "Armor-Piercing Enhanced Penetrator",
+					"reference": "UT152",
+					"notes": "Делитель брони (3), уменьшается тип урона на ступень. КЛ 1",
+					"cost_type": "to_base_cost",
+					"tech_level": "9",
+					"cost": "+20 CF"
+				},
+				{
+					"id": "dfe5a221-ddd4-4cd6-9435-37042a7e53fc",
+					"type": "eqp_modifier",
+					"name": "Gel Bullet",
+					"reference": "UT154",
+					"notes": "Делитель брони (0.2), тип урона - дробящий. Для пистолетов: урон меньше на 30%, дистанция меньше на 50%, слух -1. Для винтовок: урон меньше на 50%, дистанция меньше на 80%, слух -2. Несовместим с дозвуковым.",
+					"cost_type": "to_base_cost",
+					"tech_level": "9",
+					"cost": "+2 CF"
+				}
+			],
+			"name": "Патроны"
+		},
+		{
+			"id": "c411ddd1-0872-4b86-8a03-03ae389c856d",
+			"type": "eqp_modifier_container",
+			"children": [
+				{
+					"id": "94900e93-6259-45c6-a551-cc09e1ca3c25",
+					"type": "eqp_modifier",
+					"name": "Fine Quality",
+					"reference": "B280",
+					"notes": "+1 to Acc; +1 to Malf",
+					"cost_type": "to_base_cost",
+					"cost": "+1 CF"
+				},
+				{
+					"id": "71628db9-54d1-4caa-ab40-eb6910a97911",
+					"type": "eqp_modifier",
+					"name": "Very Fine Quality",
+					"reference": "B280",
+					"notes": "+2 to Acc; +1 to Malf",
+					"cost_type": "to_base_cost",
+					"cost": "+4 CF"
+				},
+				{
+					"id": "aa6f73d3-65e5-49e0-a69b-f9d7b41ba597",
+					"type": "eqp_modifier",
+					"name": "Styling",
+					"reference": "HT10",
+					"notes": "+1 Reaction",
+					"cost_type": "to_base_cost",
+					"cost": "+1 CF"
+				},
+				{
+					"id": "9db5c9b9-3ce4-45ab-a727-54df26fe8a67",
+					"type": "eqp_modifier",
+					"name": "Смартган",
+					"notes": "+1 к Fast-Draw (Ammo); Позволяет использовать программы корректировки огня; Позволяет запускать программы на оружии и управлять его функциями",
+					"cost_type": "to_base_cost",
+					"cost": "+0.3 CF"
+				}
+			],
+			"name": "Огнестрельное оружие"
+		},
+		{
+			"id": "0ced0e58-2ce5-4ffc-ac77-c35924709b3a",
+			"type": "eqp_modifier_container",
+			"children": [
+				{
+					"id": "ad70b50d-df04-4b7d-b5aa-ed0ea9265f7e",
+					"type": "eqp_modifier",
+					"name": "Синтетический",
+					"notes": "Применяется к киберконечностям ",
+					"cost_type": "to_base_cost",
+					"cost": "+0.25 CF"
+				},
+				{
+					"id": "d4361fd1-9626-444a-a4e9-11c4eb4b569c",
+					"type": "eqp_modifier",
+					"name": "Б/У",
+					"notes": "Множитель аугментированности x1.25 | HT 9",
+					"cost_type": "to_base_cost",
+					"cost": "-0.25 CF"
+				},
+				{
+					"id": "5738073e-5e98-4d9b-80d6-c9d1479c48ed",
+					"type": "eqp_modifier",
+					"name": "Стандарт",
+					"notes": "Множитель аугментированности x1 | HT 10",
+					"cost_type": "to_base_cost",
+					"cost": "+0 CF"
+				},
+				{
+					"id": "e9a635b6-0bdd-4b27-b58b-350e1eed3b30",
+					"type": "eqp_modifier",
+					"name": "Альфавейр",
+					"notes": "Множитель аугментированности x0.8 | HT 11",
+					"cost_type": "to_base_cost",
+					"cost": "+0.2 CF"
+				},
+				{
+					"id": "e7272c0d-bebc-40bb-9b6f-6609c29dda4f",
+					"type": "eqp_modifier",
+					"name": "Бетавейр",
+					"notes": "Множитель аугментированности x0.7 | HT 12",
+					"cost_type": "to_base_cost",
+					"cost": "+0.5 CF"
+				},
+				{
+					"id": "685cb391-27c1-4216-bb1d-b6d27d075c18",
+					"type": "eqp_modifier",
+					"name": "Дельтавейр",
+					"notes": "Множитель аугментированности x0.5 | HT 13",
+					"cost_type": "to_base_cost",
+					"cost": "+1.5 CF"
+				}
+			],
+			"name": "Импланты"
+		},
+		{
+			"id": "19dc6ac6-052d-4f09-97e9-edfd51485c21",
+			"type": "eqp_modifier_container",
+			"open": true,
+			"children": [
+				{
+					"id": "c7e5ca41-e235-461c-9837-f75f18a9a05c",
+					"type": "eqp_modifier_container",
+					"children": [
+						{
+							"id": "05ebd2fc-b9d9-4b29-bc8b-5e26b7b9515a",
+							"type": "eqp_modifier",
+							"name": "Укрепление +1 Тело",
+							"reference": "M66",
+							"notes": "Затраты энергии 25",
+							"cost_type": "to_final_cost",
+							"cost": "+125",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "torso",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"location": "vitals",
+									"amount": 1
+								}
+							]
+						},
+						{
+							"id": "84f6be7e-e557-47f7-b73c-35d00b798a97",
+							"type": "eqp_modifier",
+							"name": "Укрепление +2 Тело",
+							"reference": "M66",
+							"notes": "Затраты энергии 100",
+							"cost_type": "to_final_cost",
+							"cost": "+500",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "torso",
+									"amount": 2
+								},
+								{
+									"type": "dr_bonus",
+									"location": "vitals",
+									"amount": 2
+								}
+							]
+						},
+						{
+							"id": "abb887ba-46df-4e25-8d11-7e8c54ce3e48",
+							"type": "eqp_modifier",
+							"name": "Укрепление Куртка +1",
+							"reference": "M66",
+							"notes": "Затраты энергии 32.5",
+							"cost_type": "to_final_cost",
+							"cost": "+162",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "torso",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"location": "torso",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"location": "arm",
+									"amount": 1
+								}
+							]
+						},
+						{
+							"id": "7c776767-01be-4bf7-adc1-5772babdd33b",
+							"type": "eqp_modifier",
+							"name": "Укрепление Куртка +2",
+							"reference": "M66",
+							"notes": "Затраты энергии 130",
+							"cost_type": "to_final_cost",
+							"cost": "+19500",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "torso",
+									"amount": 2
+								},
+								{
+									"type": "dr_bonus",
+									"location": "torso",
+									"amount": 2
+								},
+								{
+									"type": "dr_bonus",
+									"location": "arm",
+									"amount": 2
+								}
+							]
+						},
+						{
+							"id": "71cf1114-a770-4f31-8c48-ae2fda9b4fa3",
+							"type": "eqp_modifier",
+							"name": "Укрепление Штаны +1",
+							"reference": "M66",
+							"notes": "Затраты энергии 20",
+							"cost_type": "to_final_cost",
+							"cost": "+100",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "groin",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"location": "leg",
+									"amount": 1
+								}
+							]
+						},
+						{
+							"id": "02b42933-2730-4967-b6e2-bfacb01780e4",
+							"type": "eqp_modifier",
+							"name": "Укрепление Штаны +2",
+							"reference": "M66",
+							"notes": "Затраты энергии 80",
+							"cost_type": "to_final_cost",
+							"cost": "+400",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "groin",
+									"amount": 2
+								},
+								{
+									"type": "dr_bonus",
+									"location": "leg",
+									"amount": 2
+								}
+							]
+						},
+						{
+							"id": "8f889eae-2dc8-4ff9-ac59-7ce2ae9d6915",
+							"type": "eqp_modifier",
+							"name": "Укрепление Перчатки +1",
+							"reference": "M66",
+							"notes": "Затраты энергии 2.5",
+							"cost_type": "to_final_cost",
+							"cost": "+5",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "hand",
+									"amount": 1
+								}
+							]
+						},
+						{
+							"id": "a2019af8-c9f6-4c7c-a4dd-f7af05f88194",
+							"type": "eqp_modifier",
+							"name": "Укрепление Перчатки +2",
+							"reference": "M66",
+							"notes": "Затраты энергии 10",
+							"cost_type": "to_final_cost",
+							"cost": "+50",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "hand",
+									"amount": 2
+								}
+							]
+						},
+						{
+							"id": "959595f1-d6b5-474b-8c33-c41c531437ee",
+							"type": "eqp_modifier",
+							"name": "Укрепление Перчатки +3",
+							"reference": "M66",
+							"notes": "Затраты энергии 40",
+							"cost_type": "to_final_cost",
+							"cost": "+200",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "hand",
+									"amount": 3
+								}
+							]
+						},
+						{
+							"id": "9fbca4b2-940a-4569-a6d9-00d0008f8f5f",
+							"type": "eqp_modifier",
+							"name": "Укрепление Перчатки +4",
+							"reference": "M66",
+							"notes": "Затраты энергии 150",
+							"cost_type": "to_final_cost",
+							"cost": "+22500",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "hand",
+									"amount": 4
+								}
+							]
+						},
+						{
+							"id": "c75117c0-37ab-477b-b8d2-3f1eddb70926",
+							"type": "eqp_modifier",
+							"name": "Укрепление Ботинки +1",
+							"reference": "M66",
+							"notes": "Затраты энергии 3.75",
+							"cost_type": "to_final_cost",
+							"cost": "+19",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "foot",
+									"amount": 1
+								}
+							]
+						},
+						{
+							"id": "cf3a7085-6a81-4d4a-b863-8b4f6d0ee558",
+							"type": "eqp_modifier",
+							"name": "Укрепление Ботинки +2",
+							"reference": "M66",
+							"notes": "Затраты энергии 15",
+							"cost_type": "to_final_cost",
+							"cost": "+75",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "foot",
+									"amount": 2
+								}
+							]
+						},
+						{
+							"id": "cb453e6a-b9f0-4c1b-b77e-87ad9ea3af09",
+							"type": "eqp_modifier",
+							"name": "Укрепление Ботинки +3",
+							"reference": "M66",
+							"notes": "Затраты энергии 60",
+							"cost_type": "to_final_cost",
+							"cost": "+300",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "foot",
+									"amount": 3
+								}
+							]
+						},
+						{
+							"id": "33146a37-ee71-47a9-a1e5-470a7837a065",
+							"type": "eqp_modifier",
+							"name": "Укрепление \"Раковина\" +1",
+							"reference": "M66",
+							"notes": "Затраты энергии 30",
+							"cost_type": "to_final_cost",
+							"cost": "+150",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "torso",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"location": "groin",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"location": "vitals",
+									"amount": 1
+								}
+							]
+						},
+						{
+							"id": "7fef06ac-c5ee-4fda-84c4-d70d2e9787fd",
+							"type": "eqp_modifier",
+							"name": "Укрепление Наручи +1",
+							"reference": "M66",
+							"notes": "Затраты энергии 7.5",
+							"cost_type": "to_final_cost",
+							"cost": "+38",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "arm",
+									"amount": 1
+								}
+							]
+						},
+						{
+							"id": "18c110b8-f179-41f8-8096-10e40d4a64f4",
+							"type": "eqp_modifier",
+							"name": "Укрепление Наручи +2",
+							"reference": "M66",
+							"notes": "Затраты энергии 30",
+							"cost_type": "to_final_cost",
+							"cost": "+150",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "arm",
+									"amount": 2
+								}
+							]
+						},
+						{
+							"id": "7b5b070d-beeb-48ad-9565-20aebfce3a68",
+							"type": "eqp_modifier",
+							"name": "Укрепление Наручи +3",
+							"reference": "M66",
+							"notes": "Затраты энергии 120",
+							"cost_type": "to_final_cost",
+							"cost": "+18000",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "arm",
+									"amount": 3
+								}
+							]
+						},
+						{
+							"id": "9c57b0df-dc35-476c-80ca-6a0290d2c574",
+							"type": "eqp_modifier",
+							"name": "Укрепление Поножи +1",
+							"reference": "M66",
+							"notes": "Затраты энергии 15",
+							"cost_type": "to_final_cost",
+							"cost": "+75",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "leg",
+									"amount": 1
+								}
+							]
+						},
+						{
+							"id": "bc367d49-1083-43e1-a595-1c8e3ec7841a",
+							"type": "eqp_modifier",
+							"name": "Укрепление Поножи +2",
+							"reference": "M66",
+							"notes": "Затраты энергии 60",
+							"cost_type": "to_final_cost",
+							"cost": "+300",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "leg",
+									"amount": 2
+								}
+							]
+						},
+						{
+							"id": "ea51a173-22c6-41f6-b31a-e09f35502b3c",
+							"type": "eqp_modifier",
+							"name": "Укрепление Шлем +1",
+							"reference": "M66",
+							"notes": "Затраты энергии 2.5",
+							"cost_type": "to_final_cost",
+							"cost": "+5",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "skull",
+									"amount": 1
+								}
+							]
+						},
+						{
+							"id": "42e0ca0d-4c2f-4aa1-b429-a22ea0042ea7",
+							"type": "eqp_modifier",
+							"name": "Укрепление Шлем +2",
+							"reference": "M66",
+							"notes": "Затраты энергии 10",
+							"cost_type": "to_final_cost",
+							"cost": "+50",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "skull",
+									"amount": 2
+								}
+							]
+						},
+						{
+							"id": "cfa66845-5a84-47ce-8ce3-55ab567b5560",
+							"type": "eqp_modifier",
+							"name": "Укрепление Шлем +3",
+							"reference": "M66",
+							"notes": "Затраты энергии 40",
+							"cost_type": "to_final_cost",
+							"cost": "+200",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "skull",
+									"amount": 3
+								}
+							]
+						},
+						{
+							"id": "833047e4-c4a3-40dd-8c79-ff0cfcd7cd05",
+							"type": "eqp_modifier",
+							"name": "Укрепление Шлем +4",
+							"reference": "M66",
+							"notes": "Затраты энергии 150",
+							"cost_type": "to_final_cost",
+							"cost": "+22500",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "skull",
+									"amount": 4
+								}
+							]
+						},
+						{
+							"id": "70dfe28e-e971-4e32-986f-54e03549a09f",
+							"type": "eqp_modifier",
+							"name": "Укрепление Шлем с забралом +1",
+							"reference": "M66",
+							"notes": "Затраты энергии 5",
+							"cost_type": "to_final_cost",
+							"cost": "+25",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "eye",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"location": "face",
+									"amount": 1
+								},
+								{
+									"type": "dr_bonus",
+									"location": "skull",
+									"amount": 1
+								}
+							]
+						},
+						{
+							"id": "715e0819-ebc4-49e5-a7f3-efcc9296e606",
+							"type": "eqp_modifier",
+							"name": "Укрепление Шлем с забралом +2",
+							"reference": "M66",
+							"notes": "Затраты энергии 20",
+							"cost_type": "to_final_cost",
+							"cost": "+100",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "eye",
+									"amount": 2
+								},
+								{
+									"type": "dr_bonus",
+									"location": "face",
+									"amount": 2
+								},
+								{
+									"type": "dr_bonus",
+									"location": "skull",
+									"amount": 2
+								}
+							]
+						},
+						{
+							"id": "4170f0ac-469d-41c8-9ad5-800a0274725e",
+							"type": "eqp_modifier",
+							"name": "Укрепление Шлем с забралом +3",
+							"reference": "M66",
+							"notes": "Затраты энергии 80",
+							"cost_type": "to_final_cost",
+							"cost": "+400",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "eye",
+									"amount": 3
+								},
+								{
+									"type": "dr_bonus",
+									"location": "face",
+									"amount": 3
+								},
+								{
+									"type": "dr_bonus",
+									"location": "skull",
+									"amount": 3
+								}
+							]
+						}
+					],
+					"name": "Укрепление",
+					"reference": "M66"
+				},
+				{
+					"id": "541b532c-ed9f-4929-9d8f-df48276b30ab",
+					"type": "eqp_modifier",
+					"name": "Облегчение 25%",
+					"reference": "M67",
+					"notes": "Стоимость энергии 100; Только для брони",
+					"cost_type": "to_final_cost",
+					"cost": "+500",
+					"weight": "-25%"
+				},
+				{
+					"id": "abccf16d-7d88-49f5-a1fa-52bf5de6aa99",
+					"type": "eqp_modifier",
+					"name": "Отражение +1",
+					"reference": "M67",
+					"notes": "Стоимость энергии 100; [+1 к активной защите]",
+					"cost_type": "to_final_cost",
+					"cost": "+500"
+				},
+				{
+					"id": "d00e1970-8828-4990-99aa-8b01d8645f88",
+					"type": "eqp_modifier",
+					"name": "Отражение +2",
+					"reference": "M67",
+					"notes": "Стоимость энергии 500;",
+					"cost_type": "to_final_cost",
+					"cost": "+75000",
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "block",
+							"amount": 2
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "parry",
+							"amount": 2
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "dodge",
+							"amount": 2
+						}
+					]
+				},
+				{
+					"id": "596cc39d-016e-4068-83d9-a3b77c5e9ce6",
+					"type": "eqp_modifier",
+					"name": "Посох",
+					"reference": "M70",
+					"notes": "Стоиость энергии 30; Позволяет использовать посох для магии.",
+					"cost_type": "to_final_cost",
+					"cost": "+150"
+				}
+			],
+			"name": "Магические усиления",
+			"reference": "M56",
+			"notes": "Цена за 1 энергии: 150$, если больше 100 энергии. Иначе 5$ за энергию"
+		}
+	]
+}
